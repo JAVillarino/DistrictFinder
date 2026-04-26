@@ -543,6 +543,27 @@ html, body { height: 100%; font-family: 'Inter', -apple-system, sans-serif; over
 .btn-flag:hover { background: #fff7ed; border-color: #fed7aa; color: #c2410c; }
 .btn-flag:disabled { cursor: wait; opacity: 0.7; }
 
+.btn-verify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px;
+  background: #f0fdf4;
+  color: #16a34a;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+  margin-top: 10px;
+}
+.btn-verify:hover { background: #dcfce7; border-color: #86efac; }
+.btn-verify:disabled { cursor: wait; opacity: 0.7; }
+
 .flag-status {
   min-height: 16px;
   margin-top: 7px;
@@ -1299,6 +1320,13 @@ function selectDistrict(d) {
           </a>`
         : ''
       }
+      ${d.video_status === 'auto_discovered'
+        ? `<button class="btn-verify" id="verifyButton" type="button">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+            Mark as Verified
+          </button>`
+        : ''
+      }
       <button class="btn-flag" id="flagIssueButton" type="button">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V4s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
         Flag an Issue
@@ -1354,6 +1382,8 @@ function selectDistrict(d) {
   `;
 
   document.getElementById('flagIssueButton').addEventListener('click', () => flagIssue(d));
+  const verifyBtn = document.getElementById('verifyButton');
+  if (verifyBtn) verifyBtn.addEventListener('click', () => markVerified(d));
 
   panel.classList.add('open');
 }
@@ -1389,6 +1419,42 @@ async function flagIssue(d) {
     console.error('Could not send flag report:', error);
     status.className = 'flag-status error';
     status.textContent = 'Could not send report.';
+    button.disabled = false;
+  }
+}
+
+async function markVerified(d) {
+  const button = document.getElementById('verifyButton');
+  const status = document.getElementById('flagStatus');
+  button.disabled = true;
+  status.className = 'flag-status';
+  status.textContent = 'Sending...';
+
+  try {
+    const response = await fetch('/api/flag', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        districtId: d.district_id,
+        districtName: d.district_name,
+        issueType: 'VERIFIED: Human confirmed this auto-discovered link',
+        videoUrl: d.video_url || '',
+        websiteUrl: d.website_url || '',
+        platform: d.video_platform || '',
+        status: d.video_status || '',
+        notes: d.notes || '',
+        pageUrl: window.location.href,
+        website: ''
+      })
+    });
+    if (!response.ok) throw new Error('verify_failed');
+    status.className = 'flag-status success';
+    status.textContent = 'Marked as verified — thank you.';
+    button.textContent = 'Verification sent';
+  } catch (error) {
+    console.error('Could not send verification:', error);
+    status.className = 'flag-status error';
+    status.textContent = 'Could not send. Try again.';
     button.disabled = false;
   }
 }
