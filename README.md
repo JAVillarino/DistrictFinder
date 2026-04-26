@@ -107,6 +107,17 @@ the data remains publicly accessible for allowed noncommercial use.
 └── archive/                  # Development history
 ```
 
+## For AI Agents
+
+Start here if you're running an agent session to expand the dataset:
+
+1. Read [`AGENT_INSTRUCTIONS.md`](AGENT_INSTRUCTIONS.md) — full search protocol, verification gates, platform rules, and output schema
+2. Read [`STATE.md`](STATE.md) — current progress and next batch to process
+3. Primary dataset is `data/districts_complete.csv` — filter `video_status: pending` to find unprocessed districts
+4. Validate each district ID before writing: `python3 scripts/validate_district_id.py [id]`
+
+The pipeline runs vendor-first (Swagit → Granicus → BoardDocs → Boxcast), then YouTube, then direct website inspection. Scripts handle ~70% of districts automatically; the rest require agent-assisted navigation of non-standard sites.
+
 ## Contributing
 
 Contributions welcome! See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines.
