@@ -1,0 +1,58 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Secrets - NEVER commit these
+scripts/config.json
+config.json
+*.key
+*.pem
+credentials.json
+
+# Claude Code internal
+.claude/
+
+# Large data files - raw TEA download (can be re-downloaded)
+data/tea_master_districts_raw.csv
+data/EDGE_GEOCODE_PUBLICLEA_*.zip
+
+# Intermediate/backup files from TEA integration
+data/archive/tea_integration_2026-01-15/districts_verified_backup.csv
+data/archive/tea_integration_2026-01-15/districts_verified_corrected.csv
+data/archive/tea_integration_2026-01-15/districts_verified_final.csv
+
+# Dated backups from discovery pipeline (regeneratable from git history)
+data/districts_complete_backup_*.csv
+
+# Discovery pipeline runtime state
+scripts/crawler_progress.json
+scripts/search_progress.json
+
+# Jupyter
+.ipynb_checkpoints/
+.vercel

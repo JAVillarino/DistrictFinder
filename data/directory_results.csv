@@ -1,0 +1,72 @@
+district_id,district_name,county,enrollment,website_url,video_platform,video_url,archive_start_year,youtube_channel_id,notes,confidence,last_checked,video_status
+021902,BRYAN ISD,BRAZOS COUNTY,16044,https://www.bryanisd.org,swagit,https://bryantx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+028902,LOCKHART ISD,CALDWELL COUNTY,6753,https://www.lockhartisd.org,swagit,https://lockhartisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+031903,HARLINGEN CISD,CAMERON COUNTY,16471,https://www.hcisd.org,swagit,https://harlingentx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+043902,ANNA ISD,COLLIN COUNTY,6038,https://www.annaisd.org,swagit,https://annatx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+043903,CELINA ISD,COLLIN COUNTY,5324,https://www.celinaisd.com,swagit,https://celinatx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+057916,RICHARDSON ISD,DALLAS COUNTY,36971,https://www.richardsonisd.org,swagit,https://richardsonisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+061901,DENTON ISD,DENTON COUNTY,33329,https://www.dentonisd.org,swagit,https://dentontx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+061907,AUBREY ISD,DENTON COUNTY,4480,https://www.aubreyisd.net,swagit,https://aubreytx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+070903,ENNIS ISD,ELLIS COUNTY,6646,https://www.ennisschools.org,swagit,https://ennistx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+070905,FERRIS ISD,ELLIS COUNTY,3010,https://www.ferrisisd.org,swagit,https://ferristx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+070908,MIDLOTHIAN ISD,ELLIS COUNTY,11356,https://www.midlothianisd.org,swagit,https://midlothianisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+070910,PALMER ISD,ELLIS COUNTY,1352,https://www.palmer-isd.org,swagit,https://palmertx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+070912,WAXAHACHIE ISD,ELLIS COUNTY,11196,https://www.wisd.org,swagit,https://waxahachietx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+079910,STAFFORD MSD,FORT BEND COUNTY,3492,https://www.staffordisd.com,swagit,https://staffordtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+084902,GALVESTON ISD,GALVESTON COUNTY,6383,https://www.galvestonisd.org,swagit,https://galvestontx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+095905,PLAINVIEW ISD,HALE COUNTY,4077,https://www.plainviewisd.org,swagit,https://plainviewtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+101916,LA PORTE ISD,HARRIS COUNTY,7099,,swagit,https://laportetx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+101924,SHELDON ISD,HARRIS COUNTY,10946,https://www.sheldonisd.org,swagit,https://sheldonisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+108904,EDINBURG CISD,HIDALGO COUNTY,33343,https://www.eisd.org,swagit,https://edinburgtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+108906,MCALLEN ISD,HIDALGO COUNTY,19890,https://www.mcallenisd.org,swagit,https://mcallentx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+123910,BEAUMONT ISD,JEFFERSON COUNTY,16336,https://www.beaumontisd.com,swagit,https://beaumonttx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+126901,ALVARADO ISD,JOHNSON COUNTY,3788,https://www.alvaradoisd.net,swagit,https://alvaradotx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+129902,FORNEY ISD,KAUFMAN COUNTY,18565,https://www.forneyisd.net,swagit,https://forneytx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+129906,TERRELL ISD,KAUFMAN COUNTY,5283,,swagit,https://terrelltx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+130901,BOERNE ISD,KENDALL COUNTY,11101,https://www.boerneisd.net,swagit,https://boernetx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+152907,FRENSHIP ISD,LUBBOCK COUNTY,11770,https://www.fisd.org,swagit,https://frenshipisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+158901,BAY CITY ISD,MATAGORDA COUNTY,3473,https://www.bayisd.com,swagit,https://baycitytx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+161914,WACO ISD,MCLENNAN COUNTY,13376,https://www.wacoisd.org,swagit,https://wacotx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+165901,MIDLAND ISD,MIDLAND COUNTY,29651,https://www.midlandisd.net,swagit,https://midlandtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+174904,NACOGDOCHES ISD,NACOGDOCHES COUNTY,5766,https://www.nisd.org,swagit,https://nacogdochestx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+178904,CORPUS CHRISTI ISD,NUECES COUNTY,33103,https://www.ccisd.org,swagit,https://corpuschristiisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+188901,AMARILLO ISD,POTTER COUNTY,29321,https://www.amarilloisd.org,swagit,https://amarillotx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+212905,TYLER ISD,SMITH COUNTY,18708,https://www.tylerisd.org,swagit,https://tylertx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+221901,ABILENE ISD,TAYLOR COUNTY,14536,https://www.abileneisd.org,swagit,https://abilenetx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+221912,WYLIE ISD,TAYLOR COUNTY,5606,,swagit,https://wylietx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+225902,MOUNT PLEASANT ISD,TITUS COUNTY,5153,https://www.mpisd.net,swagit,https://mountpleasantisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+235902,VICTORIA ISD,VICTORIA COUNTY,12919,https://www.visd.org,swagit,https://victoriaisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+236902,HUNTSVILLE ISD,WALKER COUNTY,10960,https://www.huntsville-isd.org,swagit,https://huntsvilletx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+240901,LAREDO ISD,WEBB COUNTY,20271,https://www.laredoisd.org,swagit,https://laredotx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+243905,WICHITA FALLS ISD,WICHITA COUNTY,12644,https://www.wfisd.net,swagit,https://wichitafallsisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+246906,HUTTO ISD,WILLIAMSON COUNTY,10688,https://www.huttoschools.org,swagit,https://huttoisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+246908,LIBERTY HILL ISD,WILLIAMSON COUNTY,9836,,swagit,https://libertyhilltx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+246909,ROUND ROCK ISD,WILLIAMSON COUNTY,46954,https://www.roundrockisd.org,swagit,https://roundrockisdtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+246911,TAYLOR ISD,WILLIAMSON COUNTY,2930,https://www.taylorisd.org,swagit,https://taylortx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+249905,DECATUR ISD,WISE COUNTY,3786,https://www.decaturisd.us,swagit,https://decaturtx.new.swagit.com/,,,Directory scraper: swagit,high,2026-04-21,directory_found
+129903,KAUFMAN ISD,KAUFMAN COUNTY,4356,https://www.kaufmanisd.net,boarddocs,https://go.boarddocs.com/tx/kaufman/Board.nsf/Public,,,Directory scraper: boarddocs,high,2026-04-21,directory_found
+003902,HUDSON ISD,ANGELINA COUNTY,2777,https://www.hudsonisd.org,granicus,https://hudson.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+007901,CHARLOTTE ISD,ATASCOSA COUNTY,424,https://www.charlotteisd.net,granicus,https://charlotte.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+013902,PAWNEE ISD,BEE COUNTY,630,https://www.pawneeisd.net,granicus,https://pawnee.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+021901,COLLEGE STATION ISD,BRAZOS COUNTY,14314,https://www.csisd.org,granicus,https://collegestation.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+026901,CALDWELL ISD,BURLESON COUNTY,1952,https://www.caldwellisd.net,granicus,https://caldwell.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+032902,PITTSBURG ISD,CAMP COUNTY,2245,https://www.pittsburgisd.net,granicus,https://pittsburg.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+034901,ATLANTA ISD,CASS COUNTY,1929,https://www.atlantaschools.org,granicus,https://atlantatexas.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+039904,BELLEVUE ISD,CLAY COUNTY,234,https://www.bellevueisd.org,granicus,https://bellevue.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+044902,WELLINGTON ISD,COLLINGSWORTH COUNTY,534,https://www.wellingtonisd.net,granicus,https://wellington.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+045902,COLUMBUS ISD,COLORADO COUNTY,1659,https://www.columbusisd.org,granicus,https://columbus.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+046901,NEW BRAUNFELS ISD,COMAL COUNTY,9893,https://www.nbisd.org,granicus,https://newbraunfels.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+049901,GAINESVILLE ISD,COOKE COUNTY,3111,https://www.gainesvilleisd.org,granicus,https://gainesville.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+050909,JONESBORO ISD,CORYELL COUNTY,337,https://www.jonesboroisd.net,granicus,https://jonesboro.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+060902,COOPER ISD,DELTA COUNTY,903,https://www.cooperisd.net,granicus,https://cooper.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+066902,SAN DIEGO ISD,DUVAL COUNTY,1453,https://www.sdisd.net,granicus,https://sandiego.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+072902,DUBLIN ISD,ERATH COUNTY,1125,https://www.dublinisd.us,granicus,https://dublin.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+074912,TRENTON ISD,FANNIN COUNTY,712,https://www.trentonisd.org,granicus,https://trenton.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+085902,POST ISD,GARZA COUNTY,686,https://www.postisd.net,granicus,https://post.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+091902,COLLINSVILLE ISD,GRAYSON COUNTY,600,https://www.collinsvilleisd.org,granicus,https://collinsville.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+093903,IOLA ISD,GRIMES COUNTY,626,https://www.iolaisd.net,granicus,https://iola.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+095904,PETERSBURG ISD,HALE COUNTY,243,https://www.petersburgisd.net,granicus,https://petersburg.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+096904,MEMPHIS ISD,HALL COUNTY,345,https://www.memphisisd.net,granicus,https://memphis.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+105902,SAN MARCOS CISD,HAYS COUNTY,8222,https://www.smcisd.net,granicus,https://sanmarcos.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+105904,DRIPPING SPRINGS ISD,HAYS COUNTY,8712,https://www.dsisd.net,granicus,https://drippingsprings.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found
+111901,GRANBURY ISD,HOOD COUNTY,7962,https://www.granburyisd.org,granicus,https://granbury.granicus.com/,,,Directory scraper: granicus,high,2026-04-21,directory_found

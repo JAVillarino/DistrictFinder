@@ -1,0 +1,173 @@
+district_id,district_name,county,enrollment
+015903,East Central ISD,Bexar,11000
+015904,Southside ISD,Bexar,6000
+015907,San Antonio ISD,Bexar,46000
+015908,South San Antonio ISD,Bexar,9000
+015909,Somerset ISD,Bexar,6000
+015910,North East ISD,Bexar,67000
+015912,Harlandale ISD,Bexar,14000
+015913,Edgewood ISD,Bexar,11000
+015914,Schertz-Cibolo-Universal City ISD,Guadalupe,16000
+015915,Northside ISD,Bexar,98000
+015916,Judson ISD,Bexar,43000
+015917,Southwest ISD,Bexar,33000
+019901,Beaumont ISD,Jefferson,19000
+019902,Port Arthur ISD,Jefferson,8000
+020905,Waco ISD,McLennan,20000
+031901,Conroe ISD,Montgomery,72000
+031902,Willis ISD,Montgomery,15000
+031905,Splendora ISD,Montgomery,4000
+031906,New Caney ISD,Montgomery,20000
+031907,Montgomery ISD,Montgomery,11000
+031909,Magnolia ISD,Montgomery,15000
+057905,Dallas ISD,Dallas,145000
+057906,Richardson ISD,Dallas,54000
+057907,Duncanville ISD,Dallas,13000
+057908,DeSoto ISD,Dallas,9000
+057909,Irving ISD,Dallas,34000
+057910,Mesquite ISD,Dallas,35000
+057912,Garland ISD,Dallas,70000
+057914,Carrollton-Farmers Branch ISD,Dallas,30000
+057915,Cedar Hill ISD,Dallas,9000
+057916,Plano ISD,Collin,51000
+057917,Wylie ISD,Collin,18000
+057918,Highland Park ISD,Dallas,7000
+057919,Lancaster ISD,Dallas,7000
+057920,Coppell ISD,Dallas,13000
+057921,Sunnyvale ISD,Dallas,1000
+068901,Ector County ISD,Ector,35000
+070901,Corpus Christi ISD,Nueces,38000
+071902,El Paso ISD,El Paso,52000
+071904,Clint ISD,El Paso,12000
+071905,Socorro ISD,El Paso,46000
+071906,Fabens ISD,El Paso,2000
+071907,San Elizario ISD,El Paso,4000
+071908,Canutillo ISD,El Paso,6000
+071909,Anthony ISD,El Paso,1000
+071910,Ysleta ISD,El Paso,40000
+079901,Lamar Consolidated ISD,Fort Bend,42000
+079902,Stafford MSD,Fort Bend,4000
+079903,Alvin ISD,Brazoria,25000
+079904,Angleton ISD,Brazoria,5000
+079905,Brazosport ISD,Brazoria,12000
+079906,Columbia-Brazoria ISD,Brazoria,3000
+079907,Fort Bend ISD,Fort Bend,94000
+079908,Pearland ISD,Brazoria,23000
+079909,Needville ISD,Fort Bend,2000
+079910,Sweeny ISD,Brazoria,2000
+079911,Danbury ISD,Brazoria,1000
+084902,Amarillo ISD,Potter,28000
+101901,Baytown ISD,Harris,20000
+101902,Aldine ISD,Harris,66000
+101903,Alief ISD,Harris,42000
+101904,La Porte ISD,Harris,8000
+101905,Channelview ISD,Harris,10000
+101906,Goose Creek CISD,Harris,25000
+101907,Spring Branch ISD,Harris,35000
+101908,Clear Creek ISD,Galveston,42000
+101909,Friendswood ISD,Galveston,6000
+101910,Deer Park ISD,Harris,14000
+101911,Galena Park ISD,Harris,22000
+101912,Houston ISD,Harris,187000
+101913,Pasadena ISD,Harris,48000
+101914,Katy ISD,Harris,67000
+101915,Dickinson ISD,Galveston,10000
+101916,Santa Fe ISD,Galveston,5000
+101917,Cypress-Fairbanks ISD,Harris,94000
+101918,Sheldon ISD,Harris,8000
+101919,Humble ISD,Harris,47000
+101920,Klein ISD,Harris,51000
+101921,Texas City ISD,Galveston,6000
+101922,Hitchcock ISD,Galveston,2000
+101923,Crosby ISD,Harris,6000
+101924,Huffman ISD,Harris,3000
+101926,Tomball ISD,Montgomery,18000
+101927,Spring ISD,Harris,37000
+108903,Aubrey ISD,Denton,4000
+108904,Little Elm ISD,Denton,28000
+108906,Denton ISD,Denton,49000
+108908,Pilot Point ISD,Denton,2000
+108909,Argyle ISD,Denton,6000
+108910,Lake Dallas ISD,Denton,5000
+108911,Ponder ISD,Denton,1500
+108912,Northwest ISD,Denton,33000
+108914,Lewisville ISD,Denton,51000
+108915,Sanger ISD,Denton,4000
+108916,Krum ISD,Denton,2000
+137902,Lubbock ISD,Lubbock,29000
+157905,Longview ISD,Gregg,7000
+161902,Allen ISD,Collin,23000
+161903,Wylie ISD,Rockwall,8000
+161904,Princeton ISD,Collin,8000
+161908,Celina ISD,Collin,11000
+161909,Prosper ISD,Collin,27000
+161910,Melissa ISD,Collin,5000
+161911,Community ISD,Collin,3000
+161912,Farmersville ISD,Collin,3000
+161913,Royse City ISD,Rockwall,5000
+161914,Frisco ISD,Collin,67000
+161915,Rockwall ISD,Rockwall,9000
+161916,Anna ISD,Collin,7000
+161917,Lovejoy ISD,Collin,5000
+164925,Barbers Hill ISD,Chambers,7000
+165906,McKinney ISD,Collin,38000
+170902,Midland ISD,Midland,26000
+174901,Harlingen CISD,Cameron,18000
+174902,Brownsville ISD,Cameron,40000
+174903,Los Fresnos CISD,Cameron,7000
+174904,La Feria ISD,Cameron,3000
+174905,San Benito CISD,Cameron,11000
+174906,Santa Rosa ISD,Cameron,1000
+174907,Point Isabel ISD,Cameron,2000
+174908,Rio Hondo ISD,Cameron,1500
+178904,Killeen ISD,Bell,42000
+178906,Belton ISD,Bell,10000
+178909,Academy ISD,Bell,2000
+178911,Salado ISD,Bell,2000
+178912,Temple ISD,Bell,14000
+212901,Laredo ISD,Webb,24000
+212902,United ISD,Webb,45000
+212903,Zapata County ISD,Zapata,3000
+212904,Roma ISD,Starr,6000
+220901,Fort Worth ISD,Tarrant,71000
+220902,White Settlement ISD,Tarrant,6000
+220903,Aledo ISD,Parker,6000
+220904,Azle ISD,Tarrant,6000
+220905,Austin ISD,Travis,72000
+220906,Hurst-Euless-Bedford ISD,Tarrant,34000
+220907,Venus ISD,Johnson,2000
+220908,Godley ISD,Johnson,2000
+220909,Grapevine-Colleyville ISD,Tarrant,14000
+220910,Carroll ISD,Tarrant,8000
+220911,Granbury ISD,Hood,6000
+220912,Lake Worth ISD,Tarrant,3000
+220913,Haltom City ISD,Tarrant,3000
+220915,Eagle Mountain-Saginaw ISD,Tarrant,25000
+220916,Keller ISD,Tarrant,36000
+220917,Kennedale ISD,Tarrant,5000
+220918,Mineral Wells ISD,Palo Pinto,3000
+220919,Weatherford ISD,Parker,7000
+220920,Springtown ISD,Parker,4000
+227901,Arlington ISD,Tarrant,57000
+227902,Burleson ISD,Tarrant,10000
+227903,Joshua ISD,Johnson,5000
+227904,Mansfield ISD,Tarrant,44000
+227905,Cleburne ISD,Johnson,6000
+227907,Birdville ISD,Tarrant,23000
+227908,Everman ISD,Tarrant,7000
+227909,Castleberry ISD,Tarrant,3000
+227910,Crowley ISD,Tarrant,26000
+227911,Fort Worth Academy of Fine Arts,Tarrant,500
+227913,Grand Prairie ISD,Dallas,33000
+246901,Round Rock ISD,Williamson,47000
+246902,Del Valle ISD,Travis,11000
+246903,Hays CISD,Hays,23000
+246904,Leander ISD,Williamson,41000
+246905,Manor ISD,Travis,13000
+246906,Georgetown ISD,Williamson,14000
+246907,San Marcos CISD,Hays,9000
+246908,Jarrell ISD,Williamson,3000
+246909,Pflugerville ISD,Travis,27000
+246910,Taylor ISD,Williamson,2000
+246911,Lago Vista ISD,Travis,2000
+246912,Lake Travis ISD,Travis,12000

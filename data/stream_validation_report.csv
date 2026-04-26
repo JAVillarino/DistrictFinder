@@ -1,0 +1,781 @@
+district_id,district_name,video_platform,video_url,signature,dup_count,decision,reason
+001902,CAYUGA ISD,youtube,https://www.youtube.com/@CayugaISD,yt_handle:cayugaisd,1,KEEP,yt_handle:cayugaisd matches 'cayugaisd'
+001903,ELKHART ISD,boardbook,https://meetings.boardbook.org/UserUploads/1307/Images/ELKS,boardbook:/useruploads/1307/images/elks,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+001904,FRANKSTON ISD,youtube,https://www.youtube.com/channel/UCOC4bEZWeDvclv9C3dnvjFw,yt_channel_id:ucoc4bezwedvclv9c3dnvjfw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+001906,NECHES ISD,youtube,https://www.youtube.com/watch?v=-7evRweC33E,yt_other:watch,1,CLEAR,yt_other:watch does not contain any token or acronym of 'NECHES ISD'
+001907,PALESTINE ISD,youtube,https://www.youtube.com/@palestineisd,yt_handle:palestineisd,1,KEEP,yt_handle:palestineisd matches 'palestineisd'
+001908,WESTWOOD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2047,boardbook:2047,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+002901,ANDREWS ISD,website_archive,https://www.andrews.esc18.net/,website:andrews.esc18.net,1,KEEP,website:andrews.esc18.net matches 'andrews'
+003902,HUDSON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1672,boardbook:1672,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+003903,LUFKIN ISD,youtube,https://www.youtube.com/@LufkinAV,yt_handle:lufkinav,1,KEEP,yt_handle:lufkinav matches 'lufkin'
+003904,HUNTINGTON ISD,youtube,https://www.youtube.com/@huntingtonisd861,yt_handle:huntingtonisd861,1,KEEP,yt_handle:huntingtonisd861 matches 'huntingtonisd'
+003905,DIBOLL ISD,boardbook,https://www.dibollisd.com/54473_3,website:dibollisd.com,1,KEEP,website:dibollisd.com matches 'dibollisd'
+003906,ZAVALLA ISD,facebook_live,https://www.zavallaisd.org/live-feed,website:zavallaisd.org,1,KEEP,website:zavallaisd.org matches 'zavallaisd'
+004901,ROCKPORT-FULTON ISD,youtube,https://www.youtube.com/channel/UCxahxSbdWJuPK-ggB4ocAUw,yt_channel_id:ucxahxsbdwjupk-ggb4ocauw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+005901,ARCHER CITY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2988,boardbook:2988,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+005902,HOLLIDAY ISD,diligent,https://www.hollidayisd.net/150811_2,website:hollidayisd.net,1,KEEP,website:hollidayisd.net matches 'hollidayisd'
+006902,CLAUDE ISD,youtube,https://www.youtube.com/@claudemustangs,yt_handle:claudemustangs,1,KEEP,yt_handle:claudemustangs matches 'claude'
+007901,CHARLOTTE ISD,granicus,https://charlotte.granicus.com/,granicus:charlotte,1,KEEP,granicus:charlotte matches 'charlotte'
+007902,JOURDANTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1836\\\,boardbook:1836,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+007904,LYTLE ISD,youtube,https://www.youtube.com/@LytleISDPirates,yt_handle:lytleisdpirates,1,KEEP,yt_handle:lytleisdpirates matches 'lytleisd'
+007905,PLEASANTON ISD,youtube,https://youtube.com/user/pleasantonchamber,yt_user:pleasantonchamber,1,KEEP,yt_user:pleasantonchamber matches 'pleasanton'
+007906,POTEET ISD,website_archive,https://www.poteetisd.org/school-board,website:poteetisd.org,1,KEEP,website:poteetisd.org matches 'poteetisd'
+008901,BELLVILLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2334,boardbook:2334,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+008902,SEALY ISD,boardbook,https://www.sealyisd.com/about_us/board_of_trustees,website:sealyisd.com,1,KEEP,website:sealyisd.com matches 'sealyisd'
+008903,BRAZOS ISD,boardbook,https://www.brazosisd.net/page/board,website:brazosisd.net,1,KEEP,website:brazosisd.net matches 'brazosisd'
+009901,MULESHOE ISD,youtube,https://www.youtube.com/@MuleshoeISDMules,yt_handle:muleshoeisdmules,1,KEEP,yt_handle:muleshoeisdmules matches 'muleshoe'
+010901,MEDINA ISD,website_archive,https://www.medinaisd.org/school-board,website:medinaisd.org,1,KEEP,website:medinaisd.org matches 'medinaisd'
+010902,BANDERA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1846,boardbook:1846,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+011902,ELGIN ISD,boardbook,https://meetings.boardbook.org/Public/Organization/Elgin,boardbook:/public/organization/elgin,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+011904,SMITHVILLE ISD,website_archive,https://www.smithvilleisd.org/live-feed,website:smithvilleisd.org,1,KEEP,website:smithvilleisd.org matches 'smithvilleisd'
+013902,PAWNEE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1961\\\,boardbook:1961,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+013903,PETTUS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1859,boardbook:1859,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+014803,PRIORITY CHARTER SCHOOLS,facebook_live,https://www.prioritycharterschools.org/live-feed,website:prioritycharterschools.org,1,KEEP,website:prioritycharterschools.org matches 'prioritycharterschools'
+014902,BARTLETT ISD,website_archive,https://www.bartlettschools.org/board/board,website:bartlettschools.org,1,KEEP,website:bartlettschools.org matches 'bartlett'
+014903,BELTON ISD,youtube,https://www.youtube.com/channel/UC_aM8OsTI3PMDsgszlHA2og?view_as=subscriber,yt_channel_id:uc_am8osti3pmdsgszlha2og,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+014905,HOLLAND ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2290,boardbook:2290,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+014906,KILLEEN ISD,swagit,https://killeenisdtx.new.swagit.com/,swagit:killeenisdtx,1,KEEP,swagit:killeenisdtx matches 'killeenisd'
+014907,ROGERS ISD,youtube,https://meetings.boardbook.org/Public/Organization/1048,boardbook:1048,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+014908,SALADO ISD,none_found,https://meetings.boardbook.org/Public/Organization/1288,boardbook:1288,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+014909,TEMPLE ISD,youtube,http://www.youtube.com/channel/UCK8dUEScX7-_besvdZTxB3A,yt_channel_id:uck8duescx7-_besvdztxb3a,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+014910,TROY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/907,boardbook:907,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+015901,ALAMO HEIGHTS ISD,youtube,https://www.youtube.com/channel/UCn4YUx86-MdIoRPpRoa0SIQ,yt_channel_id:ucn4yux86-mdiorpproa0siq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+015904,HARLANDALE ISD,youtube,https://www.youtube.com/playlist?list=PLmF4iR4gkH0NZd3BZRpL17v8QWJUJVtsn,yt_playlist:list=PLmF4iR4gkH0NZd3BZRpL17v8QWJUJVtsn,1,REVIEW,"yt_playlist URL is platform-generic, cannot be verified from URL alone"
+015905,EDGEWOOD ISD,youtube,https://www.youtube.com/@edgewoodisd-sanantoniotx9052,yt_handle:edgewoodisd-sanantoniotx9052,1,KEEP,yt_handle:edgewoodisd-sanantoniotx9052 matches 'edgewood'
+015906,RANDOLPH FIELD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1681,boardbook:1681,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+015907,SAN ANTONIO ISD,website_archive,https://www.saisd.net/page/videos-school-board-meetings,website:saisd.net,1,KEEP,website:saisd.net matches 'saisd'
+015908,SOUTH SAN ANTONIO ISD,youtube,https://www.youtube.com/@SouthSanAntonio,yt_handle:southsanantonio,1,KEEP,yt_handle:southsanantonio matches 'southsanantonio'
+015909,SOMERSET ISD,none_found,https://meetings.boardbook.org/Public/Organization/2259,boardbook:2259,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+015910,NORTH EAST ISD,none_found,https://meetings.boardbook.org/public/Organization/1897,boardbook:1897,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+015911,EAST CENTRAL ISD,diligent,https://eastcentralisd.diligent.community/Portal/,diligent:eastcentralisd,1,KEEP,diligent:eastcentralisd matches 'eastcentralisd'
+015912,SOUTHWEST ISD,youtube,https://www.youtube.com/@southwestisdschoolboard2648,yt_handle:southwestisdschoolboard2648,1,KEEP,yt_handle:southwestisdschoolboard2648 matches 'southwest'
+015915,NORTHSIDE ISD,website_archive,https://www.nisd.net/board,website:nisd.net,1,KEEP,website:nisd.net matches 'nisd'
+015916,JUDSON ISD,boardbook,https://meetings.boardbook.org/public/organization/1434,boardbook:1434,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+015917,SOUTHSIDE ISD,youtube,https://www.youtube.com/c/southsideisd,yt_c:southsideisd,1,KEEP,yt_c:southsideisd matches 'southsideisd'
+016902,BLANCO ISD,website_archive,https://www.blancoisd.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=77518375,website:blancoisd.org,1,KEEP,website:blancoisd.org matches 'blancoisd'
+018901,CLIFTON ISD,youtube,https://www.youtube.com/@cliftonisd,yt_handle:cliftonisd,1,KEEP,yt_handle:cliftonisd matches 'cliftonisd'
+018902,MERIDIAN ISD,facebook_live,https://www.meridianisd.org/live-feed,website:meridianisd.org,1,KEEP,website:meridianisd.org matches 'meridianisd'
+018903,MORGAN ISD,website_archive,https://www.morganisd.org/70440_3,website:morganisd.org,1,KEEP,website:morganisd.org matches 'morganisd'
+018904,VALLEY MILLS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2037\,boardbook:2037,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+018906,IREDELL ISD,youtube,https://www.youtube.com/@IREDELLISD,yt_handle:iredellisd,1,KEEP,yt_handle:iredellisd matches 'iredellisd'
+018907,KOPPERL ISD,website_archive,https://www.kopperlisd.org/board-of-education,website:kopperlisd.org,1,KEEP,website:kopperlisd.org matches 'kopperlisd'
+018908,CRANFILLS GAP ISD,website_archive,https://www.cranfillsgapisd.net/school-board,website:cranfillsgapisd.net,1,KEEP,website:cranfillsgapisd.net matches 'cranfillsgapisd'
+019901,DEKALB ISD,youtube,https://www.youtube.com/channel/UCMReu_p1NIEMHb-09J_7gwg,yt_channel_id:ucmreu_p1niemhb-09j_7gwg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+019902,HOOKS ISD,youtube,https://www.youtube.com/user/TheHooksHornets,yt_user:thehookshornets,1,KEEP,yt_user:thehookshornets matches 'hooks'
+019903,MAUD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1889,boardbook:1889,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+019906,REDWATER ISD,boardbook,https://meetings.boardbook.org/public/Organization/836,boardbook:836,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+019909,SIMMS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2061,boardbook:2061,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+019910,MALTA ISD,youtube,https://www.youtube.com/channel/UCpuhwcAOWy4U6HgLU9jyERg,yt_channel_id:ucpuhwcaowy4u6hglu9jyerg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+019911,RED LICK ISD,facebook_live,https://www.redlickisd.com/live-feed,website:redlickisd.com,1,KEEP,website:redlickisd.com matches 'redlickisd'
+019912,PLEASANT GROVE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/841,boardbook:841,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+019914,LEARY ISD,website_archive,https://www.learyisd.net/board-of-education,website:learyisd.net,1,KEEP,website:learyisd.net matches 'learyisd'
+020901,ALVIN ISD,none_found,https://www.alvinisd.net,website:alvinisd.net,1,KEEP,website:alvinisd.net matches 'alvinisd'
+020902,ANGLETON ISD,website_archive,https://www.angletonisd.net/live-feed,website:angletonisd.net,1,KEEP,website:angletonisd.net matches 'angletonisd'
+020904,DANBURY ISD,none_found,https://www.danburyisd.org,website:danburyisd.org,1,KEEP,website:danburyisd.org matches 'danburyisd'
+020905,BRAZOSPORT ISD,none_found,https://meetings.boardbook.org/Public/Organization/877,boardbook:877,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+020906,SWEENY ISD,website_stream,https://www.sweenyisd.org/school-board,website:sweenyisd.org,1,KEEP,website:sweenyisd.org matches 'sweenyisd'
+020907,COLUMBIA-BRAZORIA ISD,none_found,https://meetings.boardbook.org/Public/Organization/1290,boardbook:1290,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+020908,PEARLAND ISD,youtube,https://www.youtube.com/@ThePearlandISD,yt_handle:thepearlandisd,1,KEEP,yt_handle:thepearlandisd matches 'pearland'
+020910,DAMON ISD,website_archive,https://www.damonisd.net/,website:damonisd.net,1,KEEP,website:damonisd.net matches 'damonisd'
+021901,COLLEGE STATION ISD,youtube,https://www.csisd.org/our-district/board,website:csisd.org,1,KEEP,website:csisd.org matches 'csisd'
+021902,BRYAN ISD,youtube,https://www.youtube.com/user/bryanisd,yt_user:bryanisd,1,KEEP,yt_user:bryanisd matches 'bryanisd'
+022901,ALPINE ISD,youtube,https://www.youtube.com/channel/UCKz7Kb20fRC1NOA_vAJpeMA,yt_channel_id:uckz7kb20frc1noa_vajpema,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+022902,MARATHON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/805\\\,boardbook:805,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+022903,SAN VICENTE ISD,website_archive,https://www.svisd.com/live-feed,website:svisd.com,1,KEEP,website:svisd.com matches 'svisd'
+023902,SILVERTON ISD,youtube,https://www.youtube.com/channel/UCjBDjOtbhWcPULcv3gI-eyQ,yt_channel_id:ucjbdjotbhwcpulcv3gi-eyq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+024901,BROOKS COUNTY ISD,website_archive,https://www.bcisd.net/school-board,website:bcisd.net,1,KEEP,website:bcisd.net matches 'bcisd'
+025901,BANGS ISD,youtube,https://www.youtube.com/@BangsDragonsTx,yt_handle:bangsdragonstx,1,KEEP,yt_handle:bangsdragonstx matches 'bangs'
+025904,BLANKET ISD,website_archive,https://www.blanketisd.org/board-of-trustees,website:blanketisd.org,1,KEEP,website:blanketisd.org matches 'blanketisd'
+025905,MAY ISD,facebook_live,https://www.mayisd.com/live-feed,website:mayisd.com,1,KEEP,website:mayisd.com matches 'mayisd'
+025906,ZEPHYR ISD,website_archive,https://zephyrisd.net/school-board-members/,website:zephyrisd.net,1,KEEP,website:zephyrisd.net matches 'zephyrisd'
+025908,BROOKESMITH ISD,website_archive,https://brookesmithisd.net/board-of-trustees,website:brookesmithisd.net,1,KEEP,website:brookesmithisd.net matches 'brookesmithisd'
+025909,EARLY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2033,boardbook:2033,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+026901,CALDWELL ISD,granicus,https://caldwell.granicus.com/,granicus:caldwell,1,KEEP,granicus:caldwell matches 'caldwell'
+026902,SOMERVILLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1777\,boardbook:1777,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+026903,SNOOK ISD,facebook_live,https://www.snookisd.org/live-feed,website:snookisd.org,1,KEEP,website:snookisd.org matches 'snookisd'
+027904,MARBLE FALLS ISD,youtube,https://www.youtube.com/channel/UCYrBl4nAtpEponPMD62KF-g,yt_channel_id:ucyrbl4natpeponpmd62kf-g,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+028902,LOCKHART ISD,swagit,http://lockhartisdtx.swagit.com/live,swagit:lockhartisdtx,1,KEEP,swagit:lockhartisdtx matches 'lockhartisd'
+028906,PRAIRIE LEA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2719\,boardbook:2719,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+030901,CROSS PLAINS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2668,boardbook:2668,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+030902,CLYDE CISD,boardbook,https://meetings.boardbook.org/Public/Organization/661,boardbook:661,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+030903,BAIRD ISD,youtube,http://www.youtube.com/@bairdisd474,yt_handle:bairdisd474,1,KEEP,yt_handle:bairdisd474 matches 'bairdisd'
+030906,EULA ISD,facebook_live,https://www.eulaisd.us/live-feed,website:eulaisd.us,1,KEEP,website:eulaisd.us matches 'eulaisd'
+031901,BROWNSVILLE ISD,website_archive,https://www.bisd.us/page/live-stream,website:bisd.us,1,KEEP,website:bisd.us matches 'bisd'
+031903,HARLINGEN CISD,youtube,https://www.youtube.com/channel/UCCKT71npg-bteBHOHbzwU5Q,yt_channel_id:ucckt71npg-btebhohbzwu5q,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+031905,LA FERIA ISD,website_archive,http://www.laferiaisd.org/school_board/board_meeting_videos,website:laferiaisd.org,1,KEEP,website:laferiaisd.org matches 'laferiaisd'
+031906,LOS FRESNOS CISD,youtube,https://www.youtube.com/channel/UC9LCHkHaq54eHulMWXtvpHw,yt_channel_id:uc9lchkhaq54ehulmwxtvphw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+031909,POINT ISABEL ISD,none_found,https://www.pi-isd.net,website:pi-isd.net,1,KEEP,website:pi-isd.net matches 'piisd'
+031911,RIO HONDO ISD,none_found,https://www.riohondoisd.net,website:riohondoisd.net,1,KEEP,website:riohondoisd.net matches 'riohondoisd'
+031912,SAN BENITO CISD,website_archive,https://www.sbcisd.net/apps/pages/index.jsp?uREC_ID=884622&type=d&pREC_ID=1236070,website:sbcisd.net,1,KEEP,website:sbcisd.net matches 'sbcisd'
+031914,SANTA ROSA ISD,none_found,https://www.santarosaisd.org,website:santarosaisd.org,1,KEEP,website:santarosaisd.org matches 'santarosaisd'
+031916,SOUTH TEXAS ISD,youtube,https://www.youtube.com/user/mySTISD,yt_user:mystisd,1,KEEP,yt_user:mystisd matches 'mystisd'
+032902,PITTSBURG ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1450,boardbook:1450,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+033901,GROOM ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1884\,boardbook:1884,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+033902,PANHANDLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/967\,boardbook:967,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+033904,WHITE DEER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1414,boardbook:1414,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+034901,ATLANTA ISD,granicus,https://atlantatexas.granicus.com/,granicus:atlantatexas,1,KEEP,granicus:atlantatexas matches 'atlanta'
+034902,AVINGER ISD,website_archive,https://www.avingerisd.net/board-of-trustees,website:avingerisd.net,1,KEEP,website:avingerisd.net matches 'avingerisd'
+034903,HUGHES SPRINGS ISD,boarddocs,https://www.hsisd.org/board-of-education,website:hsisd.org,1,KEEP,website:hsisd.org matches 'hsisd'
+034906,MCLEOD ISD,website_archive,https://www.mcleodisd.net/school-board-home,website:mcleodisd.net,1,KEEP,website:mcleodisd.net matches 'mcleodisd'
+034907,QUEEN CITY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2198\,boardbook:2198,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+034909,BLOOMBURG ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2233,boardbook:2233,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+035901,DIMMITT ISD,website_archive,https://www.dimmittisd.net/school-board-home,website:dimmittisd.net,1,KEEP,website:dimmittisd.net matches 'dimmittisd'
+035902,HART ISD,facebook_live,https://www.hartisd.net/live-feed,website:hartisd.net,1,KEEP,website:hartisd.net matches 'hartisd'
+036902,BARBERS HILL ISD,website_archive,https://www.bhisd.net/cf_media/index.cfm?g=615,website:bhisd.net,1,KEEP,website:bhisd.net matches 'bhisd'
+037904,JACKSONVILLE ISD,youtube,https://www.youtube.com/@JISDLive,yt_handle:jisdlive,1,KEEP,yt_handle:jisdlive matches 'jisd'
+037908,NEW SUMMERFIELD ISD,facebook_live,https://www.newsummerfieldisd.org/live-feed,website:newsummerfieldisd.org,1,KEEP,website:newsummerfieldisd.org matches 'newsummerfieldisd'
+038901,CHILDRESS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2242\,boardbook:2242,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+039902,HENRIETTA ISD,youtube,https://www.youtube.com/channel/UCqvt2Fi0ZaK6eo7346K7Uhg,yt_channel_id:ucqvt2fi0zak6eo7346k7uhg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+039904,BELLEVUE ISD,granicus,https://bellevue.granicus.com/,granicus:bellevue,1,KEEP,granicus:bellevue matches 'bellevue'
+039905,MIDWAY ISD,website_archive,https://www.midwayisd.net/board-minutes-agenda-2,website:midwayisd.net,1,KEEP,website:midwayisd.net matches 'midwayisd'
+040901,MORTON ISD,youtube,https://www.youtube.com/@MortonISD,yt_handle:mortonisd,1,KEEP,yt_handle:mortonisd matches 'mortonisd'
+042901,COLEMAN ISD,website_archive,https://www.colemanisd.net/board,website:colemanisd.net,1,KEEP,website:colemanisd.net matches 'colemanisd'
+042903,SANTA ANNA ISD,boarddocs,https://www.santaannaisd.net/school-board,website:santaannaisd.net,1,KEEP,website:santaannaisd.net matches 'santaannaisd'
+043901,ALLEN ISD,swagit,https://allenisd.new.swagit.com/,swagit:allenisd,1,KEEP,swagit:allenisd matches 'allenisd'
+043902,ANNA ISD,youtube,http://www.youtube.com/@anna_isd,yt_handle:anna_isd,1,KEEP,yt_handle:anna_isd matches 'annaisd'
+043903,CELINA ISD,youtube,https://www.youtube.com/@CelinaISDTX,yt_handle:celinaisdtx,1,KEEP,yt_handle:celinaisdtx matches 'celinaisd'
+043904,FARMERSVILLE ISD,youtube,https://www.youtube.com/channel/UCLGiZIMGRTKv57ZZA9y3D9Q,yt_channel_id:uclgizimgrtkv57zza9y3d9q,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+043905,FRISCO ISD,swagit,https://friscoisdtx.new.swagit.com/,swagit:friscoisdtx,1,KEEP,swagit:friscoisdtx matches 'friscoisd'
+043907,MCKINNEY ISD,swagit,https://mckinneyisdtx.new.swagit.com/,swagit:mckinneyisdtx,1,KEEP,swagit:mckinneyisdtx matches 'mckinneyisd'
+043908,MELISSA ISD,website_stream,https://www.melissaisd.org/live-feed,website:melissaisd.org,1,KEEP,website:melissaisd.org matches 'melissaisd'
+043910,PLANO ISD,swagit,https://planoisdtx.new.swagit.com/,swagit:planoisdtx,1,KEEP,swagit:planoisdtx matches 'planoisd'
+043911,PRINCETON ISD,youtube,https://www.youtube.com/@princetonisd,yt_handle:princetonisd,1,KEEP,yt_handle:princetonisd matches 'princetonisd'
+043912,PROSPER ISD,website_archive,https://www.prosper-isd.net/domain/727,website:prosper-isd.net,1,KEEP,website:prosper-isd.net matches 'prosperisd'
+043914,WYLIE ISD,youtube,https://www.youtube.com/user/TheWylieISD,yt_user:thewylieisd,1,KEEP,yt_user:thewylieisd matches 'wylie'
+043918,COMMUNITY ISD,none_found,https://www.communityisd.org/,website:communityisd.org,1,KEEP,website:communityisd.org matches 'communityisd'
+043919,LOVEJOY ISD,website_archive,https://www.lovejoyisd.net/page/board-meeting-video-archive,website:lovejoyisd.net,1,KEEP,website:lovejoyisd.net matches 'lovejoyisd'
+044902,WELLINGTON ISD,granicus,https://wellington.granicus.com/,granicus:wellington,1,KEEP,granicus:wellington matches 'wellington'
+045902,COLUMBUS ISD,granicus,https://columbus.granicus.com/,granicus:columbus,1,KEEP,granicus:columbus matches 'columbus'
+045905,WEIMAR ISD,boardbook,https://meetings.boardbook.org/Public/Organization/785,boardbook:785,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+046901,NEW BRAUNFELS ISD,granicus,https://newbraunfels.granicus.com/,granicus:newbraunfels,1,KEEP,granicus:newbraunfels matches 'newbraunfels'
+046902,COMAL ISD,youtube,https://www.youtube.com/channel/UC0AFPAvbnzZOJqyo_4oomWQ,yt_channel_id:uc0afpavbnzzojqyo_4oomwq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+047901,COMANCHE ISD,youtube,https://www.youtube.com/channel/UCKaT4Iitmej6ob5S7-9b0FQ,yt_channel_id:uckat4iitmej6ob5s7-9b0fq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+047902,DE LEON ISD,youtube,https://www.youtube.com/@deleonisd,yt_handle:deleonisd,1,KEEP,yt_handle:deleonisd matches 'deleonisd'
+047905,SIDNEY ISD,website_archive,https://www.sidneyschools.org/vnews/display.v/SEC/Board%20of%20Directors,website:sidneyschools.org,1,KEEP,website:sidneyschools.org matches 'sidney'
+048903,PAINT ROCK ISD,facebook_live,https://www.paintrockisd.net/live-feed,website:paintrockisd.net,1,KEEP,website:paintrockisd.net matches 'paintrockisd'
+049901,GAINESVILLE ISD,youtube,https://www.youtube.com/user/gainesvilleisd,yt_user:gainesvilleisd,1,KEEP,yt_user:gainesvilleisd matches 'gainesvilleisd'
+049902,MUENSTER ISD,youtube,https://www.youtube.com/@muensterhornets,yt_handle:muensterhornets,1,KEEP,yt_handle:muensterhornets matches 'muenster'
+049906,ERA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/846\,boardbook:846,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+049907,LINDSAY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1875,boardbook:1875,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+049908,WALNUT BEND ISD,youtube,https://www.youtube.com/channel/UC9S7tuFvrjiT6MeEod0zCyQ,yt_channel_id:uc9s7tufvrjit6meeod0zcyq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+049909,SIVELLS BEND ISD,youtube,https://www.youtube.com/@sivellsbendisd,yt_handle:sivellsbendisd,1,KEEP,yt_handle:sivellsbendisd matches 'sivellsbendisd'
+050901,EVANT ISD,facebook_live,https://www.evantisd.org/live-feed,website:evantisd.org,1,KEEP,website:evantisd.org matches 'evantisd'
+050902,GATESVILLE ISD,youtube,https://www.youtube.com/channel/UCUSGNgejAPMgrlE7bJPBGkQ/videos?view=57,yt_channel_id:ucusgngejapmgrle7bjpbgkq/videos,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+050909,JONESBORO ISD,granicus,https://jonesboro.granicus.com/,granicus:jonesboro,1,KEEP,granicus:jonesboro matches 'jonesboro'
+050910,COPPERAS COVE ISD,website_archive,https://app.discoveryeducation.com/learn/iframe-check?next=https%3A%2F%2Foffice365.discoveryeducation.com%2Flearn%2Fsignin%3Fnext%3Dhttps%3A%2F%2Foffice365.discoveryeducation.com%2Flearn%2Fhome,website:app.discoveryeducation.com,1,KEEP,website:app.discoveryeducation.com matches 'cove'
+051901,PADUCAH ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2187,boardbook:2187,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+052901,CRANE ISD,diligent,https://www.craneisd.com/page/school-board,website:craneisd.com,1,KEEP,website:craneisd.com matches 'craneisd'
+054902,LORENZO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2435,boardbook:2435,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+054903,RALLS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1946,boardbook:1946,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+055901,CULBERSON COUNTY-ALLAMOORE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2249,boardbook:2249,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+056902,TEXLINE ISD,youtube,https://www.youtube.com/channel/UC1usAmVdU1g49TRdb5t3QVQ,yt_channel_id:uc1usamvdu1g49trdb5t3qvq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+057903,CARROLLTON-FARMERS BRANCH ISD,swagit,https://cfbisd.new.swagit.com/,swagit:cfbisd,1,KEEP,swagit:cfbisd matches 'cfbisd'
+057904,CEDAR HILL ISD,none_found,https://meetings.boardbook.org/public/Organization/1600,boardbook:1600,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+057905,DALLAS ISD,swagit,http://dallasisdtx.swagit.com/,swagit:dallasisdtx,1,KEEP,swagit:dallasisdtx matches 'dallasisd'
+057906,DESOTO ISD,swagit,https://desotoisdtx.swagit.com/board-meetings,swagit:desotoisdtx,1,KEEP,swagit:desotoisdtx matches 'desotoisd'
+057907,DUNCANVILLE ISD,website_archive,https://www.duncanvilleisd.org/board-of-trustees/board-meetings/meeting-videos/arrival-of-board-meeting-videos,website:duncanvilleisd.org,1,KEEP,website:duncanvilleisd.org matches 'duncanvilleisd'
+057909,GARLAND ISD,swagit,https://garlandisdtx.new.swagit.com/,swagit:garlandisdtx,1,KEEP,swagit:garlandisdtx matches 'garlandisd'
+057910,GRAND PRAIRIE ISD,swagit,https://grandprairieisdtx.new.swagit.com/,swagit:grandprairieisdtx,1,KEEP,swagit:grandprairieisdtx matches 'grandprairieisd'
+057911,HIGHLAND PARK ISD,youtube,https://www.youtube.com/user/Highlandparkisdvideo,yt_user:highlandparkisdvideo,1,KEEP,yt_user:highlandparkisdvideo matches 'highlandpark'
+057912,IRVING ISD,swagit,http://irvingisdtx.swagit.com/,swagit:irvingisdtx,1,KEEP,swagit:irvingisdtx matches 'irvingisd'
+057913,LANCASTER ISD,swagit,https://lancasterisdtx.new.swagit.com/views/309/,swagit:lancasterisdtx,1,KEEP,swagit:lancasterisdtx matches 'lancasterisd'
+057914,MESQUITE ISD,swagit,https://mesquiteisdtx.new.swagit.com/,swagit:mesquiteisdtx,1,KEEP,swagit:mesquiteisdtx matches 'mesquiteisd'
+057916,RICHARDSON ISD,swagit,https://richardsonisdtx.new.swagit.com/,swagit:richardsonisdtx,1,KEEP,swagit:richardsonisdtx matches 'richardsonisd'
+057919,SUNNYVALE ISD,none_found,https://www.sunnyvaleisd.com,website:sunnyvaleisd.com,1,KEEP,website:sunnyvaleisd.com matches 'sunnyvaleisd'
+057922,COPPELL ISD,swagit,https://coppellisd.new.swagit.com/,swagit:coppellisd,1,KEEP,swagit:coppellisd matches 'coppellisd'
+058902,DAWSON ISD,website_archive,https://www.dawsonisd.net/apps/pages/index.jsp?uREC_ID=318597&type=d&pREC_ID=726677,website:dawsonisd.net,1,KEEP,website:dawsonisd.net matches 'dawsonisd'
+058906,LAMESA ISD,youtube,http://youtube.com/c/lamesaisd,yt_c:lamesaisd,1,KEEP,yt_c:lamesaisd matches 'lamesaisd'
+059901,HEREFORD ISD,facebook_live,https://www.herefordisd.net/live-feed,website:herefordisd.net,1,KEEP,website:herefordisd.net matches 'herefordisd'
+059902,WALCOTT ISD,website_archive,https://www.walcottisd.com/,website:walcottisd.com,1,KEEP,website:walcottisd.com matches 'walcottisd'
+060902,COOPER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2277\,boardbook:2277,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+060914,FANNINDEL ISD,website_archive,https://www.fannindelisd.net/high-school-football-videos,website:fannindelisd.net,1,KEEP,website:fannindelisd.net matches 'fannindelisd'
+061901,DENTON ISD,youtube,https://www.youtube.com/@DentonISDSchools/videos,yt_handle:dentonisdschools,1,KEEP,yt_handle:dentonisdschools matches 'dentonisd'
+061902,LEWISVILLE ISD,website_archive,https://www.lisd.net/our-district/board-of-trustees/board-meetings/watch-online,website:lisd.net,1,KEEP,website:lisd.net matches 'lisd'
+061903,PILOT POINT ISD,website_archive,https://www.pilotpointisd.com/apps/pages/index.jsp?uREC_ID=408865&type=d&pREC_ID=787063,website:pilotpointisd.com,1,KEEP,website:pilotpointisd.com matches 'pilotpointisd'
+061905,KRUM ISD,none_found,https://www.krumisd.net,website:krumisd.net,1,KEEP,website:krumisd.net matches 'krumisd'
+061906,PONDER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2363\,boardbook:2363,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+061907,AUBREY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1857\,boardbook:1857,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+061908,SANGER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/666,boardbook:666,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+061910,ARGYLE ISD,youtube,https://www.youtube.com/@ArgyleISD,yt_handle:argyleisd,1,KEEP,yt_handle:argyleisd matches 'argyleisd'
+061911,NORTHWEST ISD,youtube,https://www.youtube.com/channel/UCIBhR1sOlGm75a8KF2VWsrg,yt_channel_id:ucibhr1solgm75a8kf2vwsrg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+061912,LAKE DALLAS ISD,website_archive,https://www.ldisd.net/about-us/board-of-trustees/live-archived-board-meetings,website:ldisd.net,1,KEEP,website:ldisd.net matches 'ldisd'
+061914,LITTLE ELM ISD,swagit,https://littleelmisdtx.new.swagit.com/,swagit:littleelmisdtx,1,KEEP,swagit:littleelmisdtx matches 'littleelmisd'
+062901,CUERO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/718,boardbook:718,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+062903,YOAKUM ISD,website_archive,https://www.yoakumisd.net/our-district/school-board,website:yoakumisd.net,1,KEEP,website:yoakumisd.net matches 'yoakumisd'
+062905,WESTHOFF ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2828,boardbook:2828,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+062906,MEYERSVILLE ISD,website_archive,https://www.meyersvilleisd.org/board,website:meyersvilleisd.org,1,KEEP,website:meyersvilleisd.org matches 'meyersvilleisd'
+064903,CARRIZO SPRINGS CISD,youtube,https://www.youtube.com/channel/UCoxLAnYh2bi6n2onV6LJvaQ,yt_channel_id:ucoxlanyh2bi6n2onv6ljvaq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+065901,CLARENDON ISD,website_archive,https://www.clarendonisd.net/vnews/display.v/SEC/District%7CBoard%20of%20Trustees,website:clarendonisd.net,1,KEEP,website:clarendonisd.net matches 'clarendonisd'
+065902,HEDLEY ISD,facebook_live,https://www.hedleyisd.net/live-feed,website:hedleyisd.net,1,KEEP,website:hedleyisd.net matches 'hedleyisd'
+066901,BENAVIDES ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2230,boardbook:2230,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+066902,SAN DIEGO ISD,granicus,https://sandiego.granicus.com/,granicus:sandiego,1,KEEP,granicus:sandiego matches 'sandiego'
+066903,FREER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1001,boardbook:1001,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+067902,CISCO ISD,youtube,https://www.youtube.com/@CiscoISD,yt_handle:ciscoisd,1,KEEP,yt_handle:ciscoisd matches 'ciscoisd'
+067903,EASTLAND ISD,facebook_live,https://www.eastlandisd.net/live-feed,website:eastlandisd.net,1,KEEP,website:eastlandisd.net matches 'eastlandisd'
+067904,GORMAN ISD,website_archive,https://www.gormanisd.net/apps/pages/index.jsp?uREC_ID=220056&type=d&pREC_ID=517505,website:gormanisd.net,1,KEEP,website:gormanisd.net matches 'gormanisd'
+068901,ECTOR COUNTY ISD,swagit,https://ectorcountyisdtx.new.swagit.com/,swagit:ectorcountyisdtx,1,KEEP,swagit:ectorcountyisdtx matches 'ectorcountyisd'
+070903,ENNIS ISD,swagit,https://ennistx.new.swagit.com/,swagit:ennistx,1,KEEP,swagit:ennistx matches 'ennis'
+070905,FERRIS ISD,youtube,https://www.youtube.com/channel/UC7C1k6AyeHTMgtAz-rhbpWw,yt_channel_id:uc7c1k6ayehtmgtaz-rhbpww,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+070907,ITALY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2171\,boardbook:2171,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+070908,MIDLOTHIAN ISD,swagit,https://midlothianisdtx.new.swagit.com/views/74/,swagit:midlothianisdtx,1,KEEP,swagit:midlothianisdtx matches 'midlothianisd'
+070909,MILFORD ISD,website_archive,https://www.milfordisd.org/live-feed,website:milfordisd.org,1,KEEP,website:milfordisd.org matches 'milfordisd'
+070910,PALMER ISD,swagit,https://palmertx.new.swagit.com/,swagit:palmertx,1,KEEP,swagit:palmertx matches 'palmer'
+070911,RED OAK ISD,youtube,https://www.youtube.com/user/ROISDHawks,yt_user:roisdhawks,1,KEEP,yt_user:roisdhawks matches 'roisd'
+070912,WAXAHACHIE ISD,youtube,https://www.youtube.com/channel/UCGVvEsRL6vJJkztSx8SdveA,yt_channel_id:ucgvvesrl6vjjkztsx8sdvea,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+070915,MAYPEARL ISD,youtube,https://youtube.com/@maypearlisd_official?si=Y04rUo-JlOgT4HC3,yt_handle:maypearlisd_official,1,KEEP,yt_handle:maypearlisd_official matches 'maypearl'
+071901,CLINT ISD,website_archive,https://www.clintweb.net/board-of-trustees/agendas-minutes-meetings-videos,website:clintweb.net,1,KEEP,website:clintweb.net matches 'clint'
+071902,EL PASO ISD,swagit,http://elpasoisdtx.swagit.com/,swagit:elpasoisdtx,1,KEEP,swagit:elpasoisdtx matches 'elpasoisd'
+071903,FABENS ISD,youtube,https://www.youtube.com/channel/UC-x1AKVlN4MC4_bHlShDLdg,yt_channel_id:uc-x1akvln4mc4_bhlshdldg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+071905,YSLETA ISD,granicus,https://ysletaschoolstx.iqm2.com/Citizens/Default.aspx,iqm2:ysletaschoolstx,1,KEEP,iqm2:ysletaschoolstx matches 'ysleta'
+071906,ANTHONY ISD,none_found,https://www.anthonyisd.net,website:anthonyisd.net,1,KEEP,website:anthonyisd.net matches 'anthonyisd'
+071907,CANUTILLO ISD,none_found,https://meetings.boardbook.org/public/Organization/2311,boardbook:2311,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+071908,TORNILLO ISD,website_archive,https://www.tornilloisd.org/board,website:tornilloisd.org,1,KEEP,website:tornilloisd.org matches 'tornilloisd'
+071909,SOCORRO ISD,youtube,https://www.youtube.com/channel/UCFfSShUgzmFghDOgb4DZndQ,yt_channel_id:ucffsshugzmfghdogb4dzndq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+072901,THREE WAY ISD,boardbook,https://meetings.boardbook.org/UserUploads/2673/Images/White,boardbook:/useruploads/2673/images/white,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+072902,DUBLIN ISD,boardbook,https://meetings.boardbook.org/Public/Organization/865,boardbook:865,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+072909,LINGLEVILLE ISD,facebook_live,https://www.lingleville.us/live-feed,website:lingleville.us,1,KEEP,website:lingleville.us matches 'lingleville'
+073901,CHILTON ISD,youtube,https://www.youtube.com/@chiltonisd/videos?app=desktop&view=0&sort=dd&shelf_id=0,yt_handle:chiltonisd,1,KEEP,yt_handle:chiltonisd matches 'chiltonisd'
+073903,MARLIN ISD,youtube,https://www.youtube.com/channel/UCu5I6hZjTe6VQuAQQfnu_vg,yt_channel_id:ucu5i6hzjte6vquaqqfnu_vg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+073904,WESTPHALIA ISD,website_archive,https://www.westphaliaisd.org/live-feed,website:westphaliaisd.org,1,KEEP,website:westphaliaisd.org matches 'westphaliaisd'
+073905,ROSEBUD-LOTT ISD,website_archive,https://www.rlisd.org/live-feed,website:rlisd.org,1,KEEP,website:rlisd.org matches 'rlisd'
+074903,BONHAM ISD,youtube,https://www.youtube.com/c/BonhamYouTube,yt_c:bonhamyoutube,1,KEEP,yt_c:bonhamyoutube matches 'bonham'
+074905,ECTOR ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2492,boardbook:2492,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+074907,HONEY GROVE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1224,boardbook:1224,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+074912,TRENTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1993\\\,boardbook:1993,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+075901,FLATONIA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1774,boardbook:1774,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+075903,SCHULENBURG ISD,website_archive,https://www.schulenburgisd.net/16300_4,website:schulenburgisd.net,1,KEEP,website:schulenburgisd.net matches 'schulenburgisd'
+075906,FAYETTEVILLE ISD,youtube,https://www.youtube.com/@FayettevilleISD,yt_handle:fayettevilleisd,1,KEEP,yt_handle:fayettevilleisd matches 'fayettevilleisd'
+075908,ROUND TOP-CARMINE ISD,facebook_live,https://www.rtcisd.net/live-feed,website:rtcisd.net,1,KEEP,website:rtcisd.net matches 'rtcisd'
+076904,ROTAN ISD,facebook_live,https://www.rotan.org/live-feed,website:rotan.org,1,KEEP,website:rotan.org matches 'rotan'
+077901,FLOYDADA COLLEGIATE ISD,website_archive,https://www.fcisd.net/,website:fcisd.net,1,KEEP,website:fcisd.net matches 'fcisd'
+077902,LOCKNEY ISD,facebook_live,https://www.lockneyisd.net/live-feed,website:lockneyisd.net,1,KEEP,website:lockneyisd.net matches 'lockneyisd'
+078901,CROWELL ISD,boardbook,https://meetings.boardbook.org/Public/Organization/655,boardbook:655,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+079901,LAMAR CISD,swagit,https://lamarcisdtx.new.swagit.com/,swagit:lamarcisdtx,1,KEEP,swagit:lamarcisdtx matches 'lamar'
+079906,NEEDVILLE ISD,none_found,https://meetings.boardbook.org/public/Organization/1347,boardbook:1347,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+079907,FORT BEND ISD,swagit,https://fortbendisd.new.swagit.com/,swagit:fortbendisd,1,KEEP,swagit:fortbendisd matches 'fortbendisd'
+079910,STAFFORD MSD,swagit,https://staffordtx.new.swagit.com/,swagit:staffordtx,1,KEEP,swagit:staffordtx matches 'stafford'
+080901,MOUNT VERNON ISD,youtube,https://www.youtube.com/channel/UCtgLlmebkzYON02H8aGgcEg,yt_channel_id:uctgllmebkzyon02h8aggceg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+081902,FAIRFIELD ISD,youtube,https://www.youtube.com/@FairfieldISD,yt_handle:fairfieldisd,1,KEEP,yt_handle:fairfieldisd matches 'fairfieldisd'
+081904,TEAGUE ISD,website_archive,https://www.teagueisd.org/board-of-trustees-home,website:teagueisd.org,1,KEEP,website:teagueisd.org matches 'teagueisd'
+081905,WORTHAM ISD,facebook_live,https://www.worthamisd.org/live-feed,website:worthamisd.org,1,KEEP,website:worthamisd.org matches 'worthamisd'
+081906,DEW ISD,facebook_live,https://www.dewisd.org/live-feed,website:dewisd.org,1,KEEP,website:dewisd.org matches 'dewisd'
+082902,DILLEY ISD,youtube,https://www.youtube.com/@DilleyISD/videos,yt_handle:dilleyisd,1,KEEP,yt_handle:dilleyisd matches 'dilleyisd'
+082903,PEARSALL ISD,youtube,https://www.youtube.com/user/pearsallisd,yt_user:pearsallisd,1,KEEP,yt_user:pearsallisd matches 'pearsallisd'
+083902,LOOP ISD,facebook_live,https://www.loopisd.net/live-feed,website:loopisd.net,1,KEEP,website:loopisd.net matches 'loopisd'
+083903,SEMINOLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/719,boardbook:719,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+084901,DICKINSON ISD,swagit,https://dickinsonisdtx.new.swagit.com/,swagit:dickinsonisdtx,1,KEEP,swagit:dickinsonisdtx matches 'dickinsonisd'
+084902,GALVESTON ISD,swagit,https://galvestontx.new.swagit.com/,swagit:galvestontx,1,KEEP,swagit:galvestontx matches 'galveston'
+084906,TEXAS CITY ISD,website_archive,https://www.tcisd.org/school-board,website:tcisd.org,1,KEEP,website:tcisd.org matches 'tcisd'
+084908,HITCHCOCK ISD,none_found,https://www.hitchcockisd.org/school-board/upcoming-meetings,website:hitchcockisd.org,1,KEEP,website:hitchcockisd.org matches 'hitchcockisd'
+084909,SANTA FE ISD,website_archive,https://www.sfisd.org,website:sfisd.org,1,KEEP,website:sfisd.org matches 'sfisd'
+084910,CLEAR CREEK ISD,youtube,https://www.youtube.com/@CCISDTV/streams,yt_handle:ccisdtv,1,KEEP,yt_handle:ccisdtv matches 'ccisd'
+084911,FRIENDSWOOD ISD,diligent,https://www.myfisd.com,website:myfisd.com,1,KEEP,website:myfisd.com matches 'myfisd'
+085902,POST ISD,granicus,https://post.granicus.com/,granicus:post,1,KEEP,granicus:post matches 'post'
+085903,SOUTHLAND ISD,website_archive,https://www.southlandisd.net/178630_2,website:southlandisd.net,1,KEEP,website:southlandisd.net matches 'southlandisd'
+086902,HARPER ISD,website_archive,https://www.harperisd.org/36157_3,website:harperisd.org,1,KEEP,website:harperisd.org matches 'harperisd'
+088902,GOLIAD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2600,boardbook:2600,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+089901,GONZALES ISD,youtube,https://www.youtube.com/@gisdathletics1534/streams,yt_handle:gisdathletics1534,1,KEEP,yt_handle:gisdathletics1534 matches 'gisd'
+089905,WAELDER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/876\,boardbook:876,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+090902,LEFORS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/973\,boardbook:973,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+090904,PAMPA ISD,youtube,https://www.youtube.com/channel/UClTN6V0NMLUl6v8-4J7stAQ,yt_channel_id:ucltn6v0nmlul6v8-4j7staq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+091901,BELLS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2225,boardbook:2225,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+091902,COLLINSVILLE ISD,youtube,https://www.youtube.com/user/cisdpirates,yt_user:cisdpirates,1,KEEP,yt_user:cisdpirates matches 'cisd'
+091905,HOWE ISD,youtube,https://www.youtube.com/user/howeisd,yt_user:howeisd,1,KEEP,yt_user:howeisd matches 'howeisd'
+091906,SHERMAN ISD,youtube,https://www.youtube.com/user/shermanisd,yt_user:shermanisd,1,KEEP,yt_user:shermanisd matches 'shermanisd'
+091907,TIOGA ISD,website_archive,https://www.tiogaisd.net/vnews/display.v/SEC/Administration%7CSchool%20Board,website:tiogaisd.net,1,KEEP,website:tiogaisd.net matches 'tiogaisd'
+091909,WHITESBORO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1601,boardbook:1601,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+091910,WHITEWRIGHT ISD,website_archive,https://www.whitewrightisd.com/114076_2,website:whitewrightisd.com,1,KEEP,website:whitewrightisd.com matches 'whitewrightisd'
+091913,POTTSBORO ISD,youtube,https://www.youtube.com/c/PottsboroISDInfo/videos,yt_c:pottsboroisdinfo,1,KEEP,yt_c:pottsboroisdinfo matches 'pottsboro'
+091917,GUNTER ISD,facebook_live,https://www.gunterisd.org/live-feed,website:gunterisd.org,1,KEEP,website:gunterisd.org matches 'gunterisd'
+091918,TOM BEAN ISD,boardbook,https://meetings.boardbook.org/public/organization/2036,boardbook:2036,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+092901,GLADEWATER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2202,boardbook:2202,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+092903,LONGVIEW ISD,none_found,https://meetings.boardbook.org/public/Organization/2235,boardbook:2235,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+092904,PINE TREE ISD,youtube,https://www.youtube.com/channel/UCoN8SnJYmsZW06HwWm0B_rQ,yt_channel_id:ucon8snjymszw06hwwm0b_rq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+092906,SABINE ISD,website_archive,https://www.sabineisd.org/about-us/school-board/home,website:sabineisd.org,1,KEEP,website:sabineisd.org matches 'sabineisd'
+092908,WHITE OAK ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2248,boardbook:2248,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+093901,ANDERSON-SHIRO CISD,facebook_live,https://www.asisd.com/live-feed,website:asisd.com,1,KEEP,website:asisd.com matches 'asisd'
+093903,IOLA ISD,granicus,https://iola.granicus.com/,granicus:iola,1,KEEP,granicus:iola matches 'iola'
+093904,NAVASOTA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1869,boardbook:1869,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+093905,RICHARDS ISD,website_archive,https://www.richardsisd.net/apps/pages/index.jsp?uREC_ID=4452816&type=d&pREC_ID=2701906,website:richardsisd.net,1,KEEP,website:richardsisd.net matches 'richardsisd'
+094902,SCHERTZ-CIBOLO-U CITY ISD,youtube,https://www.youtube.com/@schertz-cibolo-universalci9534,yt_handle:schertz-cibolo-universalci9534,1,KEEP,yt_handle:schertz-cibolo-universalci9534 matches 'schertz'
+094904,MARION ISD,youtube,https://www.youtube.com/@MarionHighSchool,yt_handle:marionhighschool,1,KEEP,yt_handle:marionhighschool matches 'marion'
+095901,ABERNATHY ISD,youtube,https://www.youtube.com/@AbernathyAthletics,yt_handle:abernathyathletics,1,KEEP,yt_handle:abernathyathletics matches 'abernathy'
+095902,COTTON CENTER ISD,website_archive,https://www.cottoncenterisd.org,website:cottoncenterisd.org,1,KEEP,website:cottoncenterisd.org matches 'cottoncenterisd'
+095904,PETERSBURG ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2344\\\,boardbook:2344,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+095905,PLAINVIEW ISD,swagit,https://plainviewtx.new.swagit.com/,swagit:plainviewtx,1,KEEP,swagit:plainviewtx matches 'plainview'
+096904,MEMPHIS ISD,granicus,https://memphis.granicus.com/,granicus:memphis,1,KEEP,granicus:memphis matches 'memphis'
+097902,HAMILTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/951\\\,boardbook:951,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+097903,HICO ISD,website_archive,https://www.hico-isd.net/apps/events/2026/4/25/31050702/?REC_ID=31050702&id=0,website:hico-isd.net,1,KEEP,website:hico-isd.net matches 'hicoisd'
+098901,GRUVER ISD,website_archive,https://www.gruverisd.net/113559_2,website:gruverisd.net,1,KEEP,website:gruverisd.net matches 'gruverisd'
+098904,SPEARMAN ISD,youtube,https://www.youtube.com/channel/UCrfz93xqswWspWL4PBqwE8w,yt_channel_id:ucrfz93xqswwspwl4pbqwe8w,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+099902,CHILLICOTHE ISD,boarddocs,https://www.chillicotheschools.org/page/board-contact-information,website:chillicotheschools.org,1,KEEP,website:chillicotheschools.org matches 'chillicothe'
+099903,QUANAH ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2244,boardbook:2244,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+100903,KOUNTZE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1403&amp;source=gmail&amp;ust=1594732071367000&amp;usg=AFQjCNEsZsj6o_goooYm7szCqHi2ULkYkw,boardbook:1403,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+100904,SILSBEE ISD,youtube,https://www.youtube.com/@SilsbeeISD,yt_handle:silsbeeisd,1,KEEP,yt_handle:silsbeeisd matches 'silsbeeisd'
+100907,LUMBERTON ISD,youtube,http://www.youtube.com/@lumbertonisd-txlivestreamc183,yt_handle:lumbertonisd-txlivestreamc183,1,KEEP,yt_handle:lumbertonisd-txlivestreamc183 matches 'lumbertonisd'
+101902,ALDINE ISD,youtube,https://www.youtube.com/channel/UCcc_lr7Xzmq48dYB17CM48g,yt_channel_id:uccc_lr7xzmq48dyb17cm48g,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+101903,ALIEF ISD,website_stream,https://video.aliefisd.net/,website:video.aliefisd.net,1,KEEP,website:video.aliefisd.net matches 'aliefisd'
+101905,CHANNELVIEW ISD,swagit,https://cvisd.new.swagit.com/,swagit:cvisd,1,KEEP,swagit:cvisd matches 'cvisd'
+101906,CROSBY ISD,none_found,https://meetings.boardbook.org/public/organization/1018,boardbook:1018,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+101907,CYPRESS-FAIRBANKS ISD,youtube,https://www.youtube.com/channel/UCEoRQL4CCofXkIh3UgD_qIg,yt_channel_id:uceorql4ccofxkih3ugd_qig,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+101908,DEER PARK ISD,website_archive,https://www.dpisd.org/apps/video/,website:dpisd.org,1,KEEP,website:dpisd.org matches 'dpisd'
+101910,GALENA PARK ISD,youtube,https://www.galenaparkisd.com/district-info/board-of-trustees,website:galenaparkisd.com,1,KEEP,website:galenaparkisd.com matches 'galenaparkisd'
+101911,GOOSE CREEK CISD,youtube,https://www.youtube.com/channel/UCIE5RuIrMgd0-ikIzz689EQ,yt_channel_id:ucie5ruirmgd0-ikizz689eq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+101912,HOUSTON ISD,granicus,https://houstonisd.granicus.com/player/,granicus:houstonisd,1,KEEP,granicus:houstonisd matches 'houstonisd'
+101913,HUMBLE ISD,diligent,https://www.humbleisd.net/page/board,website:humbleisd.net,1,KEEP,website:humbleisd.net matches 'humbleisd'
+101914,KATY ISD,swagit,https://katyisdtx.swagit.com/,swagit:katyisdtx,1,KEEP,swagit:katyisdtx matches 'katyisd'
+101915,KLEIN ISD,website_archive,https://www.kleinisd.net/district/board_of_trustees/board_meeting_videos,website:kleinisd.net,1,KEEP,website:kleinisd.net matches 'kleinisd'
+101916,LA PORTE ISD,swagit,https://laportetx.new.swagit.com/,swagit:laportetx,1,KEEP,swagit:laportetx matches 'laporte'
+101917,PASADENA ISD,youtube,https://www.youtube.com/channel/UCGCK5sar0hUfuyKCO45BxJg,yt_channel_id:ucgck5sar0hufuykco45bxjg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+101919,SPRING ISD,website_stream,https://www.springisd.org/live-feed,website:springisd.org,1,KEEP,website:springisd.org matches 'springisd'
+101920,SPRING BRANCH ISD,swagit,https://springbranchisdtx.new.swagit.com/,swagit:springbranchisdtx,1,KEEP,swagit:springbranchisdtx matches 'springbranchisd'
+101921,TOMBALL ISD,youtube,https://www.youtube.com/c/TomballISDCommunications,yt_c:tomballisdcommunications,1,KEEP,yt_c:tomballisdcommunications matches 'tomball'
+101924,SHELDON ISD,swagit,https://sheldonisdtx.new.swagit.com/,swagit:sheldonisdtx,1,KEEP,swagit:sheldonisdtx matches 'sheldonisd'
+101925,HUFFMAN ISD,youtube,https://www.youtube.com/@huffmanisdfalcons,yt_handle:huffmanisdfalcons,1,KEEP,yt_handle:huffmanisdfalcons matches 'huffmanisd'
+102901,KARNACK ISD,boardbook,https://meetings.boardbook.org/Public/Organization/3197,boardbook:3197,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+102902,MARSHALL ISD,youtube,https://www.youtube.com/channel/UCQm1sq3KaG_1atesDsvTDUQ,yt_channel_id:ucqm1sq3kag_1atesdsvtduq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+102903,WASKOM ISD,website_archive,https://www.waskomisd.net/wisd-board-of-trustees-home,website:waskomisd.net,1,KEEP,website:waskomisd.net matches 'waskomisd'
+102904,HALLSVILLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/975,boardbook:975,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+102905,HARLETON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1864,boardbook:1864,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+103901,CHANNING ISD,facebook_live,https://www.channingisd.net/live-feed,website:channingisd.net,1,KEEP,website:channingisd.net matches 'channingisd'
+103902,HARTLEY ISD,website_archive,https://www.hartleyisd.net/board-of-trustees,website:hartleyisd.net,1,KEEP,website:hartleyisd.net matches 'hartleyisd'
+104907,PAINT CREEK ISD,website_archive,https://paintcreek.com,website:paintcreek.com,1,KEEP,website:paintcreek.com matches 'paintcreek'
+105902,SAN MARCOS CISD,youtube,https://www.youtube.com/user/SanMarcosSchools,yt_user:sanmarcosschools,1,KEEP,yt_user:sanmarcosschools matches 'sanmarcos'
+105904,DRIPPING SPRINGS ISD,granicus,https://drippingsprings.granicus.com/,granicus:drippingsprings,1,KEEP,granicus:drippingsprings matches 'drippingsprings'
+105905,WIMBERLEY ISD,youtube,https://www.youtube.com/@WimberleyISD,yt_handle:wimberleyisd,1,KEEP,yt_handle:wimberleyisd matches 'wimberleyisd'
+105906,HAYS CISD,swagit,https://hayscisdtx.new.swagit.com/,swagit:hayscisdtx,1,KEEP,swagit:hayscisdtx matches 'hays'
+106901,CANADIAN ISD,boardbook,https://meetings.boardbook.org/public/Organization/789,boardbook:789,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+107901,ATHENS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/635\,boardbook:635,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+107904,CROSS ROADS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2096,boardbook:2096,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+107905,EUSTACE ISD,youtube,https://www.youtube.com/@EustaceISD,yt_handle:eustaceisd,1,KEEP,yt_handle:eustaceisd matches 'eustaceisd'
+107906,MALAKOFF ISD,boardbook,https://meetings.boardbook.org/Public/Organization/653,boardbook:653,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+107907,TRINIDAD ISD,facebook_live,https://www.trinidadisd.com/live-feed,website:trinidadisd.com,1,KEEP,website:trinidadisd.com matches 'trinidadisd'
+107910,LAPOYNOR ISD,boardbook,https://meetings.boardbook.org/Public/Organization/700,boardbook:700,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+108902,DONNA ISD,youtube,https://www.youtube.com/channel/UC3VYVNnmJSZ4gdjc8oIWqDg,yt_channel_id:uc3vyvnnmjsz4gdjc8oiwqdg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+108903,EDCOUCH-ELSA ISD,youtube,https://www.youtube.com/user/EdcouchElsaISD,yt_user:edcouchelsaisd,1,KEEP,yt_user:edcouchelsaisd matches 'edcouchelsaisd'
+108904,EDINBURG CISD,youtube,https://www.youtube.com/channel/UCYvv7rJWmydzhnzRYO5w0mg,yt_channel_id:ucyvv7rjwmydzhnzryo5w0mg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+108905,HIDALGO ISD,youtube,https://www.youtube.com/user/HidalgoISD,yt_user:hidalgoisd,1,KEEP,yt_user:hidalgoisd matches 'hidalgoisd'
+108906,MCALLEN ISD,youtube,https://www.youtube.com/@mcallenisd,yt_handle:mcallenisd,1,KEEP,yt_handle:mcallenisd matches 'mcallenisd'
+108907,MERCEDES ISD,youtube,https://www.youtube.com/channel/UC-G6R5F43ehJODl63NiStHw,yt_channel_id:uc-g6r5f43ehjodl63nisthw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+108908,MISSION CISD,youtube,https://www.youtube.com/channel/UCDr-Caw3USvwmrgi_nE6QRg,yt_channel_id:ucdr-caw3usvwmrgi_ne6qrg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+108909,PHARR-SAN JUAN-ALAMO ISD,youtube,https://www.youtube.com/user/PSJAISD,yt_user:psjaisd,1,KEEP,yt_user:psjaisd matches 'psjaisd'
+108910,PROGRESO ISD,youtube,https://www.youtube.com/channel/UCd-bIZ8_FwtUDnUR-WGScuQ,yt_channel_id:ucd-biz8_fwtudnur-wgscuq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+108911,SHARYLAND ISD,youtube,https://www.youtube.com/user/SharylandSchools,yt_user:sharylandschools,1,KEEP,yt_user:sharylandschools matches 'sharyland'
+108912,LA JOYA ISD,youtube,https://www.youtube.com/channel/UC9lJG1rKTLQzvw-ZSSezO7g,yt_channel_id:uc9ljg1rktlqzvw-zssezo7g,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+108913,WESLACO ISD,youtube,https://www.youtube.com/channel/UC2FLq0TEWuFlZxebuDUsgVA,yt_channel_id:uc2flq0tewuflzxebudusgva,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+108914,LA VILLA ISD,youtube,https://www.lavillaisd.org/live-feed,website:lavillaisd.org,1,KEEP,website:lavillaisd.org matches 'lavillaisd'
+108915,MONTE ALTO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/784\,boardbook:784,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+109902,BYNUM ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2116,boardbook:2116,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+109903,COVINGTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1930,boardbook:1930,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+109904,HILLSBORO ISD,youtube,https://www.youtube.com/@HillsboroISD/videos,yt_handle:hillsboroisd,1,KEEP,yt_handle:hillsboroisd matches 'hillsboroisd'
+109905,HUBBARD ISD,website_archive,https://www.hubbardisd.net/75591_2,website:hubbardisd.net,1,KEEP,website:hubbardisd.net matches 'hubbardisd'
+109908,MALONE ISD,website_archive,https://www.maloneisd.org/school-board-members-2025-2026,website:maloneisd.org,1,KEEP,website:maloneisd.org matches 'maloneisd'
+109911,WHITNEY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2245,boardbook:2245,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+109912,AQUILLA ISD,website_archive,https://www.aquillaisd.net/board-of-trustees,website:aquillaisd.net,1,KEEP,website:aquillaisd.net matches 'aquillaisd'
+109914,PENELOPE ISD,website_archive,https://www.penelopeisd.org/apps/pages/index.jsp?uREC_ID=525572&type=d&pREC_ID=1006778,website:penelopeisd.org,1,KEEP,website:penelopeisd.org matches 'penelopeisd'
+110901,ANTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2285\,boardbook:2285,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+110902,LEVELLAND ISD,youtube,https://www.levellandisd.net/recorded-school-board-meetings,website:levellandisd.net,1,KEEP,website:levellandisd.net matches 'levellandisd'
+110905,ROPES ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2792,boardbook:2792,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+110906,SMYER ISD,website_archive,https://www.smyer-isd.org/8420_1,website:smyer-isd.org,1,KEEP,website:smyer-isd.org matches 'smyerisd'
+110907,SUNDOWN ISD,youtube,https://www.youtube.com/channel/UCDJCKVmoATLGRjjzwpLnP9g,yt_channel_id:ucdjckvmoatlgrjjzwplnp9g,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+110908,WHITHARRAL ISD,website_archive,https://www.whitharralisd.org/school-board-information,website:whitharralisd.org,1,KEEP,website:whitharralisd.org matches 'whitharralisd'
+111901,GRANBURY ISD,youtube,https://www.youtube.com/channel/UCjoY-gxQ2O8pVNM-cHXHCzA,yt_channel_id:ucjoy-gxq2o8pvnm-chxhcza,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+111903,TOLAR ISD,website_archive,https://www.tolarisd.org/district-information/school-board/school-board-trustees,website:tolarisd.org,1,KEEP,website:tolarisd.org matches 'tolarisd'
+112901,SULPHUR SPRINGS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1046,boardbook:1046,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+112905,CUMBY COLLEGIATE ISD,facebook_live,https://www.cumbyisd.net/live-feed,website:cumbyisd.net,1,KEEP,website:cumbyisd.net matches 'cumby'
+112909,SALTILLO ISD,website_archive,https://www.saltilloisd.net/339258_2,website:saltilloisd.net,1,KEEP,website:saltilloisd.net matches 'saltilloisd'
+112910,SULPHUR BLUFF ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1014,boardbook:1014,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+113901,CROCKETT ISD,facebook_live,https://www.crockettisd.net/live-feed,website:crockettisd.net,1,KEEP,website:crockettisd.net matches 'crockettisd'
+113902,GRAPELAND ISD,website_archive,https://www.grapelandisd.net/apps/pages/index.jsp?uREC_ID=578564&type=d,website:grapelandisd.net,1,KEEP,website:grapelandisd.net matches 'grapelandisd'
+113903,LOVELADY ISD,website_archive,https://www.loveladyisd.net/,website:loveladyisd.net,1,KEEP,website:loveladyisd.net matches 'loveladyisd'
+113905,LATEXO ISD,facebook_live,https://www.latexoisd.net/live-feed,website:latexoisd.net,1,KEEP,website:latexoisd.net matches 'latexoisd'
+113906,KENNARD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1676\,boardbook:1676,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+114902,COAHOMA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/984\,boardbook:984,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+115902,SIERRA BLANCA ISD,website_archive,https://www.sierrablancaisd.net/administration/board-of-trustees,website:sierrablancaisd.net,1,KEEP,website:sierrablancaisd.net matches 'sierrablancaisd'
+115903,DELL CITY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1300\,boardbook:1300,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+116901,CADDO MILLS ISD,youtube,https://www.caddomillsisd.org/live-feed,website:caddomillsisd.org,1,KEEP,website:caddomillsisd.org matches 'caddomillsisd'
+116902,CELESTE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1411,boardbook:1411,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+116903,COMMERCE ISD,youtube,https://www.youtube.com/c/CommerceISDOfficial,yt_c:commerceisdofficial,1,KEEP,yt_c:commerceisdofficial matches 'commerce'
+116905,GREENVILLE ISD,youtube,https://www.youtube.com/@GreenvilleISD,yt_handle:greenvilleisd,1,KEEP,yt_handle:greenvilleisd matches 'greenvilleisd'
+116906,LONE OAK ISD,youtube,https://www.youtube.com/c/LoneOakBuffaloAthletics,yt_c:loneoakbuffaloathletics,1,KEEP,yt_c:loneoakbuffaloathletics matches 'lone'
+116908,QUINLAN ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2079,boardbook:2079,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+116909,WOLFE CITY ISD,website_archive,https://www.wcisd.org/school-board,website:wcisd.org,1,KEEP,website:wcisd.org matches 'wcisd'
+116910,CAMPBELL ISD,website_archive,https://www.campbellisd.org/district-departments/school-board,website:campbellisd.org,1,KEEP,website:campbellisd.org matches 'campbellisd'
+116915,BLAND ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2075,boardbook:2075,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+116916,BOLES ISD,website_archive,https://www.bolesisd.com/board-of-trustess-home,website:bolesisd.com,1,KEEP,website:bolesisd.com matches 'bolesisd'
+117901,BORGER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/904,boardbook:904,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+119901,BRYSON ISD,website_archive,https://www.brysonisd.net/vnews/display.v/SEC/Front%20Page%7COnline%20Board%20Policy,website:brysonisd.net,1,KEEP,website:brysonisd.net matches 'brysonisd'
+119902,JACKSBORO ISD,youtube,https://www.youtube.com/channel/UCVLXsPG47prUr8-faZBMZRw,yt_channel_id:ucvlxspg47prur8-fazbmzrw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+120901,EDNA ISD,youtube,https://www.youtube.com/@ednaisdyoutube6233,yt_handle:ednaisdyoutube6233,1,KEEP,yt_handle:ednaisdyoutube6233 matches 'edna'
+120902,GANADO ISD,youtube,https://www.youtube.com/channel/UCFJyjmIFai5qfgvERaposFw,yt_channel_id:ucfjyjmifai5qfgveraposfw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+121905,KIRBYVILLE CISD,boardbook,https://meetings.boardbook.org/Public/Organization/920,boardbook:920,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+122902,VALENTINE ISD,website_archive,https://www.valentineisd.com/live-feed,website:valentineisd.com,1,KEEP,website:valentineisd.com matches 'valentineisd'
+123905,NEDERLAND ISD,boardbook,https://meetings.boardbook.org/Public/Organization/932,boardbook:932,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+123907,PORT ARTHUR ISD,website_archive,https://www.paisd.org/district/school-board/videos,website:paisd.org,1,KEEP,website:paisd.org matches 'paisd'
+123908,PORT NECHES-GROVES ISD,youtube,https://www.youtube.com/@PNGISD,yt_handle:pngisd,1,KEEP,yt_handle:pngisd matches 'pngisd'
+123910,BEAUMONT ISD,swagit,https://beaumonttx.new.swagit.com/,swagit:beaumonttx,1,KEEP,swagit:beaumonttx matches 'beaumont'
+123914,HAMSHIRE-FANNETT ISD,youtube,https://www.youtube.com/channel/UCPTFY7wLIf774ItiI6neDCw,yt_channel_id:ucptfy7wlif774itii6nedcw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+125901,ALICE ISD,youtube,https://www.youtube.com/channel/UCLF52HWpx4r-UA3ORbTfT-A,yt_channel_id:uclf52hwpx4r-ua3orbtft-a,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+125905,PREMONT ISD,youtube,https://www.youtube.com/@premontisd5389,yt_handle:premontisd5389,1,KEEP,yt_handle:premontisd5389 matches 'premontisd'
+125906,LA GLORIA ISD,website_archive,https://www.lagloriaisd.net/schoolboard,website:lagloriaisd.net,1,KEEP,website:lagloriaisd.net matches 'lagloriaisd'
+126901,ALVARADO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/724,boardbook:724,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+126902,BURLESON ISD,website_archive,https://www.burlesonisd.net/our-district/board-of-trustees/board-meeting-video-archive,website:burlesonisd.net,1,KEEP,website:burlesonisd.net matches 'burlesonisd'
+126903,CLEBURNE ISD,none_found,https://meetings.boardbook.org/public/Organization/1684,boardbook:1684,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+126905,JOSHUA ISD,none_found,https://www.joshuaisd.org,website:joshuaisd.org,1,KEEP,website:joshuaisd.org matches 'joshuaisd'
+126906,KEENE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1849,boardbook:1849,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+126907,RIO VISTA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/916,boardbook:916,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+126908,VENUS ISD,youtube,https://www.youtube.com/channel/UCCbB-qlnrznIRG4URleUybw,yt_channel_id:uccbb-qlnrznirg4urleuybw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+126911,GODLEY ISD,youtube,https://www.godleyisd.net/school-board/meeting-videos,website:godleyisd.net,1,KEEP,website:godleyisd.net matches 'godleyisd'
+127901,ANSON ISD,website_archive,https://www.ansonschools.org/,website:ansonschools.org,1,KEEP,website:ansonschools.org matches 'anson'
+128902,KENEDY ISD,youtube,https://www.youtube.com/channel/UC5VZUKGhsxnMBu3Zz39bAqw,yt_channel_id:uc5vzukghsxnmbu3zz39baqw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+128903,RUNGE ISD,youtube,https://www.youtube.com/@RungeISD,yt_handle:rungeisd,1,KEEP,yt_handle:rungeisd matches 'rungeisd'
+129902,FORNEY ISD,youtube,https://www.youtube.com/@ForneyISDTX,yt_handle:forneyisdtx,1,KEEP,yt_handle:forneyisdtx matches 'forneyisd'
+129903,KAUFMAN ISD,youtube,https://www.youtube.com/channel/UC2Mvg3kbG8U8BkwA7z3Hvzw,yt_channel_id:uc2mvg3kbg8u8bkwa7z3hvzw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+129904,KEMP ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2338,boardbook:2338,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+129905,MABANK ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1915,boardbook:1915,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+129906,TERRELL ISD,swagit,https://terrelltx.new.swagit.com/,swagit:terrelltx,1,KEEP,swagit:terrelltx matches 'terrell'
+129910,SCURRY-ROSSER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2332,boardbook:2332,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+130901,BOERNE ISD,youtube,https://www.youtube.com/channel/UCwnMW5yblvsxCkUbOuMYF6g/videos?view_as=subscriber,yt_channel_id:ucwnmw5yblvsxckuboumyf6g/videos,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+132902,JAYTON-GIRARD ISD,boardbook,https://www.jaytonjaybirds.com/live-feed,website:jaytonjaybirds.com,1,KEEP,website:jaytonjaybirds.com matches 'jayton'
+133902,HUNT ISD,website_archive,https://www.huntisd.org/,website:huntisd.org,1,KEEP,website:huntisd.org matches 'huntisd'
+133903,KERRVILLE ISD,youtube,https://www.youtube.com/@kerrvilleisdtx,yt_handle:kerrvilleisdtx,1,KEEP,yt_handle:kerrvilleisdtx matches 'kerrvilleisd'
+133904,INGRAM ISD,youtube,https://www.youtube.com/@ingramisdstreamingchannel6230,yt_handle:ingramisdstreamingchannel6230,1,KEEP,yt_handle:ingramisdstreamingchannel6230 matches 'ingram'
+134901,JUNCTION ISD,youtube,https://www.youtube.com/channel/UCFpyq545ideN7bnRLhyeTZg,yt_channel_id:ucfpyq545iden7bnrlhyetzg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+137901,KINGSVILLE ISD,youtube,https://www.youtube.com/@kingsvilleisd7224/streams,yt_handle:kingsvilleisd7224,1,KEEP,yt_handle:kingsvilleisd7224 matches 'kingsvilleisd'
+137902,RICARDO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1902,boardbook:1902,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+137903,RIVIERA ISD,facebook_live,https://www.rivieraisd.us/live-feed,website:rivieraisd.us,1,KEEP,website:rivieraisd.us matches 'rivieraisd'
+137904,SANTA GERTRUDIS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2189,boardbook:2189,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+138904,BENJAMIN ISD,website_archive,https://www.benjaminisd.net/school-board,website:benjaminisd.net,1,KEEP,website:benjaminisd.net matches 'benjaminisd'
+139905,CHISUM ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2316,boardbook:2316,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+139909,PARIS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/687,boardbook:687,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+139912,PRAIRILAND ISD,youtube,https://www.youtube.com/@prairilandmediatech7832,yt_handle:prairilandmediatech7832,1,KEEP,yt_handle:prairilandmediatech7832 matches 'prairiland'
+140901,AMHERST ISD,website_archive,https://www.amherstisd.com/schoolboard,website:amherstisd.com,1,KEEP,website:amherstisd.com matches 'amherstisd'
+140905,OLTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/962,boardbook:962,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+141901,LAMPASAS ISD,youtube,https://www.youtube.com/@cityoflampasas1939,yt_handle:cityoflampasas1939,1,KEEP,yt_handle:cityoflampasas1939 matches 'lampasas'
+141902,LOMETA ISD,website_archive,https://www.lometaisd.org/district-management/board-elections,website:lometaisd.org,1,KEEP,website:lometaisd.org matches 'lometaisd'
+142901,COTULLA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/638\,boardbook:638,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+143901,HALLETTSVILLE ISD,website_archive,https://www.hallettsville.com/board-of-directors,website:hallettsville.com,1,KEEP,website:hallettsville.com matches 'hallettsville'
+143903,SHINER ISD,website_archive,https://www.shinerisd.net/about-shiner-isd/school-board,website:shinerisd.net,1,KEEP,website:shinerisd.net matches 'shinerisd'
+143905,SWEET HOME ISD,website_archive,https://www.sweethomeisd.org/shisd-school-board,website:sweethomeisd.org,1,KEEP,website:sweethomeisd.org matches 'sweethomeisd'
+143906,EZZELL ISD,website_archive,https://www.ezzellisd.org/boardoftrustees,website:ezzellisd.org,1,KEEP,website:ezzellisd.org matches 'ezzellisd'
+144901,GIDDINGS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/710\\\,boardbook:710,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+144902,LEXINGTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1257,boardbook:1257,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+144903,DIME BOX ISD,boardbook,https://meetings.boardbook.org/Public/Organization/773,boardbook:773,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+145901,BUFFALO ISD,boardbook,https://www.buffaloisd.net/board-of-trustees,website:buffaloisd.net,1,KEEP,website:buffaloisd.net matches 'buffaloisd'
+145902,CENTERVILLE ISD,website_archive,https://centervilleisd.net/district-info/board-of-trustees/,website:centervilleisd.net,1,KEEP,website:centervilleisd.net matches 'centervilleisd'
+145906,NORMANGEE ISD,website_archive,https://www.normangeeisd.org/board,website:normangeeisd.org,1,KEEP,website:normangeeisd.org matches 'normangeeisd'
+145907,OAKWOOD ISD,facebook_live,https://www.oakwoodisd.net/live-feed,website:oakwoodisd.net,1,KEEP,website:oakwoodisd.net matches 'oakwoodisd'
+145911,LEON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1996,boardbook:1996,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+146901,CLEVELAND ISD,youtube,https://www.youtube.com/channel/UC4B_1nVIR8vyeBPeavenNeQ,yt_channel_id:uc4b_1nvir8vyebpeavenneq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+146902,DAYTON ISD,website_archive,https://www.daytonisd.net/school-board-2,website:daytonisd.net,1,KEEP,website:daytonisd.net matches 'daytonisd'
+146903,DEVERS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/745,boardbook:745,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+146904,HARDIN ISD,youtube,https://www.youtube.com/channel/UC5fNnnxYajasJXVkZlwJ4Yw,yt_channel_id:uc5fnnnxyajasjxvkzlwj4yw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+146906,LIBERTY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/725,boardbook:725,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+146907,TARKINGTON ISD,youtube,http://www.youtube.com/@tarkingtonisd6352,yt_handle:tarkingtonisd6352,1,KEEP,yt_handle:tarkingtonisd6352 matches 'tarkingtonisd'
+147902,GROESBECK ISD,boardbook,https://meetings.boardbook.org/Public/Organization/670\,boardbook:670,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+147903,MEXIA ISD,facebook_live,https://www.mexiaisd.net/live-feed,website:mexiaisd.net,1,KEEP,website:mexiaisd.net matches 'mexiaisd'
+148901,BOOKER ISD,website_archive,https://bookerisd.net/new-page-4,website:bookerisd.net,1,KEEP,website:bookerisd.net matches 'bookerisd'
+148905,DARROUZETT ISD,youtube,https://www.youtube.com/channel/UC_pZ4BNiTY1ORedhJG-inCQ,yt_channel_id:uc_pz4bnity1oredhjg-incq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+149901,GEORGE WEST ISD,website_archive,https://www.gwisd.us/apps/pages/index.jsp?uREC_ID=576260&type=d,website:gwisd.us,1,KEEP,website:gwisd.us matches 'gwisd'
+149902,THREE RIVERS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1934\,boardbook:1934,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+150901,LLANO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/681,boardbook:681,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+152901,LUBBOCK ISD,swagit,https://lubbockisdtx.new.swagit.com/,swagit:lubbockisdtx,1,KEEP,swagit:lubbockisdtx matches 'lubbockisd'
+152903,SLATON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/726,boardbook:726,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+152906,LUBBOCK-COOPER ISD,youtube,https://www.youtube.com/channel/UCwjeTyKDxjlsqWw6sEfV6gg,yt_channel_id:ucwjetykdxjlsqww6sefv6gg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+152907,FRENSHIP ISD,boardbook,https://meetings.boardbook.org/Public/Organization/825,boardbook:825,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+152909,SHALLOWATER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2205,boardbook:2205,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+153904,TAHOKA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1956\,boardbook:1956,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+153905,NEW HOME ISD,website_archive,https://www.newhomeisd.org/nhisd-board-of-trustees,website:newhomeisd.org,1,KEEP,website:newhomeisd.org matches 'newhomeisd'
+155901,JEFFERSON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/982,boardbook:982,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+156902,STANTON ISD,website_archive,https://www.stantonschools.com/vnews/display.v/SEC/Athletics%7CStanton%20Schools%27%20Live%20Stream,website:stantonschools.com,1,KEEP,website:stantonschools.com matches 'stanton'
+156905,GRADY ISD,boardbook,https://www.gradyisd.org/live-feed,website:gradyisd.org,1,KEEP,website:gradyisd.org matches 'gradyisd'
+157901,MASON ISD,website_archive,https://www.masonisd.net/school-board,website:masonisd.net,1,KEEP,website:masonisd.net matches 'masonisd'
+158901,BAY CITY ISD,swagit,https://baycitytx.new.swagit.com/,swagit:baycitytx,1,KEEP,swagit:baycitytx matches 'baycity'
+158904,MATAGORDA ISD,website_archive,https://www.matagordaisd.org/about-us/board-of-trustees,website:matagordaisd.org,1,KEEP,website:matagordaisd.org matches 'matagordaisd'
+158905,PALACIOS ISD,boardbook,https://meetings.boardbook.org/public/organization/1210,boardbook:1210,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+158906,VAN VLECK ISD,youtube,https://www.youtube.com/@vanvleckisd3197,yt_handle:vanvleckisd3197,1,KEEP,yt_handle:vanvleckisd3197 matches 'vanvleckisd'
+159901,EAGLE PASS ISD,youtube,https://www.youtube.com/channel/UCHmCMr06ffsxYvsoTjHrCiw,yt_channel_id:uchmcmr06ffsxyvsotjhrciw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+160904,ROCHELLE ISD,youtube,https://www.youtube.com/channel/UC_d3TjDTadQCn8v19R9RtTw,yt_channel_id:uc_d3tjdtadqcn8v19r9rttw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+161901,CRAWFORD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2983\,boardbook:2983,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+161903,MIDWAY ISD,youtube,https://www.youtube.com/user/MidwayISDpr,yt_user:midwayisdpr,1,KEEP,yt_user:midwayisdpr matches 'midway'
+161906,LA VEGA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/870,boardbook:870,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+161907,LORENA ISD,youtube,https://www.youtube.com/channel/UC8E_MqOmf5T4nbEC1t6WAKQ,yt_channel_id:uc8e_mqomf5t4nbec1t6wakq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+161908,MART ISD,facebook_live,https://www.martisd.org/live-feed,website:martisd.org,1,KEEP,website:martisd.org matches 'martisd'
+161909,MCGREGOR ISD,youtube,https://www.youtube.com/channel/UCmmyrN5ip3zcapLg2FOG9OA,yt_channel_id:ucmmyrn5ip3zcaplg2fog9oa,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+161910,MOODY ISD,youtube,https://www.youtube.com/@MoodyISD,yt_handle:moodyisd,1,KEEP,yt_handle:moodyisd matches 'moodyisd'
+161912,RIESEL ISD,youtube,https://www.youtube.com/user/rieselisd,yt_user:rieselisd,1,KEEP,yt_user:rieselisd matches 'rieselisd'
+161914,WACO ISD,youtube,https://www.youtube.com/c/wacoisd-online,yt_c:wacoisd-online,1,KEEP,yt_c:wacoisd-online matches 'waco'
+161916,WEST ISD,website_archive,https://www.westisd.net/board,website:westisd.net,1,KEEP,website:westisd.net matches 'westisd'
+161920,CHINA SPRING ISD,facebook_live,https://www.chinaspringisd.net/live-feed,website:chinaspringisd.net,1,KEEP,website:chinaspringisd.net matches 'chinaspringisd'
+161921,CONNALLY ISD,youtube,https://www.youtube.com/@ConnallyISD,yt_handle:connallyisd,1,KEEP,yt_handle:connallyisd matches 'connallyisd'
+161923,BOSQUEVILLE ISD,youtube,https://www.youtube.com/channel/UCEjF6JZZbgirAgzOT-nHcdA,yt_channel_id:ucejf6jzzbgiragzot-nhcda,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+161924,HALLSBURG ISD,website_archive,https://www.hallsburgisd.org/board-of-trustees,website:hallsburgisd.org,1,KEEP,website:hallsburgisd.org matches 'hallsburgisd'
+163901,DEVINE ISD,youtube,https://www.youtube.com/channel/UC5NvVUNwMPeR-VVmLSKY-Ng,yt_channel_id:uc5nvvunwmper-vvmlsky-ng,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+163903,NATALIA ISD,youtube,https://www.youtube.com/channel/UCOcuGPUfMuRFuNbRiv2k0xQ,yt_channel_id:ucocugpufmurfunbriv2k0xq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+163908,MEDINA VALLEY ISD,youtube,https://www.youtube.com/channel/UC2N_XaIvkbxUr49i3itAeEg,yt_channel_id:uc2n_xaivkbxur49i3itaeeg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+164901,MENARD ISD,website_archive,https://www.menardisd.net/live-feed,website:menardisd.net,1,KEEP,website:menardisd.net matches 'menardisd'
+165901,MIDLAND ISD,youtube,https://www.youtube.com/channel/UCDnfWUcGWsFe9xdQ44l36GA,yt_channel_id:ucdnfwucgwsfe9xdq44l36ga,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+166901,CAMERON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1226,boardbook:1226,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+166902,GAUSE ISD,website_archive,https://www.gauseisd.net/school-1,website:gauseisd.net,1,KEEP,website:gauseisd.net matches 'gauseisd'
+166903,MILANO ISD,youtube,https://www.youtube.com/@Milano_ISD,yt_handle:milano_isd,1,KEEP,yt_handle:milano_isd matches 'milanoisd'
+166904,ROCKDALE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2212,boardbook:2212,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+166907,BUCKHOLTS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2350,boardbook:2350,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+167902,MULLIN ISD,boardbook,https://www.mullinisd.net/board-members,website:mullinisd.net,1,KEEP,website:mullinisd.net matches 'mullinisd'
+167904,PRIDDY ISD,website_archive,https://www.priddyisd.net/live-feed,website:priddyisd.net,1,KEEP,website:priddyisd.net matches 'priddyisd'
+168903,WESTBROOK ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2073,boardbook:2073,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+169901,BOWIE ISD,youtube,https://www.youtube.com/@bowieisd/streams,yt_handle:bowieisd,1,KEEP,yt_handle:bowieisd matches 'bowieisd'
+169902,NOCONA ISD,website_archive,https://www.noconaisd.net/board,website:noconaisd.net,1,KEEP,website:noconaisd.net matches 'noconaisd'
+169906,GOLD BURG ISD,website_archive,https://www.goldburgisd.net/school-board,website:goldburgisd.net,1,KEEP,website:goldburgisd.net matches 'goldburgisd'
+169908,MONTAGUE ISD,website_archive,https://www.montagueisd.org/vnews/display.v/SEC/School%20Board,website:montagueisd.org,1,KEEP,website:montagueisd.org matches 'montagueisd'
+169909,PRAIRIE VALLEY ISD,website_archive,https://www.prairievalleyisd.net/vnews/display.v/SEC/District%7CSchool%20Board,website:prairievalleyisd.net,1,KEEP,website:prairievalleyisd.net matches 'prairievalleyisd'
+169910,FORESTBURG ISD,website_archive,https://www.forestburgisd.net/board-of-education,website:forestburgisd.net,1,KEEP,website:forestburgisd.net matches 'forestburgisd'
+169911,SAINT JO ISD,website_archive,https://www.saintjoisd.net/85099_2,website:saintjoisd.net,1,KEEP,website:saintjoisd.net matches 'saintjoisd'
+170902,CONROE ISD,youtube,https://www.youtube.com/@conroeisd,yt_handle:conroeisd,1,KEEP,yt_handle:conroeisd matches 'conroeisd'
+170903,MONTGOMERY ISD,website_archive,https://www.misd.org/about/board/board_meeting_videos,website:misd.org,1,KEEP,website:misd.org matches 'misd'
+170904,WILLIS ISD,none_found,https://www.willisisd.org/Page/3979,website:willisisd.org,1,KEEP,website:willisisd.org matches 'willisisd'
+170906,MAGNOLIA ISD,youtube,https://www.youtube.com/channel/UCZz4ZSGHPh3AYU_7lAldpHA,yt_channel_id:uczz4zsghph3ayu_7laldpha,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+170907,SPLENDORA ISD,youtube,https://www.youtube.com/@SplendoraISD,yt_handle:splendoraisd,1,KEEP,yt_handle:splendoraisd matches 'splendoraisd'
+170908,NEW CANEY ISD,website_archive,https://www.newcaneyisd.org/our-district/board-of-trustees/meeting-dates-recordings,website:newcaneyisd.org,1,KEEP,website:newcaneyisd.org matches 'newcaneyisd'
+171901,DUMAS ISD,youtube,https://youtube.com/@dumasisd,yt_handle:dumasisd,1,KEEP,yt_handle:dumasisd matches 'dumasisd'
+171902,SUNRAY COLLEGIATE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/956\,boardbook:956,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+172902,DAINGERFIELD-LONE STAR ISD,boardbook,https://meetings.boardbook.org/Public/Organization/986\,boardbook:986,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+174901,CHIRENO ISD,facebook_live,https://www.chirenoisd.org/live-feed,website:chirenoisd.org,1,KEEP,website:chirenoisd.org matches 'chirenoisd'
+174903,GARRISON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/887,boardbook:887,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+174904,NACOGDOCHES ISD,swagit,https://nacogdochestx.new.swagit.com/,swagit:nacogdochestx,1,KEEP,swagit:nacogdochestx matches 'nacogdoches'
+174909,MARTINSVILLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1280\,boardbook:1280,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+175902,BLOOMING GROVE ISD,website_archive,https://www.bgisd.org/apps/pages/index.jsp?uREC_ID=420347&type=d&pREC_ID=918584,website:bgisd.org,1,KEEP,website:bgisd.org matches 'bgisd'
+175903,CORSICANA ISD,youtube,https://www.youtube.com/c/corsicanaisd,yt_c:corsicanaisd,1,KEEP,yt_c:corsicanaisd matches 'corsicanaisd'
+175905,FROST ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2331,boardbook:2331,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+175907,KERENS ISD,boardbook,https://meetings.boardbook.org/\,boardbook:/\,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+175910,MILDRED ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1032,boardbook:1032,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+175911,RICE ISD,facebook_live,https://www.rice-isd.org/live-feed,website:rice-isd.org,1,KEEP,website:rice-isd.org matches 'riceisd'
+176901,BURKEVILLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1892,boardbook:1892,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+176902,NEWTON ISD,youtube,https://www.youtube.com/channel/UCKzNCxjmxwoMZDteqocR9vA/featured,yt_channel_id:uckzncxjmxwomzdteqocr9va/featured,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+176903,DEWEYVILLE ISD,website_archive,https://www.deweyvilleisd.com/,website:deweyvilleisd.com,1,KEEP,website:deweyvilleisd.com matches 'deweyvilleisd'
+177902,SWEETWATER ISD,youtube,https://www.youtube.com/@sweetwaterisdsweetwatertex5639/featured,yt_handle:sweetwaterisdsweetwatertex5639,1,KEEP,yt_handle:sweetwaterisdsweetwatertex5639 matches 'sweetwater'
+177905,HIGHLAND ISD,boarddocs,https://www.highlandschools.org/board-of-education/board-of-education-policy,website:highlandschools.org,1,KEEP,website:highlandschools.org matches 'highland'
+178808,SEASHORE CHARTER SCHOOLS,website_archive,https://seashorecharterschools.com/school-board-appreciation/,website:seashorecharterschools.com,1,KEEP,website:seashorecharterschools.com matches 'seashorecharterschools'
+178901,AGUA DULCE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1990,boardbook:1990,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+178902,BISHOP CISD,facebook_live,https://www.bishopschools.org/live-feed,website:bishopschools.org,1,KEEP,website:bishopschools.org matches 'bishop'
+178904,CORPUS CHRISTI ISD,swagit,https://corpuschristiisdtx.new.swagit.com/,swagit:corpuschristiisdtx,1,KEEP,swagit:corpuschristiisdtx matches 'corpuschristiisd'
+178905,DRISCOLL ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1438,boardbook:1438,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+178906,LONDON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/996,boardbook:996,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+178909,ROBSTOWN ISD,youtube,https://www.youtube.com/channel/UCZIcpT_P2WaPPXGez-dM-bw/videos,yt_channel_id:uczicpt_p2wappxgez-dm-bw/videos,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+178912,TULOSO-MIDWAY ISD,youtube,https://www.youtube.com/playlist?list=PLjCpa5rhg6qHwKI6JpQkGdpxr9j_M9JRO&si=x-wq9mAj1jg-H78J,yt_playlist:list=PLjCpa5rhg6qHwKI6JpQkGdpxr9j_M9JRO&si=x-wq9mAj1jg-H78J,1,REVIEW,"yt_playlist URL is platform-generic, cannot be verified from URL alone"
+179901,PERRYTON ISD,youtube,https://www.youtube.com/channel/UCzMlEquJTHaI_H_LHhaqDmw,yt_channel_id:uczmlequjthai_h_lhhaqdmw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+180901,BOYS RANCH ISD,boardbook,https://meetings.boardbook.org/Public/Organization/697,boardbook:697,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+180903,ADRIAN ISD,website_archive,https://www.adrianisd.net/board-of-trustees,website:adrianisd.net,1,KEEP,website:adrianisd.net matches 'adrianisd'
+180904,WILDORADO ISD,website_archive,https://www.wildoradoisd.org/66562_3,website:wildoradoisd.org,1,KEEP,website:wildoradoisd.org matches 'wildoradoisd'
+181905,ORANGEFIELD ISD,youtube,https://www.youtube.com/@OrangefieldISD,yt_handle:orangefieldisd,1,KEEP,yt_handle:orangefieldisd matches 'orangefieldisd'
+181907,VIDOR ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1004,boardbook:1004,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+182901,GORDON ISD,website_archive,https://www.gordonisd.net/en-US/athletics-d5d6fee5/football-9a269627,website:gordonisd.net,1,KEEP,website:gordonisd.net matches 'gordonisd'
+182902,GRAFORD ISD,website_archive,https://www.grafordisd.net/board-of-trustees,website:grafordisd.net,1,KEEP,website:grafordisd.net matches 'grafordisd'
+182903,MINERAL WELLS ISD,none_found,https://meetings.boardbook.org/public/Organization/957,boardbook:957,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+182906,PALO PINTO ISD,website_archive,https://www.palopintoisd.net/board-of-trustees,website:palopintoisd.net,1,KEEP,website:palopintoisd.net matches 'palopintoisd'
+183901,BECKVILLE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1964,boardbook:1964,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+183902,CARTHAGE ISD,youtube,https://www.youtube.com/channel/UC7oCiP4PYpVkZGLTvSOa31Q,yt_channel_id:uc7ocip4pypvkzgltvsoa31q,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+183904,GARY ISD,youtube,https://www.garyisd.org/live-feed,website:garyisd.org,1,KEEP,website:garyisd.org matches 'garyisd'
+184901,POOLVILLE ISD,website_archive,https://www.poolville.net/board-of-trustees,website:poolville.net,1,KEEP,website:poolville.net matches 'poolville'
+184902,SPRINGTOWN ISD,youtube,https://www.youtube.com/channel/UC5eJKs_yyiWC-fwGcanYr9w,yt_channel_id:uc5ejks_yyiwc-fwgcanyr9w,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+184903,WEATHERFORD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/992,boardbook:992,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+184904,MILLSAP ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1603,boardbook:1603,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+184907,ALEDO ISD,swagit,https://aledoisdtx.new.swagit.com/,swagit:aledoisdtx,1,KEEP,swagit:aledoisdtx matches 'aledoisd'
+184908,PEASTER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2318,boardbook:2318,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+184911,GARNER ISD,website_archive,https://www.garnerisd.net/schoolboard,website:garnerisd.net,1,KEEP,website:garnerisd.net matches 'garnerisd'
+185901,BOVINA ISD,website_archive,https://www.bovinaisd.org/live-feed,website:bovinaisd.org,1,KEEP,website:bovinaisd.org matches 'bovinaisd'
+185902,FARWELL ISD,website_archive,https://www.farwellschools.org/upload/page/0018/docs/Instructional%20Plans/JH/2nd%20Semester/6th%20Grade%20Instructional%20Plan%20Keyboarding%202nd%20Semester%2025%2026.pdf,website:farwellschools.org,1,KEEP,website:farwellschools.org matches 'farwell'
+185903,FRIONA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1262,boardbook:1262,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+185904,LAZBUDDIE ISD,website_archive,https://www.lazbuddieisd.org/43633_1,website:lazbuddieisd.org,1,KEEP,website:lazbuddieisd.org matches 'lazbuddieisd'
+187901,BIG SANDY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2347,boardbook:2347,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+187903,GOODRICH ISD,website_archive,https://www.goodrichisd.net/live-feed,website:goodrichisd.net,1,KEEP,website:goodrichisd.net matches 'goodrichisd'
+187906,LEGGETT ISD,website_archive,https://www.leggettisd.net/live-feed,website:leggettisd.net,1,KEEP,website:leggettisd.net matches 'leggettisd'
+187907,LIVINGSTON ISD,youtube,https://youtube.com/@livingstonisdcommunication6597?si=euAsWBvv7ty5-AJP,yt_handle:livingstonisdcommunication6597,1,KEEP,yt_handle:livingstonisdcommunication6597 matches 'livingston'
+187910,ONALASKA ISD,website_archive,https://www.onalaskaisd.net/vnews/display.v/SEC/Parents%20%26%20Students%7CPublic%20Comment%20to%20Board,website:onalaskaisd.net,1,KEEP,website:onalaskaisd.net matches 'onalaskaisd'
+188901,AMARILLO ISD,swagit,https://amarillotx.new.swagit.com/,swagit:amarillotx,1,KEEP,swagit:amarillotx matches 'amarillo'
+188902,RIVER ROAD ISD,youtube,https://www.youtube.com/channel/UCFZbY4HsxMfcS9h76JNGPIw,yt_channel_id:ucfzby4hsxmfcs9h76jngpiw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+188904,BUSHLAND ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1767,boardbook:1767,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+189901,MARFA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1076\,boardbook:1076,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+189902,PRESIDIO ISD,youtube,https://www.youtube.com/@presidioisdyt6444/community,yt_handle:presidioisdyt6444,1,KEEP,yt_handle:presidioisdyt6444 matches 'presidio'
+191901,CANYON ISD,website_archive,https://www.canyonisd.net/board-of-trustees-2,website:canyonisd.net,1,KEEP,website:canyonisd.net matches 'canyonisd'
+192901,REAGAN COUNTY ISD,youtube,https://www.youtube.com/channel/UCuQiVUZIAb3dBx8o0FeuPGg?view_as=subscriber,yt_channel_id:ucuqivuziab3dbx8o0feupgg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+193902,LEAKEY ISD,youtube,https://www.youtube.com/@leakeyindependentschooldis1664,yt_handle:leakeyindependentschooldis1664,1,KEEP,yt_handle:leakeyindependentschooldis1664 matches 'leakey'
+194902,AVERY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/761,boardbook:761,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+194903,RIVERCREST ISD,facebook_live,https://www.rivercrestisd.net/live-feed,website:rivercrestisd.net,1,KEEP,website:rivercrestisd.net matches 'rivercrestisd'
+195901,PECOS-BARSTOW-TOYAH ISD,swagit,https://pbtisd.new.swagit.com/views/477\\\,swagit:pbtisd,1,KEEP,swagit:pbtisd matches 'pbtisd'
+196901,AUSTWELL-TIVOLI ISD,facebook_live,https://www.atisd.net/live-feed,website:atisd.net,1,KEEP,website:atisd.net matches 'atisd'
+197902,MIAMI ISD,website_archive,https://www.miamiisd.net/school-board-home,website:miamiisd.net,1,KEEP,website:miamiisd.net matches 'miamiisd'
+198901,BREMOND ISD,website_archive,https://www.bremondisd.net/vnews/display.v/SEC/School%20Board,website:bremondisd.net,1,KEEP,website:bremondisd.net matches 'bremondisd'
+198903,FRANKLIN ISD,boardbook,https://www.franklinisd.net/234806_2,website:franklinisd.net,1,KEEP,website:franklinisd.net matches 'franklinisd'
+199901,ROCKWALL ISD,swagit,https://rockwallisdtx.new.swagit.com/views/631/,swagit:rockwallisdtx,1,KEEP,swagit:rockwallisdtx matches 'rockwallisd'
+199902,ROYSE CITY ISD,none_found,https://meetings.boardbook.org/Public/Organization/2210,boardbook:2210,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+200901,BALLINGER ISD,youtube,https://www.youtube.com/@ballingerisdyoutubechannel1661/streams,yt_handle:ballingerisdyoutubechannel1661,1,KEEP,yt_handle:ballingerisdyoutubechannel1661 matches 'ballinger'
+200902,MILES ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1337\\\,boardbook:1337,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+200904,WINTERS ISD,youtube,https://www.youtube.com/channel/UCOiE8GtbmkXn6CGM7jPtf-Q,yt_channel_id:ucoie8gtbmkxn6cgm7jptf-q,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+200906,OLFEN ISD,website_archive,https://www.olfenisd.net/school-board,website:olfenisd.net,1,KEEP,website:olfenisd.net matches 'olfenisd'
+201902,HENDERSON ISD,youtube,https://www.youtube.com/channel/UCejKggGIO7sD9hQuRuREbVA,yt_channel_id:ucejkgggio7sd9hqururebva,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+201903,LANEVILLE ISD,website_archive,https://www.lanevilleisd.org/334965_2,website:lanevilleisd.org,1,KEEP,website:lanevilleisd.org matches 'lanevilleisd'
+201904,LEVERETTS CHAPEL ISD,website_archive,https://www.leverettschapelisd.net/apps/pages/index.jsp?uREC_ID=4459667&type=d&pREC_ID=2723783,website:leverettschapelisd.net,1,KEEP,website:leverettschapelisd.net matches 'leverettschapelisd'
+201908,OVERTON ISD,youtube,https://www.youtube.com/@oisdathleticsmedia4487,yt_handle:oisdathleticsmedia4487,1,KEEP,yt_handle:oisdathleticsmedia4487 matches 'oisd'
+201910,TATUM ISD,youtube,https://www.youtube.com/channel/UCoXYKeyEQhjuEJ4K0gSBqeg/live,yt_channel_id:ucoxykeyeqhjuej4k0gsbqeg/live,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+201913,CARLISLE ISD,facebook_live,https://www.carlisleisd.org/live-feed,website:carlisleisd.org,1,KEEP,website:carlisleisd.org matches 'carlisleisd'
+202903,HEMPHILL ISD,website_archive,https://www.hemphillisd.net/,website:hemphillisd.net,1,KEEP,website:hemphillisd.net matches 'hemphillisd'
+202905,WEST SABINE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1141\,boardbook:1141,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+204904,SHEPHERD ISD,boardbook,https://meetings.boardbook.org/Public/Organization/673\,boardbook:673,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+205901,ARANSAS PASS ISD,youtube,https://www.youtube.com/@aransaspassisdpanthers,yt_handle:aransaspassisdpanthers,1,KEEP,yt_handle:aransaspassisdpanthers matches 'aransaspassisd'
+205902,GREGORY-PORTLAND ISD,youtube,https://www.youtube.com/channel/UCQmQy7F6UPazDriGB2jHDIQ,yt_channel_id:ucqmqy7f6upazdrigb2jhdiq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+205903,INGLESIDE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/787\,boardbook:787,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+205904,MATHIS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1007,boardbook:1007,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+205905,ODEM-EDROY ISD,website_archive,https://www.oeisd.org/,website:oeisd.org,1,KEEP,website:oeisd.org matches 'oeisd'
+205906,SINTON ISD,youtube,https://www.youtube.com/@SintonPirates,yt_handle:sintonpirates,1,KEEP,yt_handle:sintonpirates matches 'sinton'
+205907,TAFT ISD,boardbook,https://meetings.boardbook.org/Public/Organization/645\,boardbook:645,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+206903,CHEROKEE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1583\,boardbook:1583,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+208902,SNYDER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/936\\\,boardbook:936,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+209901,ALBANY ISD,website_archive,https://www.albanyisd.net/apps/pages/index.jsp?uREC_ID=582289&type=d&termREC_ID=&pREC_ID=1120002&hideMenu=0,website:albanyisd.net,1,KEEP,website:albanyisd.net matches 'albanyisd'
+210901,CENTER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/651,boardbook:651,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+210902,JOAQUIN ISD,website_archive,https://www.joaquinisd.net/live-feed,website:joaquinisd.net,1,KEEP,website:joaquinisd.net matches 'joaquinisd'
+210903,SHELBYVILLE ISD,website_archive,https://www.shelbyvilleisd.org/66659_3,website:shelbyvilleisd.org,1,KEEP,website:shelbyvilleisd.org matches 'shelbyvilleisd'
+210904,TENAHA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2082\\\,boardbook:2082,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+210905,TIMPSON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/3641,boardbook:3641,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+210906,EXCELSIOR ISD,facebook_live,https://www.excelsiorisd.com/live-feed,website:excelsiorisd.com,1,KEEP,website:excelsiorisd.com matches 'excelsiorisd'
+211901,TEXHOMA ISD,facebook_live,https://www.texhomaisd.net/live-feed,website:texhomaisd.net,1,KEEP,website:texhomaisd.net matches 'texhomaisd'
+211902,STRATFORD ISD,website_archive,https://www.stratfordisd.net/board-of-trustees,website:stratfordisd.net,1,KEEP,website:stratfordisd.net matches 'stratfordisd'
+212901,ARP ISD,youtube,https://www.youtube.com/channel/UCHE826SKETCAmlCWWLy5X6g,yt_channel_id:uche826sketcamlcwwly5x6g,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+212902,BULLARD ISD,youtube,https://www.youtube.com/channel/UCDwNg23atQP7q8z0Xx0WEFw,yt_channel_id:ucdwng23atqp7q8z0xx0wefw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+212904,TROUP ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1302,boardbook:1302,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+212905,TYLER ISD,youtube,https://www.youtube.com/channel/UCe-tG0wxadlexiQ2SO46c-w,yt_channel_id:uce-tg0wxadlexiq2so46c-w,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+212906,WHITEHOUSE ISD,youtube,https://www.youtube.com/channel/UCciry53rN9eZnf2wKN6HvDw,yt_channel_id:ucciry53rn9eznf2wkn6hvdw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+212909,CHAPEL HILL ISD,youtube,https://www.youtube.com/@chapelhilltxisd,yt_handle:chapelhilltxisd,1,KEEP,yt_handle:chapelhilltxisd matches 'chapelhill'
+212910,WINONA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/925\,boardbook:925,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+213901,GLEN ROSE ISD,panopto,https://www.grisd.net/o/grisd/page/board-trustees,website:grisd.net,1,KEEP,website:grisd.net matches 'grisd'
+214901,RIO GRANDE CITY GRULLA ISD,youtube,https://www.youtube.com/channel/UCdbVEA_AbS6M-FlEGc75LhQ,yt_channel_id:ucdbvea_abs6m-flegc75lhq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+214902,SAN ISIDRO ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2319,boardbook:2319,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+214903,ROMA ISD,none_found,https://www.romaisd.org,website:romaisd.org,1,KEEP,website:romaisd.org matches 'romaisd'
+215901,BRECKENRIDGE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1647,boardbook:1647,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+216901,STERLING CITY ISD,website_archive,https://www.sterlingcityisd.net/live-feed,website:sterlingcityisd.net,1,KEEP,website:sterlingcityisd.net matches 'sterlingcityisd'
+217901,ASPERMONT ISD,website_archive,https://www.aspermontisd.com/page/board.home,website:aspermontisd.com,1,KEEP,website:aspermontisd.com matches 'aspermontisd'
+218901,SONORA ISD,boardbook,https://login.boardbook.org,boardbook:,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+219901,HAPPY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2251,boardbook:2251,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+220810,WESTLAKE ACADEMY CHARTER SCHOOL,youtube,https://www.youtube.com/channel/UCYsRqpnyYgAxiCypNO3fZjw,yt_channel_id:ucysrqpnyygaxicypno3fzjw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+220901,ARLINGTON ISD,website_archive,https://www.aisd.net/district/board/meetings/archive/,website:aisd.net,1,KEEP,website:aisd.net matches 'aisd'
+220902,BIRDVILLE ISD,none_found,https://meetings.boardbook.org/Public/Organization/1404,boardbook:1404,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+220904,EVERMAN ISD,none_found,https://meetings.boardbook.org/public/Organization/1454,boardbook:1454,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+220905,FORT WORTH ISD,granicus,https://fortworthisd.granicus.com/,granicus:fortworthisd,1,KEEP,granicus:fortworthisd matches 'fortworthisd'
+220906,GRAPEVINE-COLLEYVILLE ISD,website_archive,https://www.gcisd.net/page/meeting-agendas-board-summaries-minutes-and-videos,website:gcisd.net,1,KEEP,website:gcisd.net matches 'gcisd'
+220907,KELLER ISD,youtube,https://www.youtube.com/kellerisd,yt_other:kellerisd,1,KEEP,yt_other:kellerisd matches 'kellerisd'
+220908,MANSFIELD ISD,swagit,https://mansfieldisd.new.swagit.com/,swagit:mansfieldisd,1,KEEP,swagit:mansfieldisd matches 'mansfieldisd'
+220910,LAKE WORTH ISD,youtube,https://www.youtube.com/channel/UCF5x_ejy5ldHIAxrsdERaLw,yt_channel_id:ucf5x_ejy5ldhiaxrsderalw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+220912,CROWLEY ISD,none_found,https://meetings.boardbook.org/Public/Organization/842,boardbook:842,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+220914,KENNEDALE ISD,youtube,https://www.youtube.com/kennedaleisd,yt_other:kennedaleisd,1,KEEP,yt_other:kennedaleisd matches 'kennedaleisd'
+220915,AZLE ISD,youtube,https://www.youtube.com/user/azleisd,yt_user:azleisd,1,KEEP,yt_user:azleisd matches 'azleisd'
+220916,HURST-EULESS-BEDFORD ISD,youtube,https://www.hebisd.edu/community/student-safety-task-force/meetings,website:hebisd.edu,1,KEEP,website:hebisd.edu matches 'hebisd'
+220917,CASTLEBERRY ISD,youtube,https://www.youtube.com/user/CastleberryISD,yt_user:castleberryisd,1,KEEP,yt_user:castleberryisd matches 'castleberryisd'
+220918,EAGLE MT-SAGINAW ISD,website_archive,https://www.emsisd.com/about-ems-isd/board-of-education/board-meeting-notices-agendas-minutes-and-videos,website:emsisd.com,1,KEEP,website:emsisd.com matches 'emsisd'
+220919,CARROLL ISD,swagit,https://carrollisdtx.new.swagit.com/,swagit:carrollisdtx,1,KEEP,swagit:carrollisdtx matches 'carrollisd'
+220920,WHITE SETTLEMENT ISD,youtube,http://www.youtube.com/@whitesettlementisd3430,yt_handle:whitesettlementisd3430,1,KEEP,yt_handle:whitesettlementisd3430 matches 'whitesettlementisd'
+221901,ABILENE ISD,youtube,https://www.youtube.com/@abileneisdtx,yt_handle:abileneisdtx,1,KEEP,yt_handle:abileneisdtx matches 'abileneisd'
+221904,MERKEL ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1399,boardbook:1399,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+221905,TRENT ISD,facebook_live,https://www.trentisd.org/live-feed,website:trentisd.org,1,KEEP,website:trentisd.org matches 'trentisd'
+221912,WYLIE ISD,youtube,https://www.youtube.com/channel/UCuG_iZEr3BTmr8H7Ou5Lrjw,yt_channel_id:ucug_izer3btmr8h7ou5lrjw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+223901,BROWNFIELD ISD,boardbook,https://www.brownfieldisd.net/school-board,website:brownfieldisd.net,1,KEEP,website:brownfieldisd.net matches 'brownfieldisd'
+223902,MEADOW ISD,facebook_live,https://www.meadowisd.net/live-feed,website:meadowisd.net,1,KEEP,website:meadowisd.net matches 'meadowisd'
+224902,WOODSON ISD,website_archive,https://www.woodsonisd.net/board-of-trustees,website:woodsonisd.net,1,KEEP,website:woodsonisd.net matches 'woodsonisd'
+225902,MOUNT PLEASANT ISD,boardbook,https://meetings.boardbook.org/Public/Organization/768,boardbook:768,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+225906,CHAPEL HILL ISD,youtube,https://www.youtube.com/channel/UC-8CkSNjV6RNQLVTOAgJDjw,yt_channel_id:uc-8cksnjv6rnqlvtoagjdjw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+225907,HARTS BLUFF ISD,boardbook,https://meetings.boardbook.org/Public/Organization/937,boardbook:937,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+226901,CHRISTOVAL ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1754\,boardbook:1754,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+226903,SAN ANGELO ISD,youtube,https://www.youtube.com/channel/UCfkXbyvLHiJVSo8_dSUFKQw,yt_channel_id:ucfkxbyvlhijvso8_dsufkqw,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+226905,WATER VALLEY ISD,panopto,https://www.wvisd.net/live-feed,website:wvisd.net,1,KEEP,website:wvisd.net matches 'wvisd'
+226906,WALL ISD,website_archive,https://www.wallisd.net/live-feed,website:wallisd.net,1,KEEP,website:wallisd.net matches 'wallisd'
+226907,GRAPE CREEK ISD,website_archive,https://www.grapecreekisd.net/apps/pages/OurSchoolBoard,website:grapecreekisd.net,1,KEEP,website:grapecreekisd.net matches 'grapecreekisd'
+226908,VERIBEST ISD,youtube,https://www.youtube.com/channel/UCdGn8afsQ9uhXIG_b_-FQ-g,yt_channel_id:ucdgn8afsq9uhxig_b_-fq-g,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+227901,AUSTIN ISD,youtube,https://www.youtube.com/austinisd,yt_other:austinisd,1,KEEP,yt_other:austinisd matches 'austinisd'
+227907,MANOR ISD,youtube,https://www.youtube.com/@manorisdtv,yt_handle:manorisdtv,1,KEEP,yt_handle:manorisdtv matches 'manorisd'
+227909,EANES ISD,none_found,https://meetings.boardbook.org/Public/Organization/1090,boardbook:1090,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+227910,DEL VALLE ISD,swagit,https://delvalleisdtx.new.swagit.com/,swagit:delvalleisdtx,1,KEEP,swagit:delvalleisdtx matches 'delvalleisd'
+227912,LAGO VISTA ISD,none_found,https://www.lagovistaisd.net/page/board.agendas,website:lagovistaisd.net,1,KEEP,website:lagovistaisd.net matches 'lagovistaisd'
+227913,LAKE TRAVIS ISD,swagit,https://laketravisisdtx.new.swagit.com/,swagit:laketravisisdtx,1,KEEP,swagit:laketravisisdtx matches 'laketravisisd'
+228901,GROVETON ISD,youtube,https://www.youtube.com/@grovetonisd8652,yt_handle:grovetonisd8652,1,KEEP,yt_handle:grovetonisd8652 matches 'grovetonisd'
+228903,TRINITY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/735,boardbook:735,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+229901,COLMESNEIL ISD,facebook_live,https://www.colmesneilisd.net/live-feed,website:colmesneilisd.net,1,KEEP,website:colmesneilisd.net matches 'colmesneilisd'
+229904,WARREN ISD,facebook_live,https://www.warrenisd.net/live-feed,website:warrenisd.net,1,KEEP,website:warrenisd.net matches 'warrenisd'
+229905,SPURGER ISD,youtube,https://www.youtube.com/channel/UC9U6u43EzKDrYhwG9V-1aMQ/playlists,yt_channel_id:uc9u6u43ezkdryhwg9v-1amq/playlists,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+229906,CHESTER ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2687\,boardbook:2687,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+230901,BIG SANDY ISD,facebook_live,https://www.bigsandyisd.org/live-feed,website:bigsandyisd.org,1,KEEP,website:bigsandyisd.org matches 'bigsandyisd'
+230902,GILMER ISD,website_archive,https://www.gilmerisd.org/schoolboard,website:gilmerisd.org,1,KEEP,website:gilmerisd.org matches 'gilmerisd'
+230903,ORE CITY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1878,boardbook:1878,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+230904,UNION HILL ISD,website_archive,https://www.uhisd.com/290907_2,website:uhisd.com,1,KEEP,website:uhisd.com matches 'uhisd'
+230905,HARMONY ISD,boardbook,https://meetings.boardbook.org/Public/Organization/942\,boardbook:942,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+230906,NEW DIANA ISD,youtube,https://www.youtube.com/channel/UCyVzqQ-glT5qXx_8nJwjViQ,yt_channel_id:ucyvzqq-glt5qxx_8njwjviq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+230908,UNION GROVE ISD,youtube,https://www.youtube.com/channel/UC8llxfL_mlFp_6ZI8e9amDg,yt_channel_id:uc8llxfl_mlfp_6zi8e9amdg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+231902,RANKIN ISD,diligent,https://www.rankinisd.net/live-feed,website:rankinisd.net,1,KEEP,website:rankinisd.net matches 'rankinisd'
+232902,SABINAL ISD,website_archive,https://www.sabinalisd.net/school-board,website:sabinalisd.net,1,KEEP,website:sabinalisd.net matches 'sabinalisd'
+232903,UVALDE CISD,youtube,https://www.youtube.com/channel/UCnOZk0kBTBwrhttV-Qqm9Ng,yt_channel_id:ucnozk0kbtbwrhttv-qqm9ng,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+232904,UTOPIA ISD,facebook_live,https://www.utopiaisd.net/live-feed,website:utopiaisd.net,1,KEEP,website:utopiaisd.net matches 'utopiaisd'
+233901,SAN FELIPE-DEL RIO CISD,youtube,https://www.youtube.com/channel/UCsKw-67hNZK1mp8DHIKADIQ,yt_channel_id:ucskw-67hnzk1mp8dhikadiq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+233903,COMSTOCK ISD,website_archive,https://www.comstockisd.net/boardoftrustees,website:comstockisd.net,1,KEEP,website:comstockisd.net matches 'comstockisd'
+234902,CANTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2194,boardbook:2194,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+234903,EDGEWOOD ISD,youtube,https://www.youtube.com/@EISDLiveBroadcasts,yt_handle:eisdlivebroadcasts,1,KEEP,yt_handle:eisdlivebroadcasts matches 'eisd'
+234904,GRAND SALINE ISD,website_archive,https://www.grandsalineisd.net/page/board.home,website:grandsalineisd.net,1,KEEP,website:grandsalineisd.net matches 'grandsalineisd'
+234905,MARTINS MILL ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2240,boardbook:2240,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+234906,VAN ISD,youtube,https://www.youtube.com/channel/UCM6DyXzmerHeZrKOvyRcCtg,yt_channel_id:ucm6dyxzmerhezrkovyrcctg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+234909,FRUITVALE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1938,boardbook:1938,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+235902,VICTORIA ISD,swagit,https://victoriaisdtx.new.swagit.com/,swagit:victoriaisdtx,1,KEEP,swagit:victoriaisdtx matches 'victoriaisd'
+235904,NURSERY ISD,website_archive,https://www.nurseryisd.org/school-board,website:nurseryisd.org,1,KEEP,website:nurseryisd.org matches 'nurseryisd'
+236901,NEW WAVERLY ISD,facebook_live,https://www.nwisd.net/live-feed,website:nwisd.net,1,KEEP,website:nwisd.net matches 'nwisd'
+236902,HUNTSVILLE ISD,swagit,https://huntsvilletx.new.swagit.com/,swagit:huntsvilletx,1,KEEP,swagit:huntsvilletx matches 'huntsville'
+237902,HEMPSTEAD ISD,youtube,https://www.youtube.com/channel/UCpjq-blif4pLXqq18CTh-Ug,yt_channel_id:ucpjq-blif4plxqq18cth-ug,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+237904,WALLER ISD,youtube,https://www.youtube.com/channel/UC6uAvDy0prgFwT9PS6f3HVQ,yt_channel_id:uc6uavdy0prgfwt9ps6f3hvq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+239901,BRENHAM ISD,youtube,https://www.youtube.com/c/BrenhamISD,yt_c:brenhamisd,1,KEEP,yt_c:brenhamisd matches 'brenhamisd'
+239903,BURTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2593\,boardbook:2593,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+240901,LAREDO ISD,youtube,https://www.youtube.com/c/LAREDOISDITV,yt_c:laredoisditv,1,KEEP,yt_c:laredoisditv matches 'laredo'
+240903,UNITED ISD,website_archive,https://www.uisd.net/619265_3,website:uisd.net,1,KEEP,website:uisd.net matches 'uisd'
+241901,BOLING ISD,website_archive,https://www.bolingisd.net/apps/pages/index.jsp?uREC_ID=1173818&type=d&pREC_ID=1421966,website:bolingisd.net,1,KEEP,website:bolingisd.net matches 'bolingisd'
+241902,EAST BERNARD ISD,youtube,https://www.youtube.com/@eastbernardisdbrahmas1093,yt_handle:eastbernardisdbrahmas1093,1,KEEP,yt_handle:eastbernardisdbrahmas1093 matches 'eastbernard'
+241903,EL CAMPO ISD,youtube,https://www.youtube.com/c/ElCampoRicebirds,yt_c:elcamporicebirds,1,KEEP,yt_c:elcamporicebirds matches 'campo'
+241904,WHARTON ISD,youtube,https://www.youtube.com/channel/UC0XDlA7nnJsfMBdVR0YM9eg,yt_channel_id:uc0xdla7nnjsfmbdvr0ym9eg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+241906,LOUISE ISD,youtube,https://www.youtube.com/@louiseindependentschooldis425,yt_handle:louiseindependentschooldis425,1,KEEP,yt_handle:louiseindependentschooldis425 matches 'louise'
+242902,SHAMROCK ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2330,boardbook:2330,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+242903,WHEELER ISD,youtube,https://www.youtube.com/@CamdenDorrisWheelerHighschoolS,yt_handle:camdendorriswheelerhighschools,1,KEEP,yt_handle:camdendorriswheelerhighschools matches 'wheeler'
+242905,KELTON ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2321,boardbook:2321,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+243901,BURKBURNETT ISD,youtube,https://www.youtube.com/@burkburnettisd,yt_handle:burkburnettisd,1,KEEP,yt_handle:burkburnettisd matches 'burkburnettisd'
+243902,ELECTRA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2552,boardbook:2552,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+243905,WICHITA FALLS ISD,swagit,https://wichitafallsisdtx.new.swagit.com/views/617/,swagit:wichitafallsisdtx,1,KEEP,swagit:wichitafallsisdtx matches 'wichitafallsisd'
+244903,VERNON ISD,youtube,https://www.youtube.com/@vernonisd7576,yt_handle:vernonisd7576,1,KEEP,yt_handle:vernonisd7576 matches 'vernonisd'
+244905,NORTHSIDE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2695,boardbook:2695,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+245901,LASARA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2296\,boardbook:2296,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+245903,RAYMONDVILLE ISD,youtube,https://www.youtube.com/@raymondvilleisd,yt_handle:raymondvilleisd,1,KEEP,yt_handle:raymondvilleisd matches 'raymondvilleisd'
+245904,SAN PERLITA ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2203,boardbook:2203,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+246902,FLORENCE ISD,boardbook,https://meetings.boardbook.org/Public/Organization/677,boardbook:677,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+246904,GEORGETOWN ISD,none_found,https://www.georgetownisd.org/,website:georgetownisd.org,1,KEEP,website:georgetownisd.org matches 'georgetownisd'
+246905,GRANGER ISD,youtube,https://www.youtube.com/@grangerlions4247,yt_handle:grangerlions4247,1,KEEP,yt_handle:grangerlions4247 matches 'granger'
+246906,HUTTO ISD,swagit,https://huttoisdtx.new.swagit.com/,swagit:huttoisdtx,1,KEEP,swagit:huttoisdtx matches 'huttoisd'
+246907,JARRELL ISD,none_found,https://www.jarrellisd.org/Page/63,website:jarrellisd.org,1,KEEP,website:jarrellisd.org matches 'jarrellisd'
+246908,LIBERTY HILL ISD,swagit,https://libertyhilltx.new.swagit.com/,swagit:libertyhilltx,1,KEEP,swagit:libertyhilltx matches 'libertyhill'
+246909,ROUND ROCK ISD,youtube,https://www.youtube.com/user/RoundRockISDVideo,yt_user:roundrockisdvideo,1,KEEP,yt_user:roundrockisdvideo matches 'roundrock'
+246911,TAYLOR ISD,youtube,https://www.youtube.com/@taylorisdstream7564,yt_handle:taylorisdstream7564,1,KEEP,yt_handle:taylorisdstream7564 matches 'taylor'
+246912,THRALL ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1024&amp;sa=D&amp;source=calendar&amp;ust=1773860169270731&amp;usg=AOvVaw0qY-BM6uvP1vyeHdL9Xg1j\\\,boardbook:1024,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+246913,LEANDER ISD,website_archive,https://mediaspace.leanderisd.org/playlist/dedicated/36948912/1_1xfxrstf/,website:mediaspace.leanderisd.org,1,KEEP,website:mediaspace.leanderisd.org matches 'leanderisd'
+246914,COUPLAND ISD,youtube,https://www.youtube.com/channel/UCkW875K-bFNivXwdEszkZOA,yt_channel_id:uckw875k-bfnivxwdeszkzoa,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+247904,POTH ISD,youtube,https://www.youtube.com/@pothisd7325/streams,yt_handle:pothisd7325,1,KEEP,yt_handle:pothisd7325 matches 'pothisd'
+247906,STOCKDALE ISD,youtube,https://www.youtube.com/channel/UCHqRI4LTL4aRv9FbsduvF2w,yt_channel_id:uchqri4ltl4arv9fbsduvf2w,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+248901,KERMIT ISD,facebook_live,https://www.kermitisd.org/live-feed,website:kermitisd.org,1,KEEP,website:kermitisd.org matches 'kermitisd'
+248902,WINK-LOVING ISD,boardbook,https://meetings.boardbook.org/Public/Organization/1184,boardbook:1184,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+249901,ALVORD ISD,website_archive,https://www.alvordisd.net/schoolboard,website:alvordisd.net,1,KEEP,website:alvordisd.net matches 'alvordisd'
+249902,BOYD ISD,youtube,https://www.youtube.com/@boydisd,yt_handle:boydisd,1,KEEP,yt_handle:boydisd matches 'boydisd'
+249903,BRIDGEPORT ISD,youtube,https://www.youtube.com/channel/UCebltDBM896bW1GXJUgRAZg,yt_channel_id:ucebltdbm896bw1gxjugrazg,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+249905,DECATUR ISD,youtube,https://www.youtube.com/@decaturisdcommunications3244?app=desktop,yt_handle:decaturisdcommunications3244,1,KEEP,yt_handle:decaturisdcommunications3244 matches 'decatur'
+249906,PARADISE ISD,youtube,https://www.youtube.com/channel/UCQvanzZGkDqWK4kefUtsf6g,yt_channel_id:ucqvanzzgkdqwk4kefutsf6g,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+249908,SLIDELL ISD,boardbook,https://meetings.boardbook.org/Public/Organization/2602,boardbook:2602,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+250902,HAWKINS ISD,boardbook,https://meetings.boardbook.org/Public/Organization/678,boardbook:678,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+250903,MINEOLA ISD,facebook_live,https://www.mineolaisd.net/live-feed,website:mineolaisd.net,1,KEEP,website:mineolaisd.net matches 'mineolaisd'
+250904,QUITMAN ISD,youtube,https://www.youtube.com/@quitmanisd82,yt_handle:quitmanisd82,1,KEEP,yt_handle:quitmanisd82 matches 'quitmanisd'
+250906,ALBA-GOLDEN ISD,youtube,https://www.youtube.com/channel/UCJHkfbZimOC73BN-yIL34MQ,yt_channel_id:ucjhkfbzimoc73bn-yil34mq,1,REVIEW,"yt_channel_id URL is platform-generic, cannot be verified from URL alone"
+250907,WINNSBORO ISD,facebook_live,https://www.winnsboroisd.org/live-feed,website:winnsboroisd.org,1,KEEP,website:winnsboroisd.org matches 'winnsboroisd'
+251901,DENVER CITY ISD,boardbook,https://www.dcisd.org/district/school-board,website:dcisd.org,1,KEEP,website:dcisd.org matches 'dcisd'
+251902,PLAINS ISD,youtube,https://www.youtube.com/@plainsisdsports5716,yt_handle:plainsisdsports5716,1,KEEP,yt_handle:plainsisdsports5716 matches 'plains'
+252901,GRAHAM ISD,boardbook,https://meetings.boardbook.org/Public/Organization/800,boardbook:800,1,REVIEW,"boardbook URL is platform-generic, cannot be verified from URL alone"
+252902,NEWCASTLE ISD,boardbook,https://www.newcastleisd.net/school-board,website:newcastleisd.net,1,KEEP,website:newcastleisd.net matches 'newcastleisd'
+252903,OLNEY ISD,website_archive,https://www.olneyisd.net/69690_2,website:olneyisd.net,1,KEEP,website:olneyisd.net matches 'olneyisd'
+253901,ZAPATA COUNTY ISD,website_archive,https://www.zcisd.org/board-of-trustees,website:zcisd.org,1,KEEP,website:zcisd.org matches 'zcisd'
+254901,CRYSTAL CITY ISD,youtube,https://www.youtube.com/@crystalcityisd78839/streams,yt_handle:crystalcityisd78839,1,KEEP,yt_handle:crystalcityisd78839 matches 'crystalcityisd'
+254902,LA PRYOR ISD,youtube,https://www.youtube.com/@lapryorisd,yt_handle:lapryorisd,1,KEEP,yt_handle:lapryorisd matches 'lapryorisd'

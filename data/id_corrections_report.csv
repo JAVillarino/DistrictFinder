@@ -1,0 +1,48 @@
+old_id,correct_id,district_name,county,confidence,notes
+015903,015911,East Central ISD,Bexar County,high,Exact match in correct county
+031902,170904,Willis ISD,Montgomery County,high,Exact match in correct county
+031907,170903,Montgomery ISD,Montgomery County,high,Exact match in correct county
+057908,057906,DeSoto ISD,Dallas County,high,Exact match in correct county
+057915,057904,Cedar Hill ISD,Dallas County,high,Exact match in correct county
+057917,221912,Wylie ISD,Collin County,low,"No county match, using best overall (100%)"
+057918,188903,Highland Park ISD,Dallas County,low,"No county match, using best overall (100%)"
+057920,057922,Coppell ISD,Dallas County,high,Exact match in correct county
+057921,057919,Sunnyvale ISD,Dallas County,high,Exact match in correct county
+071910,071905,Ysleta ISD,El Paso County,high,Exact match in correct county
+079902,079910,Stafford MSD,Fort Bend County,high,Exact match in correct county
+079903,020901,Alvin ISD,Brazoria County,high,Exact match in correct county
+079904,020902,Angleton ISD,Brazoria County,high,Exact match in correct county
+079905,020905,Brazosport ISD,Brazoria County,high,Exact match in correct county
+079908,020908,Pearland ISD,Brazoria County,high,Exact match in correct county
+079909,079906,Needville ISD,Fort Bend County,high,Exact match in correct county
+079911,020904,Danbury ISD,Brazoria County,high,Exact match in correct county
+101901,146902,Baytown ISD,Harris County,low,"No county match, using best overall (86%)"
+101904,101916,La Porte ISD,Harris County,high,Exact match in correct county
+101909,084911,Friendswood ISD,Galveston County,high,Exact match in correct county
+101918,101924,Sheldon ISD,Harris County,high,Exact match in correct county
+101922,084908,Hitchcock ISD,Galveston County,high,Exact match in correct county
+101923,101906,Crosby ISD,Harris County,high,Exact match in correct county
+101926,101921,Tomball ISD,Montgomery County,low,"No county match, using best overall (100%)"
+101927,101919,Spring ISD,Harris County,high,Exact match in correct county
+157905,092903,Longview ISD,Gregg County,high,Exact match in correct county
+161902,043901,Allen ISD,Collin County,high,Exact match in correct county
+161904,043911,Princeton ISD,Collin County,high,Exact match in correct county
+161911,043918,Community ISD,Collin County,high,Exact match in correct county
+161913,199902,Royse City ISD,Rockwall County,high,Exact match in correct county
+161915,199901,Rockwall ISD,Rockwall County,high,Exact match in correct county
+161917,043919,Lovejoy ISD,Collin County,high,Exact match in correct county
+164925,036902,Barbers Hill ISD,Chambers County,high,Exact match in correct county
+165906,043907,McKinney ISD,Collin County,high,Exact match in correct county
+174905,031912,San Benito CISD,Cameron County,high,Exact match in correct county
+174907,031909,Point Isabel ISD,Cameron County,high,Exact match in correct county
+178911,014908,Salado ISD,Bell County,high,Exact match in correct county
+220903,184907,Aledo ISD,Parker County,high,Exact match in correct county
+220909,220906,Grapevine-Colleyville ISD,Tarrant County,high,Exact match in correct county
+220911,111901,Granbury ISD,Hood County,high,Exact match in correct county
+227902,126902,Burleson ISD,Tarrant County,low,"No county match, using best overall (100%)"
+227903,126905,Joshua ISD,Johnson County,high,Exact match in correct county
+227905,126903,Cleburne ISD,Johnson County,high,Exact match in correct county
+227908,220904,Everman ISD,Tarrant County,high,Exact match in correct county
+246901,246909,Round Rock ISD,Williamson County,high,Exact match in correct county
+246903,105906,Hays CISD,Hays County,high,Exact match in correct county
+246910,246911,Taylor ISD,Williamson County,high,Exact match in correct county

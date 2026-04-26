@@ -1,0 +1,200 @@
+district_id,district_name,county,enrollment,status,notes
+015903,East Central ISD,Bexar,11000,processed,
+015904,Southside ISD,Bexar,6000,processed,
+015905,Harlandale ISD,Bexar,14000,pending,DUPLICATE_REMOVED: Conflicting ID 015912 also exists in input
+015907,San Antonio ISD,Bexar,46000,processed,
+015908,South San Antonio ISD,Bexar,9000,processed,
+015909,Somerset ISD,Bexar,6000,processed,
+015910,North East ISD,Bexar,67000,processed,
+015911,Northside ISD,Bexar,10000,pending,DUPLICATE_NAME: Different district from 015915 with same name
+015912,Harlandale ISD,Bexar,14000,processed,DUPLICATE_NAME: Conflicting with ID 015905
+015913,Edgewood ISD,Bexar,11000,processed,Primary entry for Edgewood ISD
+015914,Schertz-Cibolo-Universal City ISD,Guadalupe,16000,processed,
+015915,Northside ISD,Bexar,98000,processed,Primary Northside ISD (largest district)
+015916,Judson ISD,Bexar,43000,processed,Primary entry for Judson ISD
+015917,Southwest ISD,Bexar,33000,processed,Primary entry for Southwest ISD
+015918,Southwest ISD,Bexar,33000,pending,DUPLICATE_NAME: Conflicting with ID 015917
+015919,Edgewood ISD,Bexar,11000,pending,DUPLICATE_NAME: Conflicting with ID 015913
+019901,Beaumont ISD,Jefferson,19000,processed,
+019902,Port Arthur ISD,Jefferson,8000,processed,
+020905,Waco ISD,McLennan,20000,processed,
+031901,Conroe ISD,Montgomery,72000,processed,
+031902,Willis ISD,Montgomery,15000,processed,
+031905,Splendora ISD,Montgomery,4000,processed,
+031906,New Caney ISD,Montgomery,20000,processed,
+031907,Montgomery ISD,Montgomery,11000,processed,
+031909,Magnolia ISD,Montgomery,15000,processed,
+057903,Coppell ISD,Dallas,13000,pending,DUPLICATE_NAME: Conflicting with ID 057920
+057904,Cedar Hill ISD,Dallas,9000,pending,DUPLICATE_NAME: Conflicting with ID 057915
+057905,Dallas ISD,Dallas,145000,processed,
+057906,Richardson ISD,Dallas,54000,pending,Not found in output file
+057907,Duncanville ISD,Dallas,13000,processed,Primary entry for Duncanville ISD
+057908,DeSoto ISD,Dallas,9000,processed,Primary entry for DeSoto ISD
+057909,Irving ISD,Dallas,34000,processed,
+057910,Mesquite ISD,Dallas,35000,processed,Primary entry for Mesquite ISD
+057911,Desoto ISD,Dallas,9000,processed,DUPLICATE_NAME: Alternate spelling of DeSoto ISD
+057912,Garland ISD,Dallas,70000,processed,Primary entry for Garland ISD
+057913,Duncanville ISD,Dallas,13000,pending,DUPLICATE_NAME: Conflicting with ID 057907
+057914,Carrollton-Farmers Branch ISD,Dallas,30000,processed,Primary entry for CFBISD
+057915,Cedar Hill ISD,Dallas,9000,processed,Primary entry for Cedar Hill ISD
+057916,Plano ISD,Collin,51000,processed,Primary entry for Plano ISD
+057917,Wylie ISD,Collin,18000,processed,Wylie ISD in Collin County
+057918,Highland Park ISD,Dallas,7000,processed,
+057919,Lancaster ISD,Dallas,7000,processed,
+057920,Coppell ISD,Dallas,13000,processed,Primary entry for Coppell ISD
+057921,Sunnyvale ISD,Dallas,1000,pending,Not found in output file
+068901,Ector County ISD,Ector,35000,processed,
+070901,Corpus Christi ISD,Nueces,38000,processed,
+071902,El Paso ISD,El Paso,52000,processed,
+071903,Ysleta ISD,El Paso,40000,pending,DUPLICATE_NAME: Conflicting with ID 071910
+071904,Clint ISD,El Paso,12000,processed,
+071905,Socorro ISD,El Paso,46000,processed,
+071906,Fabens ISD,El Paso,2000,processed,
+071907,San Elizario ISD,El Paso,4000,processed,
+071908,Canutillo ISD,El Paso,6000,processed,
+071909,Anthony ISD,El Paso,1000,pending,Not found in output file
+071910,Ysleta ISD,El Paso,40000,processed,Primary entry for Ysleta ISD
+079901,Lamar Consolidated ISD,Fort Bend,42000,processed,
+079902,Stafford MSD,Fort Bend,4000,processed,Primary entry for Stafford MSD
+079903,Alvin ISD,Brazoria,25000,processed,
+079904,Angleton ISD,Brazoria,5000,processed,
+079905,Brazosport ISD,Brazoria,12000,processed,
+079906,Columbia-Brazoria ISD,Brazoria,3000,processed,
+079907,Fort Bend ISD,Fort Bend,94000,processed,
+079908,Pearland ISD,Brazoria,23000,processed,
+079909,Needville ISD,Fort Bend,2000,processed,Primary entry for Needville ISD
+079910,Sweeny ISD,Brazoria,2000,processed,
+079911,Danbury ISD,Brazoria,1000,processed,
+079912,Stafford MSD,Fort Bend,4000,pending,DUPLICATE_NAME: Conflicting with ID 079902
+079913,Needville ISD,Fort Bend,2000,pending,DUPLICATE_NAME: Conflicting with ID 079909
+084902,Amarillo ISD,Potter,28000,processed,
+101901,Baytown ISD,Harris,20000,processed,Note: Area served by Goose Creek CISD
+101902,Aldine ISD,Harris,66000,processed,Primary entry for Aldine ISD
+101903,Alief ISD,Harris,42000,processed,
+101904,La Porte ISD,Harris,8000,processed,
+101905,Channelview ISD,Harris,10000,processed,
+101906,Goose Creek CISD,Harris,25000,processed,
+101907,Spring Branch ISD,Harris,35000,processed,
+101908,Clear Creek ISD,Galveston,42000,processed,
+101909,Friendswood ISD,Galveston,6000,processed,
+101910,Deer Park ISD,Harris,14000,processed,
+101911,Galena Park ISD,Harris,22000,processed,Primary entry for Galena Park ISD
+101912,Houston ISD,Harris,187000,processed,
+101913,Pasadena ISD,Harris,48000,processed,
+101914,Katy ISD,Harris,67000,processed,
+101915,Dickinson ISD,Galveston,10000,processed,
+101916,Santa Fe ISD,Galveston,5000,processed,
+101917,Cypress-Fairbanks ISD,Harris,94000,processed,
+101918,Sheldon ISD,Harris,8000,processed,Primary entry for Sheldon ISD
+101919,Humble ISD,Harris,47000,processed,Primary entry for Humble ISD
+101920,Klein ISD,Harris,51000,processed,
+101921,Texas City ISD,Galveston,6000,processed,
+101922,Hitchcock ISD,Galveston,2000,processed,
+101923,Crosby ISD,Harris,6000,processed,
+101924,Huffman ISD,Harris,3000,processed,
+101925,Barbers Hill ISD,Chambers,7000,pending,Not found in output - see 164925
+101926,Tomball ISD,Harris,18000,processed,
+101927,Spring ISD,Harris,37000,processed,
+101928,Aldine ISD,Harris,66000,pending,DUPLICATE_NAME: Conflicting with ID 101902
+101929,Humble ISD,Harris,47000,pending,DUPLICATE_NAME: Conflicting with ID 101919
+101930,Sheldon ISD,Harris,8000,processed,DUPLICATE_NAME: Conflicting with ID 101918
+101931,Galena Park ISD,Harris,22000,pending,DUPLICATE_NAME: Conflicting with ID 101911
+108902,Frisco ISD,Collin,67000,processed,DUPLICATE_NAME: Conflicting with ID 161914
+108903,Aubrey ISD,Denton,4000,processed,
+108904,Little Elm ISD,Denton,28000,processed,
+108905,Prosper ISD,Denton,15000,pending,DUPLICATE_NAME: Conflicting with ID 161909
+108906,Denton ISD,Denton,49000,processed,
+108907,Carrollton-Farmers Branch ISD,Denton,4000,processed,DUPLICATE_CONCERN: Different enrollment and county than 057914
+108908,Pilot Point ISD,Denton,2000,processed,
+108909,Argyle ISD,Denton,6000,processed,
+108910,Lake Dallas ISD,Denton,5000,processed,
+108911,Ponder ISD,Denton,1500,processed,
+108912,Northwest ISD,Denton,33000,pending,DUPLICATE_NAME: Different county than 220912
+108913,Carrollton-Farmers Branch ISD,Dallas,30000,pending,DUPLICATE_NAME: Conflicting with ID 057914
+108914,Lewisville ISD,Denton,51000,processed,
+108915,Sanger ISD,Denton,4000,processed,
+108916,Krum ISD,Denton,2000,processed,
+137902,Lubbock ISD,Lubbock,29000,processed,
+157905,Longview ISD,Gregg,7000,processed,
+161902,Allen ISD,Collin,23000,processed,
+161903,Wylie ISD,Rockwall,8000,processed,Wylie ISD in Rockwall County - distinct from Collin
+161904,Princeton ISD,Collin,8000,processed,
+161905,Garland ISD,Dallas,70000,pending,DUPLICATE_NAME: Conflicting with ID 057912
+161906,Mesquite ISD,Dallas,35000,pending,DUPLICATE_NAME: Conflicting with ID 057910
+161907,Plano ISD,Collin,51000,processed,DUPLICATE_NAME: Conflicting with ID 057916
+161908,Celina ISD,Collin,11000,processed,
+161909,Prosper ISD,Collin,27000,processed,Primary entry for Prosper ISD
+161910,Melissa ISD,Collin,5000,processed,
+161911,Community ISD,Collin,3000,processed,
+161912,Farmersville ISD,Collin,3000,processed,
+161913,Royse City ISD,Rockwall,5000,processed,
+161914,Frisco ISD,Collin,67000,processed,Primary entry for Frisco ISD
+161915,Rockwall ISD,Rockwall,9000,processed,
+161916,Anna ISD,Collin,7000,processed,
+161917,Lovejoy ISD,Collin,5000,processed,
+161918,Wylie ISD,Collin,18000,processed,DUPLICATE_NAME: Third Wylie ISD entry
+164925,Barbers Hill ISD,Chambers,7000,processed,Correct ID for Barbers Hill ISD
+165906,McKinney ISD,Collin,38000,processed,
+170902,Midland ISD,Midland,26000,processed,
+174901,Harlingen CISD,Cameron,18000,processed,
+174902,Brownsville ISD,Cameron,40000,processed,
+174903,Los Fresnos CISD,Cameron,7000,processed,
+174904,La Feria ISD,Cameron,3000,processed,
+174905,San Benito CISD,Cameron,11000,processed,
+174906,Santa Rosa ISD,Cameron,1000,processed,
+174907,Point Isabel ISD,Cameron,2000,processed,
+174908,Rio Hondo ISD,Cameron,1500,processed,
+178904,Killeen ISD,Bell,42000,processed,
+178906,Belton ISD,Bell,10000,processed,
+178909,Academy ISD,Bell,2000,processed,
+178911,Salado ISD,Bell,2000,processed,
+178912,Temple ISD,Bell,14000,processed,
+212901,Laredo ISD,Webb,24000,processed,
+212902,United ISD,Webb,45000,processed,
+212903,Zapata County ISD,Zapata,3000,processed,
+212904,Roma ISD,Starr,6000,processed,
+220901,Fort Worth ISD,Tarrant,71000,processed,
+220902,White Settlement ISD,Tarrant,6000,processed,
+220903,Aledo ISD,Parker,6000,processed,
+220904,Azle ISD,Tarrant,6000,processed,
+220905,Austin ISD,Travis,72000,processed,
+220906,Hurst-Euless-Bedford ISD,Tarrant,34000,processed,
+220907,Venus ISD,Johnson,2000,processed,
+220908,Godley ISD,Johnson,2000,processed,
+220909,Grapevine-Colleyville ISD,Tarrant,14000,processed,
+220910,Carroll ISD,Tarrant,8000,processed,
+220911,Granbury ISD,Hood,6000,processed,
+220912,Northwest ISD,Tarrant,33000,processed,Primary Northwest ISD (Tarrant County)
+220913,Haltom City ISD,Tarrant,3000,processed,Note: Area primarily served by Birdville ISD
+220914,Lake Worth ISD,Tarrant,3000,pending,Not found in output - see 220912 confusion
+220915,Eagle Mountain-Saginaw ISD,Tarrant,25000,processed,
+220916,Keller ISD,Tarrant,36000,processed,
+220917,Kennedale ISD,Tarrant,5000,processed,
+220918,Mineral Wells ISD,Palo Pinto,3000,processed,
+220919,Weatherford ISD,Parker,7000,processed,
+220920,Springtown ISD,Parker,4000,processed,
+227901,Arlington ISD,Tarrant,57000,processed,
+227902,Burleson ISD,Tarrant,10000,processed,Primary entry for Burleson ISD
+227903,Joshua ISD,Johnson,5000,processed,
+227904,Mansfield ISD,Tarrant,44000,processed,
+227905,Cleburne ISD,Johnson,6000,processed,
+227906,Burleson ISD,Tarrant,10000,pending,DUPLICATE_NAME: Conflicting with ID 227902
+227907,Birdville ISD,Tarrant,23000,processed,
+227908,Everman ISD,Tarrant,7000,processed,Primary entry for Everman ISD
+227909,Castleberry ISD,Tarrant,3000,processed,
+227910,Crowley ISD,Tarrant,26000,processed,
+227911,Fort Worth Academy of Fine Arts,Tarrant,500,pending,Not found in output file - charter school
+227912,Everman ISD,Tarrant,7000,pending,DUPLICATE_NAME: Conflicting with ID 227908
+227913,Grand Prairie ISD,Dallas,33000,processed,
+246901,Round Rock ISD,Williamson,47000,processed,
+246902,Del Valle ISD,Travis,11000,processed,
+246903,Hays CISD,Hays,23000,processed,
+246904,Leander ISD,Williamson,41000,processed,
+246905,Manor ISD,Travis,13000,processed,
+246906,Georgetown ISD,Williamson,14000,processed,
+246907,San Marcos CISD,Hays,9000,processed,
+246908,Jarrell ISD,Williamson,3000,processed,
+246909,Pflugerville ISD,Travis,27000,processed,
+246910,Taylor ISD,Williamson,2000,processed,
+246911,Lago Vista ISD,Travis,2000,processed,
+246912,Lake Travis ISD,Travis,12000,processed,

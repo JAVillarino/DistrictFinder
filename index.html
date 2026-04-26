@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Texas School Board Streams</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --sidebar-bg: #ffffff;
+  --sidebar-surface: #f4f5f7;
+  --sidebar-border: #e5e7eb;
+  --sidebar-text: #1a1a1a;
+  --sidebar-muted: #6b7280;
+  --sidebar-width: 340px;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --green: #16a34a;
+  --green-bg: rgba(22,163,74,0.08);
+  --amber: #d97706;
+  --amber-bg: rgba(217,119,6,0.08);
+  --red: #dc2626;
+  --red-bg: rgba(220,38,38,0.08);
+  --gray: #6b7280;
+  --radius: 8px;
+  --radius-sm: 6px;
+  --transition: 150ms ease;
+}
+
+html, body { height: 100%; font-family: 'Inter', -apple-system, sans-serif; overflow: hidden; background: #f8fafc; }
+
+/* Layout */
+#app { display: flex; height: 100vh; width: 100vw; }
+
+/* Sidebar */
+#sidebar {
+  width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  border-right: 1px solid var(--sidebar-border);
+  transition: margin-left 250ms cubic-bezier(0.4,0,0.2,1), opacity 250ms ease;
+  position: relative;
+}
+
+#sidebar.collapsed {
+  margin-left: calc(-1 * var(--sidebar-width));
+  opacity: 0;
+  pointer-events: none;
+}
+
+#sidebar-toggle {
+  position: absolute;
+  top: 16px;
+  right: -36px;
+  z-index: 1002;
+  width: 28px;
+  height: 28px;
+  background: var(--sidebar-bg);
+  border: 1px solid var(--sidebar-border);
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sidebar-muted);
+  transition: background var(--transition), color var(--transition);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+#sidebar-toggle:hover { background: var(--sidebar-surface); color: var(--sidebar-text); }
+
+#sidebar-toggle svg { transition: transform 250ms ease; }
+#sidebar.collapsed #sidebar-toggle svg { transform: rotate(180deg); }
+
+/* Floating open button when sidebar is collapsed */
+#sidebar-open {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1002;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: background var(--transition), color var(--transition);
+}
+
+#sidebar-open:hover { background: #f9fafb; color: #1a1a1a; }
+#sidebar-open.visible { display: flex; }
+
+.sidebar-header {
+  padding: 20px 20px 14px;
+  border-bottom: 1px solid var(--sidebar-border);
+  flex-shrink: 0;
+}
+
+.sidebar-header h1 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: var(--sidebar-text);
+}
+
+.sidebar-header .subtitle {
+  font-size: 11px;
+  color: var(--sidebar-muted);
+  font-weight: 400;
+  margin-top: 1px;
+}
+
+/* Controls: search + filters grouped */
+.sidebar-controls {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--sidebar-border);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-wrap {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px 8px 34px;
+  background: #fff;
+  border: 1px solid var(--sidebar-border);
+  border-radius: var(--radius-sm);
+  color: var(--sidebar-text);
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.search-input::placeholder { color: #9ca3af; }
+.search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,0.08); }
+
+.search-icon {
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--sidebar-muted);
+  pointer-events: none;
+  width: 15px;
+  height: 15px;
+}
+
+.filters {
+  display: flex;
+  gap: 6px;
+}
+
+.filter-select {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 22px 6px 8px;
+  background: #fff;
+  border: 1px solid var(--sidebar-border);
+  border-radius: var(--radius-sm);
+  color: var(--sidebar-muted);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: border-color var(--transition), color var(--transition);
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 7px center;
+}
+
+.filter-select:focus { border-color: var(--accent); color: var(--sidebar-text); }
+
+/* Results meta */
+.results-meta {
+  padding: 12px 20px 8px;
+  font-size: 11px;
+  color: var(--sidebar-muted);
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results-meta .verified-count {
+  color: var(--green);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+/* Results list */
+.results-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 12px 12px;
+}
+
+.results-list::-webkit-scrollbar { width: 4px; }
+.results-list::-webkit-scrollbar-track { background: transparent; }
+.results-list::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 4px; }
+
+/* District card */
+.district-card {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: background var(--transition);
+  border: 1px solid transparent;
+}
+
+.district-card:hover {
+  background: var(--sidebar-surface);
+}
+
+.district-card.active {
+  background: var(--sidebar-surface);
+  border-color: var(--accent);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-name {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-top: 3px;
+}
+
+.card-county {
+  font-size: 11px;
+  color: var(--sidebar-muted);
+}
+
+.card-sep {
+  color: #d1d5db;
+  font-size: 11px;
+  margin: 0 5px;
+}
+
+.card-enrollment {
+  font-size: 11px;
+  color: var(--sidebar-muted);
+}
+
+.card-platform {
+  margin-left: auto;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--sidebar-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Badges / Pills */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+.badge-youtube { background: #fef2f2; color: #dc2626; }
+.badge-swagit { background: #eff6ff; color: #2563eb; }
+.badge-granicus { background: #f5f3ff; color: #7c3aed; }
+.badge-website_archive { background: #f0fdf4; color: #16a34a; }
+.badge-website_stream { background: #f0f9ff; color: #0284c7; }
+.badge-boardbook { background: #fff7ed; color: #c2410c; }
+.badge-boarddocs { background: #fdf4ff; color: #a21caf; }
+.badge-citizenportal { background: #f0fdfa; color: #0d9488; }
+.badge-diligent { background: #eef2ff; color: #4f46e5; }
+.badge-panopto { background: #fdf4ff; color: #c026d3; }
+.badge-website_livestream_only { background: #f0f9ff; color: #0284c7; }
+.badge-none_found { background: #f3f4f6; color: #6b7280; }
+.badge-pending { background: #f3f4f6; color: #6b7280; }
+
+.badge-verified { background: var(--green-bg); color: var(--green); }
+.badge-auto_discovered { background: #eff6ff; color: #2563eb; }
+.badge-conf-high { background: var(--green-bg); color: var(--green); }
+.badge-conf-medium { background: var(--amber-bg); color: var(--amber); }
+.badge-conf-low { background: var(--red-bg); color: var(--red); }
+
+/* Map area */
+#map-container {
+  flex: 1;
+  position: relative;
+}
+
+#map { height: 100%; width: 100%; }
+
+/* Leaflet overrides */
+.leaflet-control-attribution { font-size: 10px !important; opacity: 0.7; }
+.leaflet-control-zoom { border: 1px solid #e5e7eb !important; border-radius: 8px !important; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08) !important; }
+.leaflet-control-zoom a { width: 32px !important; height: 32px !important; line-height: 32px !important; color: #374151 !important; border-bottom-color: #e5e7eb !important; }
+.leaflet-control-zoom a:hover { background: #f9fafb !important; }
+
+/* Detail panel */
+#detail-panel {
+  position: absolute;
+  top: 0;
+  right: -420px;
+  width: 400px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -8px 0 30px rgba(0,0,0,0.12);
+  z-index: 1001;
+  transition: right 300ms cubic-bezier(0.4,0,0.2,1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#detail-panel.open { right: 0; }
+
+.detail-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.detail-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64748b;
+  padding: 4px;
+  border-radius: 6px;
+  transition: background var(--transition);
+  flex-shrink: 0;
+}
+
+.detail-close:hover { background: #f1f5f9; color: #0f172a; }
+
+.detail-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.detail-subtitle {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.detail-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.detail-section {
+  margin-bottom: 20px;
+}
+
+.detail-section-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #94a3b8;
+  margin-bottom: 8px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.detail-field {
+  background: #f8fafc;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.detail-field-label {
+  font-size: 10px;
+  color: #94a3b8;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.detail-field-value {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.detail-notes {
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.btn-watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 14px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.btn-watch:hover { background: var(--accent-hover); transform: translateY(-1px); }
+.btn-watch:active { transform: translateY(0); }
+
+.btn-watch.disabled {
+  background: #e2e8f0;
+  color: #94a3b8;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.btn-website {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 11px;
+  background: #f8fafc;
+  color: #475569;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+  text-decoration: none;
+}
+
+.btn-website:hover { background: #f1f5f9; border-color: #cbd5e1; }
+
+.btn-flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+  margin-top: 10px;
+}
+
+.btn-flag:hover { background: #fff7ed; border-color: #fed7aa; color: #c2410c; }
+.btn-flag:disabled { cursor: wait; opacity: 0.7; }
+
+.flag-status {
+  min-height: 16px;
+  margin-top: 7px;
+  font-size: 11px;
+  color: #64748b;
+  text-align: center;
+}
+
+.flag-status.error { color: var(--red); }
+.flag-status.success { color: var(--green); }
+
+/* Loading overlay */
+#loading {
+  position: fixed;
+  inset: 0;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 300ms ease;
+}
+
+#loading.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-spinner {
+  width: 28px;
+  height: 28px;
+  border: 2.5px solid #e5e7eb;
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-text {
+  color: #9ca3af;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Custom Leaflet markers */
+.district-marker {
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.district-marker:hover {
+  transform: scale(1.4);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  z-index: 9999 !important;
+}
+
+.marker-verified {
+  background: #16a34a;
+  border-color: #fff;
+}
+
+.marker-auto_discovered {
+  background: #2563eb;
+  border-color: #fff;
+}
+
+.marker-pending {
+  background: #d1d5db;
+  border-color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  :root { --sidebar-width: 300px; }
+  #detail-panel { width: 340px; }
+  #sidebar-toggle { right: -32px; width: 24px; height: 24px; }
+}
+
+@media (max-width: 700px) {
+  #app { flex-direction: column; }
+  #sidebar { width: 100%; min-width: unset; height: 45vh; border-right: none; border-bottom: 1px solid var(--sidebar-border); }
+  #sidebar-toggle { display: none; }
+  #map-container { height: 55vh; }
+  #detail-panel { width: 100%; right: unset; bottom: 0; top: unset; height: 70vh; transform: translateY(100%); transition: transform 300ms cubic-bezier(0.4,0,0.2,1); }
+  #detail-panel.open { transform: translateY(0); }
+}
+</style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="loading-spinner"></div>
+  <div class="loading-text">Loading Texas districts...</div>
+</div>
+
+<button id="sidebar-open" aria-label="Open sidebar">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+
+<div id="app">
+  <aside id="sidebar">
+    <button id="sidebar-toggle" aria-label="Collapse sidebar">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="sidebar-header">
+      <h1>Texas School Board Streams</h1>
+      <div class="subtitle">1,060 districts &middot; video directory</div>
+    </div>
+
+    <div class="sidebar-controls">
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search by name or county...">
+      </div>
+      <div class="filters">
+        <select class="filter-select" id="filterStatus">
+          <option value="">Status</option>
+          <option value="verified">Verified</option>
+          <option value="auto_discovered">Auto</option>
+          <option value="pending">Pending</option>
+        </select>
+        <select class="filter-select" id="filterLocation">
+          <option value="">Location</option>
+          <option value="coordinates">Mapped</option>
+          <option value="county">County</option>
+        </select>
+        <select class="filter-select" id="filterPlatform">
+          <option value="">Platform</option>
+        </select>
+        <select class="filter-select" id="filterConfidence">
+          <option value="">Confidence</option>
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="results-meta">
+      <span id="resultsCount">Loading...</span>
+      <span class="verified-count" id="verifiedCount"></span>
+    </div>
+
+    <div class="results-list" id="resultsList"></div>
+  </aside>
+
+  <div id="map-container">
+    <div id="map"></div>
+    <div id="detail-panel">
+      <div class="detail-header">
+        <div>
+          <div class="detail-title" id="detailName"></div>
+          <div class="detail-subtitle" id="detailSubtitle"></div>
+        </div>
+        <button class="detail-close" id="detailClose" aria-label="Close panel">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="detail-body" id="detailBody"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Texas County Centroids (all 254) ──
+const COUNTY_CENTROIDS = {
+  "ANDERSON": { lat: 31.81, lng: -95.65 },
+  "ANDREWS": { lat: 32.30, lng: -102.64 },
+  "ANGELINA": { lat: 31.25, lng: -94.61 },
+  "ARANSAS": { lat: 28.09, lng: -96.99 },
+  "ARCHER": { lat: 33.62, lng: -98.69 },
+  "ARMSTRONG": { lat: 34.96, lng: -101.36 },
+  "ATASCOSA": { lat: 28.89, lng: -98.53 },
+  "AUSTIN": { lat: 29.89, lng: -96.28 },
+  "BAILEY": { lat: 34.07, lng: -102.83 },
+  "BANDERA": { lat: 29.73, lng: -99.24 },
+  "BASTROP": { lat: 30.10, lng: -97.31 },
+  "BAYLOR": { lat: 33.62, lng: -99.21 },
+  "BEE": { lat: 28.42, lng: -97.74 },
+  "BELL": { lat: 31.04, lng: -97.48 },
+  "BEXAR": { lat: 29.45, lng: -98.52 },
+  "BLANCO": { lat: 30.26, lng: -98.40 },
+  "BORDEN": { lat: 32.74, lng: -101.43 },
+  "BOSQUE": { lat: 31.90, lng: -97.65 },
+  "BOWIE": { lat: 33.45, lng: -94.42 },
+  "BRAZORIA": { lat: 29.17, lng: -95.44 },
+  "BRAZOS": { lat: 30.66, lng: -96.30 },
+  "BREWSTER": { lat: 29.81, lng: -103.25 },
+  "BRISCOE": { lat: 34.53, lng: -101.19 },
+  "BROOKS": { lat: 27.03, lng: -98.22 },
+  "BROWN": { lat: 31.77, lng: -98.98 },
+  "BURLESON": { lat: 30.49, lng: -96.62 },
+  "BURNET": { lat: 30.79, lng: -98.18 },
+  "CALDWELL": { lat: 29.84, lng: -97.62 },
+  "CALHOUN": { lat: 28.44, lng: -96.53 },
+  "CALLAHAN": { lat: 32.30, lng: -99.37 },
+  "CAMERON": { lat: 26.15, lng: -97.50 },
+  "CAMP": { lat: 33.08, lng: -94.98 },
+  "CARSON": { lat: 35.40, lng: -101.35 },
+  "CASS": { lat: 33.08, lng: -94.34 },
+  "CASTRO": { lat: 34.53, lng: -102.26 },
+  "CHAMBERS": { lat: 29.70, lng: -94.67 },
+  "CHEROKEE": { lat: 31.84, lng: -95.16 },
+  "CHILDRESS": { lat: 34.53, lng: -100.21 },
+  "CLAY": { lat: 33.79, lng: -98.21 },
+  "COCHRAN": { lat: 33.60, lng: -102.83 },
+  "COKE": { lat: 31.89, lng: -100.53 },
+  "COLEMAN": { lat: 31.83, lng: -99.45 },
+  "COLLIN": { lat: 33.19, lng: -96.57 },
+  "COLLINGSWORTH": { lat: 34.96, lng: -100.27 },
+  "COLORADO": { lat: 29.62, lng: -96.53 },
+  "COMAL": { lat: 29.81, lng: -98.28 },
+  "COMANCHE": { lat: 31.95, lng: -98.56 },
+  "CONCHO": { lat: 31.33, lng: -99.86 },
+  "COOKE": { lat: 33.64, lng: -97.21 },
+  "CORYELL": { lat: 31.39, lng: -97.80 },
+  "COTTLE": { lat: 34.08, lng: -100.27 },
+  "CRANE": { lat: 31.43, lng: -102.35 },
+  "CROCKETT": { lat: 30.73, lng: -101.41 },
+  "CROSBY": { lat: 33.61, lng: -101.30 },
+  "CULBERSON": { lat: 31.45, lng: -104.52 },
+  "DALLAM": { lat: 36.28, lng: -102.60 },
+  "DALLAS": { lat: 32.77, lng: -96.78 },
+  "DAWSON": { lat: 32.74, lng: -101.95 },
+  "DEAF SMITH": { lat: 34.97, lng: -102.60 },
+  "DELTA": { lat: 33.39, lng: -95.67 },
+  "DENTON": { lat: 33.21, lng: -97.13 },
+  "DEWITT": { lat: 29.08, lng: -97.40 },
+  "DICKENS": { lat: 33.62, lng: -100.78 },
+  "DIMMIT": { lat: 28.42, lng: -99.75 },
+  "DONLEY": { lat: 34.97, lng: -100.81 },
+  "DUVAL": { lat: 27.68, lng: -98.49 },
+  "EASTLAND": { lat: 32.33, lng: -98.83 },
+  "ECTOR": { lat: 31.87, lng: -102.54 },
+  "EDWARDS": { lat: 29.98, lng: -100.30 },
+  "EL PASO": { lat: 31.77, lng: -106.44 },
+  "ELLIS": { lat: 32.35, lng: -96.79 },
+  "ERATH": { lat: 32.24, lng: -98.23 },
+  "FALLS": { lat: 31.25, lng: -96.93 },
+  "FANNIN": { lat: 33.59, lng: -96.11 },
+  "FAYETTE": { lat: 29.88, lng: -96.92 },
+  "FISHER": { lat: 32.74, lng: -100.40 },
+  "FLOYD": { lat: 34.07, lng: -101.30 },
+  "FOARD": { lat: 33.97, lng: -99.78 },
+  "FORT BEND": { lat: 29.53, lng: -95.77 },
+  "FRANKLIN": { lat: 33.18, lng: -95.22 },
+  "FREESTONE": { lat: 31.70, lng: -96.15 },
+  "FRIO": { lat: 28.87, lng: -99.11 },
+  "GAINES": { lat: 32.74, lng: -102.64 },
+  "GALVESTON": { lat: 29.39, lng: -94.86 },
+  "GARZA": { lat: 33.18, lng: -101.30 },
+  "GILLESPIE": { lat: 30.32, lng: -98.94 },
+  "GLASSCOCK": { lat: 31.87, lng: -101.52 },
+  "GOLIAD": { lat: 28.66, lng: -97.43 },
+  "GONZALES": { lat: 29.46, lng: -97.49 },
+  "GRAY": { lat: 35.40, lng: -100.81 },
+  "GRAYSON": { lat: 33.63, lng: -96.68 },
+  "GREGG": { lat: 32.48, lng: -94.81 },
+  "GRIMES": { lat: 30.54, lng: -95.98 },
+  "GUADALUPE": { lat: 29.58, lng: -97.94 },
+  "HALE": { lat: 34.07, lng: -101.82 },
+  "HALL": { lat: 34.53, lng: -100.70 },
+  "HAMILTON": { lat: 31.70, lng: -98.11 },
+  "HANSFORD": { lat: 36.28, lng: -101.35 },
+  "HARDEMAN": { lat: 34.29, lng: -99.75 },
+  "HARDIN": { lat: 30.33, lng: -94.38 },
+  "HARRIS": { lat: 29.86, lng: -95.39 },
+  "HARRISON": { lat: 32.55, lng: -94.38 },
+  "HARTLEY": { lat: 35.84, lng: -102.60 },
+  "HASKELL": { lat: 33.18, lng: -99.73 },
+  "HAYS": { lat: 30.05, lng: -98.03 },
+  "HEMPHILL": { lat: 35.84, lng: -100.27 },
+  "HENDERSON": { lat: 32.22, lng: -95.86 },
+  "HIDALGO": { lat: 26.40, lng: -98.18 },
+  "HILL": { lat: 32.00, lng: -97.13 },
+  "HOCKLEY": { lat: 33.61, lng: -102.34 },
+  "HOOD": { lat: 32.43, lng: -97.83 },
+  "HOPKINS": { lat: 33.15, lng: -95.56 },
+  "HOUSTON": { lat: 31.32, lng: -95.42 },
+  "HOWARD": { lat: 32.31, lng: -101.44 },
+  "HUDSPETH": { lat: 31.45, lng: -105.39 },
+  "HUNT": { lat: 33.12, lng: -96.09 },
+  "HUTCHINSON": { lat: 35.84, lng: -101.35 },
+  "IRION": { lat: 31.30, lng: -100.98 },
+  "JACK": { lat: 33.23, lng: -98.17 },
+  "JACKSON": { lat: 28.96, lng: -96.58 },
+  "JASPER": { lat: 30.74, lng: -94.03 },
+  "JEFF DAVIS": { lat: 30.72, lng: -104.14 },
+  "JEFFERSON": { lat: 29.86, lng: -94.16 },
+  "JIM HOGG": { lat: 27.05, lng: -98.70 },
+  "JIM WELLS": { lat: 27.73, lng: -98.09 },
+  "JOHNSON": { lat: 32.38, lng: -97.37 },
+  "JONES": { lat: 32.74, lng: -99.88 },
+  "KARNES": { lat: 28.90, lng: -97.86 },
+  "KAUFMAN": { lat: 32.60, lng: -96.29 },
+  "KENDALL": { lat: 29.94, lng: -98.71 },
+  "KENEDY": { lat: 26.93, lng: -97.63 },
+  "KENT": { lat: 33.18, lng: -100.78 },
+  "KERR": { lat: 30.06, lng: -99.35 },
+  "KIMBLE": { lat: 30.49, lng: -99.75 },
+  "KING": { lat: 33.62, lng: -100.26 },
+  "KINNEY": { lat: 29.35, lng: -100.42 },
+  "KLEBERG": { lat: 27.42, lng: -97.65 },
+  "KNOX": { lat: 33.60, lng: -99.74 },
+  "LA SALLE": { lat: 28.35, lng: -98.70 },
+  "LAMAR": { lat: 33.67, lng: -95.57 },
+  "LAMB": { lat: 34.07, lng: -102.35 },
+  "LAMPASAS": { lat: 31.20, lng: -98.24 },
+  "LAVACA": { lat: 29.38, lng: -96.93 },
+  "LEE": { lat: 30.33, lng: -96.96 },
+  "LEON": { lat: 31.29, lng: -95.99 },
+  "LIBERTY": { lat: 30.15, lng: -94.81 },
+  "LIMESTONE": { lat: 31.55, lng: -96.58 },
+  "LIPSCOMB": { lat: 36.28, lng: -100.27 },
+  "LIVE OAK": { lat: 28.35, lng: -98.12 },
+  "LLANO": { lat: 30.70, lng: -98.68 },
+  "LUBBOCK": { lat: 33.57, lng: -101.82 },
+  "LYNN": { lat: 33.18, lng: -101.82 },
+  "MADISON": { lat: 30.97, lng: -95.93 },
+  "MARION": { lat: 32.80, lng: -94.37 },
+  "MARTIN": { lat: 32.31, lng: -101.95 },
+  "MASON": { lat: 30.75, lng: -99.23 },
+  "MATAGORDA": { lat: 28.78, lng: -96.00 },
+  "MAVERICK": { lat: 28.74, lng: -100.31 },
+  "MCCULLOCH": { lat: 31.20, lng: -99.35 },
+  "MCLENNAN": { lat: 31.55, lng: -97.20 },
+  "MCMULLEN": { lat: 28.35, lng: -98.36 },
+  "MEDINA": { lat: 29.36, lng: -99.10 },
+  "MENARD": { lat: 30.89, lng: -99.79 },
+  "MIDLAND": { lat: 31.87, lng: -102.03 },
+  "MILAM": { lat: 30.79, lng: -96.98 },
+  "MILLS": { lat: 31.49, lng: -98.60 },
+  "MITCHELL": { lat: 32.31, lng: -100.92 },
+  "MONTAGUE": { lat: 33.67, lng: -97.72 },
+  "MONTGOMERY": { lat: 30.30, lng: -95.50 },
+  "MOORE": { lat: 35.84, lng: -101.89 },
+  "MORRIS": { lat: 33.11, lng: -94.74 },
+  "MOTLEY": { lat: 34.07, lng: -100.78 },
+  "NACOGDOCHES": { lat: 31.60, lng: -94.65 },
+  "NAVARRO": { lat: 32.05, lng: -96.47 },
+  "NEWTON": { lat: 30.78, lng: -93.74 },
+  "NOLAN": { lat: 32.30, lng: -100.42 },
+  "NUECES": { lat: 27.73, lng: -97.52 },
+  "OCHILTREE": { lat: 36.28, lng: -100.81 },
+  "OLDHAM": { lat: 35.40, lng: -102.60 },
+  "ORANGE": { lat: 30.13, lng: -93.90 },
+  "PALO PINTO": { lat: 32.75, lng: -98.31 },
+  "PANOLA": { lat: 32.16, lng: -94.31 },
+  "PARKER": { lat: 32.78, lng: -97.80 },
+  "PARMER": { lat: 34.53, lng: -102.83 },
+  "PECOS": { lat: 30.75, lng: -103.12 },
+  "POLK": { lat: 30.79, lng: -94.83 },
+  "POTTER": { lat: 35.40, lng: -101.89 },
+  "PRESIDIO": { lat: 29.99, lng: -104.24 },
+  "RAINS": { lat: 32.87, lng: -95.79 },
+  "RANDALL": { lat: 34.97, lng: -101.89 },
+  "REAGAN": { lat: 31.37, lng: -101.52 },
+  "REAL": { lat: 29.83, lng: -99.82 },
+  "RED RIVER": { lat: 33.62, lng: -95.05 },
+  "REEVES": { lat: 31.30, lng: -103.69 },
+  "REFUGIO": { lat: 28.33, lng: -97.16 },
+  "ROBERTS": { lat: 35.84, lng: -100.81 },
+  "ROBERTSON": { lat: 31.03, lng: -96.51 },
+  "ROCKWALL": { lat: 32.89, lng: -96.41 },
+  "RUNNELS": { lat: 31.83, lng: -99.97 },
+  "RUSK": { lat: 32.11, lng: -94.76 },
+  "SABINE": { lat: 31.35, lng: -93.85 },
+  "SAN AUGUSTINE": { lat: 31.40, lng: -94.16 },
+  "SAN JACINTO": { lat: 30.58, lng: -95.17 },
+  "SAN PATRICIO": { lat: 28.00, lng: -97.52 },
+  "SAN SABA": { lat: 31.15, lng: -98.72 },
+  "SCHLEICHER": { lat: 30.89, lng: -100.54 },
+  "SCURRY": { lat: 32.74, lng: -100.92 },
+  "SHACKELFORD": { lat: 32.74, lng: -99.35 },
+  "SHELBY": { lat: 31.79, lng: -94.14 },
+  "SHERMAN": { lat: 36.28, lng: -101.89 },
+  "SMITH": { lat: 32.38, lng: -95.27 },
+  "SOMERVELL": { lat: 32.22, lng: -97.77 },
+  "STARR": { lat: 26.56, lng: -98.74 },
+  "STEPHENS": { lat: 32.74, lng: -98.84 },
+  "STERLING": { lat: 31.83, lng: -101.05 },
+  "STONEWALL": { lat: 33.18, lng: -100.25 },
+  "SUTTON": { lat: 30.49, lng: -100.54 },
+  "SWISHER": { lat: 34.53, lng: -101.74 },
+  "TARRANT": { lat: 32.77, lng: -97.29 },
+  "TAYLOR": { lat: 32.30, lng: -99.80 },
+  "TERRELL": { lat: 30.22, lng: -102.08 },
+  "TERRY": { lat: 33.18, lng: -102.34 },
+  "THROCKMORTON": { lat: 33.18, lng: -99.21 },
+  "TITUS": { lat: 33.22, lng: -94.97 },
+  "TOM GREEN": { lat: 31.40, lng: -100.46 },
+  "TRAVIS": { lat: 30.33, lng: -97.77 },
+  "TRINITY": { lat: 31.09, lng: -95.14 },
+  "TYLER": { lat: 30.78, lng: -94.38 },
+  "UPSHUR": { lat: 32.74, lng: -94.94 },
+  "UPTON": { lat: 31.37, lng: -102.04 },
+  "UVALDE": { lat: 29.36, lng: -99.76 },
+  "VAL VERDE": { lat: 29.89, lng: -101.15 },
+  "VAN ZANDT": { lat: 32.56, lng: -95.84 },
+  "VICTORIA": { lat: 28.80, lng: -96.97 },
+  "WALKER": { lat: 30.74, lng: -95.57 },
+  "WALLER": { lat: 30.03, lng: -95.99 },
+  "WARD": { lat: 31.51, lng: -103.10 },
+  "WASHINGTON": { lat: 30.22, lng: -96.40 },
+  "WEBB": { lat: 27.76, lng: -99.33 },
+  "WHARTON": { lat: 29.28, lng: -96.22 },
+  "WHEELER": { lat: 35.40, lng: -100.27 },
+  "WICHITA": { lat: 33.99, lng: -98.70 },
+  "WILBARGER": { lat: 34.08, lng: -99.24 },
+  "WILLACY": { lat: 26.47, lng: -97.59 },
+  "WILLIAMSON": { lat: 30.65, lng: -97.60 },
+  "WILSON": { lat: 29.17, lng: -98.09 },
+  "WINKLER": { lat: 31.87, lng: -103.10 },
+  "WISE": { lat: 33.22, lng: -97.66 },
+  "WOOD": { lat: 32.78, lng: -95.38 },
+  "YOAKUM": { lat: 33.17, lng: -102.83 },
+  "YOUNG": { lat: 33.18, lng: -98.69 },
+  "ZAPATA": { lat: 26.99, lng: -99.17 },
+  "ZAVALA": { lat: 28.87, lng: -99.76 }
+};
+
+const PLATFORM_LABELS = {
+  youtube: "YouTube",
+  swagit: "Swagit",
+  granicus: "Granicus",
+  website_archive: "Web Archive",
+  website_stream: "Web Stream",
+  website_livestream_only: "Livestream",
+  boardbook: "BoardBook",
+  boarddocs: "BoardDocs",
+  citizenportal: "CitizenPortal",
+  diligent: "Diligent",
+  panopto: "Panopto",
+  none_found: "None Found"
+};
+
+// ── State ──
+let allDistricts = [];
+let filteredDistricts = [];
+let markers = [];
+let markerMap = new Map();
+let selectedDistrict = null;
+let map;
+
+// ── Init ──
+document.addEventListener('DOMContentLoaded', init);
+
+async function init() {
+  map = L.map('map', {
+    center: [31.3, -99.5],
+    zoom: 6,
+    zoomControl: false,
+    attributionControl: true,
+    zoomSnap: 0.25,
+    zoomDelta: 0.5,
+    wheelPxPerZoomLevel: 150,
+    preferCanvas: true
+  });
+
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    maxZoom: 19,
+    subdomains: 'abcd'
+  }).addTo(map);
+
+  // Draw Texas outline
+  try {
+    const res = await fetch('https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json');
+    const geojson = await res.json();
+    const texas = geojson.features.find(f => f.properties.name === 'Texas');
+    if (texas) {
+      L.geoJSON(texas, {
+        style: { color: '#2563eb', weight: 2, fillColor: '#2563eb', fillOpacity: 0.02, dashArray: '' }
+      }).addTo(map);
+    }
+  } catch (e) { console.warn('Could not load Texas outline:', e); }
+
+  // Load CSV
+  try {
+    const csvRes = await fetch('data/districts_complete.csv');
+    const csvText = await csvRes.text();
+    const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
+    allDistricts = parsed.data.map(d => ({
+      ...d,
+      enrollment: parseInt(d.enrollment) || 0,
+      latitude: parseCoordinate(d.latitude || d.lat || d.district_latitude),
+      longitude: parseCoordinate(d.longitude || d.lng || d.lon || d.district_longitude),
+      coordinate_source: d.coordinate_source || '',
+      countyKey: (d.county || '').replace(' COUNTY', '').trim(),
+      hasCoordinates: parseCoordinate(d.latitude || d.lat || d.district_latitude) !== null &&
+        parseCoordinate(d.longitude || d.lng || d.lon || d.district_longitude) !== null
+    }));
+
+    populatePlatformFilter();
+    plotMarkers();
+    applyFilters();
+    bindEvents();
+
+    document.getElementById('loading').classList.add('hidden');
+    map.invalidateSize();
+    setTimeout(() => {
+      document.getElementById('loading').style.display = 'none';
+      map.invalidateSize();
+    }, 400);
+  } catch (e) {
+    document.querySelector('.loading-text').textContent = 'Error loading data. Make sure districts_complete.csv exists.';
+    console.error(e);
+  }
+}
+
+function populatePlatformFilter() {
+  const platforms = new Set();
+  allDistricts.forEach(d => { if (d.video_platform) platforms.add(d.video_platform); });
+  const sel = document.getElementById('filterPlatform');
+  [...platforms].sort().forEach(p => {
+    if (!p) return;
+    const opt = document.createElement('option');
+    opt.value = p;
+    opt.textContent = PLATFORM_LABELS[p] || p;
+    sel.appendChild(opt);
+  });
+}
+
+// ── Markers ──
+function parseCoordinate(value) {
+  const parsed = parseFloat(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function plotMarkers() {
+  // Group districts by county to offset overlapping ones
+  const byCounty = {};
+  allDistricts.forEach(d => {
+    const key = d.countyKey;
+    if (!byCounty[key]) byCounty[key] = [];
+    byCounty[key].push(d);
+  });
+
+  allDistricts.forEach(d => {
+    const centroid = COUNTY_CENTROIDS[d.countyKey];
+    if (!centroid && (d.latitude === null || d.longitude === null)) return;
+
+    const siblings = byCounty[d.countyKey];
+    const idx = siblings.indexOf(d);
+    const count = siblings.length;
+
+    let lat = d.latitude;
+    let lng = d.longitude;
+    if (lat === null || lng === null) {
+      lat = centroid.lat;
+      lng = centroid.lng;
+    }
+
+    // Offset county-fallback points so districts in the same county do not overlap.
+    if ((d.latitude === null || d.longitude === null) && count > 1) {
+      const angle = (2 * Math.PI * idx) / count;
+      const radius = Math.min(0.04 + count * 0.005, 0.15);
+      lat += Math.cos(angle) * radius;
+      lng += Math.sin(angle) * radius;
+    }
+
+    const markerClass = markerStatusClass(d.video_status);
+    const size = markerSize(d.enrollment);
+
+    const icon = L.divIcon({
+      className: `district-marker ${markerClass}`,
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2]
+    });
+
+    const marker = L.marker([lat, lng], { icon, riseOnHover: true });
+    marker.districtData = d;
+
+    marker.bindTooltip(d.district_name, {
+      direction: 'top', offset: [0, -size / 2], className: 'district-tooltip'
+    });
+
+    marker.on('click', () => selectDistrict(d));
+    marker.addTo(map);
+    markers.push(marker);
+    markerMap.set(d.district_id, marker);
+  });
+}
+
+function markerSize(enrollment) {
+  if (!enrollment || enrollment <= 0) return 8;
+  if (enrollment < 500) return 7;
+  if (enrollment < 2000) return 9;
+  if (enrollment < 10000) return 11;
+  if (enrollment < 30000) return 14;
+  if (enrollment < 80000) return 17;
+  return 20;
+}
+
+function markerStatusClass(status) {
+  if (status === 'verified') return 'marker-verified';
+  if (status === 'auto_discovered') return 'marker-auto_discovered';
+  return 'marker-pending';
+}
+
+function statusLabel(status) {
+  if (status === 'verified') return 'Verified';
+  if (status === 'auto_discovered') return 'Auto';
+  return 'Pending';
+}
+
+function statusBadge(status) {
+  const cls = status === 'verified'
+    ? 'badge-verified'
+    : status === 'auto_discovered'
+      ? 'badge-auto_discovered'
+      : 'badge-pending';
+  return `<span class="badge ${cls}">${statusLabel(status)}</span>`;
+}
+
+function coordinateLabel(d) {
+  if (!d.hasCoordinates) return 'County estimate';
+  if (d.coordinate_source === 'nces_edge_2023_24') return 'NCES office';
+  if (d.coordinate_source === 'census_geocoder') return 'Census geocode';
+  return 'Mapped point';
+}
+
+// ── Filtering ──
+function applyFilters() {
+  const query = document.getElementById('searchInput').value.toLowerCase().trim();
+  const status = document.getElementById('filterStatus').value;
+  const location = document.getElementById('filterLocation').value;
+  const platform = document.getElementById('filterPlatform').value;
+  const confidence = document.getElementById('filterConfidence').value;
+
+  filteredDistricts = allDistricts.filter(d => {
+    if (query && !d.district_name.toLowerCase().includes(query) && !d.county.toLowerCase().includes(query)) return false;
+    if (status && d.video_status !== status) return false;
+    if (location === 'coordinates' && !d.hasCoordinates) return false;
+    if (location === 'county' && d.hasCoordinates) return false;
+    if (platform && d.video_platform !== platform) return false;
+    if (confidence && d.confidence !== confidence) return false;
+    return true;
+  });
+
+  const withVideo = filteredDistricts.filter(d => d.video_url && d.video_url.trim()).length;
+  const withCoordinates = filteredDistricts.filter(d => d.hasCoordinates).length;
+  document.getElementById('resultsCount').textContent = `Showing ${filteredDistricts.length} of ${allDistricts.length} districts`;
+  document.getElementById('verifiedCount').textContent = `${withVideo} videos | ${withCoordinates} mapped`;
+
+  renderResults();
+  updateMarkerVisibility();
+}
+
+function updateMarkerVisibility() {
+  const visibleIds = new Set(filteredDistricts.map(d => d.district_id));
+  markers.forEach(m => {
+    const id = m.districtData.district_id;
+    if (visibleIds.has(id)) {
+      m.setOpacity(1);
+      m.getElement()?.style.setProperty('pointer-events', 'auto');
+    } else {
+      m.setOpacity(0.1);
+      m.getElement()?.style.setProperty('pointer-events', 'none');
+    }
+  });
+}
+
+function renderResults() {
+  const container = document.getElementById('resultsList');
+  // Render up to 200 for performance; show all on further scroll
+  const toRender = filteredDistricts.slice(0, 200);
+  container.innerHTML = toRender.map(d => {
+    const countyDisplay = d.county ? d.county.replace(' COUNTY', '') : '';
+    const enrollmentText = d.enrollment ? d.enrollment.toLocaleString() : '';
+    const platformLabel = d.video_platform ? (PLATFORM_LABELS[d.video_platform] || d.video_platform) : '';
+    const active = selectedDistrict && selectedDistrict.district_id === d.district_id ? ' active' : '';
+    const dotColor = d.video_status === 'verified'
+      ? 'var(--green)'
+      : d.video_status === 'auto_discovered'
+        ? 'var(--accent)'
+        : '#d1d5db';
+    const statusDot = `<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:${dotColor};flex-shrink:0;"></span>`;
+    const locationText = coordinateLabel(d).toLowerCase();
+
+    return `<div class="district-card${active}" data-id="${d.district_id}">
+      <div class="card-top">
+        ${statusDot}
+        <div class="card-name">${escapeHtml(d.district_name)}</div>
+        ${platformLabel ? `<span class="card-platform">${escapeHtml(platformLabel)}</span>` : ''}
+      </div>
+      <div class="card-bottom">
+        <span class="card-county">${escapeHtml(countyDisplay)}</span>
+        ${enrollmentText ? `<span class="card-sep">&middot;</span><span class="card-enrollment">${enrollmentText}</span>` : ''}
+        <span class="card-sep">&middot;</span><span class="card-enrollment">${locationText}</span>
+      </div>
+    </div>`;
+  }).join('');
+
+  if (filteredDistricts.length > 200) {
+    container.innerHTML += `<div style="text-align:center;padding:16px 12px;color:var(--sidebar-muted);font-size:11px;font-weight:500;">Refine your search to see all ${filteredDistricts.length} results</div>`;
+  }
+}
+
+// ── Detail Panel ──
+function selectDistrict(d) {
+  selectedDistrict = d;
+
+  // Update sidebar active state
+  document.querySelectorAll('.district-card').forEach(el => el.classList.remove('active'));
+  const activeCard = document.querySelector(`.district-card[data-id="${d.district_id}"]`);
+  if (activeCard) {
+    activeCard.classList.add('active');
+    activeCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // Pan map
+  const marker = markerMap.get(d.district_id);
+  if (marker) {
+    map.setView(marker.getLatLng(), Math.max(map.getZoom(), 8), { animate: true });
+    marker.openTooltip();
+  }
+
+  // Populate detail
+  const panel = document.getElementById('detail-panel');
+  document.getElementById('detailName').textContent = d.district_name;
+  document.getElementById('detailSubtitle').textContent = `${d.county || ''} | ID: ${d.district_id || ''}`;
+
+  const confClass = d.confidence === 'high' ? 'conf-high' : d.confidence === 'medium' ? 'conf-medium' : d.confidence === 'low' ? 'conf-low' : '';
+  const confLabel = d.confidence ? d.confidence.charAt(0).toUpperCase() + d.confidence.slice(1) : 'N/A';
+
+  const hasVideo = d.video_url && d.video_url.trim();
+  const hasWebsite = d.website_url && d.website_url.trim();
+  const locationLabel = coordinateLabel(d);
+
+  document.getElementById('detailBody').innerHTML = `
+    <div class="detail-section">
+      ${hasVideo
+        ? `<a class="btn-watch" href="${escapeHtml(d.video_url)}" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            Watch Streams
+          </a>`
+        : `<div class="btn-watch disabled">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            No Video Available
+          </div>`
+      }
+      ${hasWebsite
+        ? `<a class="btn-website" href="${escapeHtml(d.website_url)}" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            Visit Website
+          </a>`
+        : ''
+      }
+      <button class="btn-flag" id="flagIssueButton" type="button">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V4s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+        Flag an Issue
+      </button>
+      <div class="flag-status" id="flagStatus" aria-live="polite"></div>
+    </div>
+
+    <div class="detail-section">
+      <div class="detail-section-label">Details</div>
+      <div class="detail-grid">
+        <div class="detail-field">
+          <div class="detail-field-label">Enrollment</div>
+          <div class="detail-field-value">${d.enrollment ? d.enrollment.toLocaleString() : 'N/A'}</div>
+        </div>
+        <div class="detail-field">
+          <div class="detail-field-label">Platform</div>
+          <div class="detail-field-value">${d.video_platform ? `<span class="badge badge-${d.video_platform}">${PLATFORM_LABELS[d.video_platform] || d.video_platform}</span>` : 'N/A'}</div>
+        </div>
+        <div class="detail-field">
+          <div class="detail-field-label">Confidence</div>
+          <div class="detail-field-value">${confClass ? `<span class="badge badge-${confClass}">${confLabel}</span>` : 'N/A'}</div>
+        </div>
+        <div class="detail-field">
+          <div class="detail-field-label">Status</div>
+          <div class="detail-field-value">${statusBadge(d.video_status)}</div>
+        </div>
+        <div class="detail-field">
+          <div class="detail-field-label">Archive Since</div>
+          <div class="detail-field-value">${d.archive_start_year || 'N/A'}</div>
+        </div>
+        <div class="detail-field">
+          <div class="detail-field-label">Last Checked</div>
+          <div class="detail-field-value">${d.last_checked || 'N/A'}</div>
+        </div>
+        <div class="detail-field">
+          <div class="detail-field-label">Map Location</div>
+          <div class="detail-field-value">${locationLabel}</div>
+        </div>
+      </div>
+    </div>
+
+    ${d.notes ? `
+    <div class="detail-section">
+      <div class="detail-section-label">Notes</div>
+      <div class="detail-notes">${escapeHtml(d.notes)}</div>
+    </div>` : ''}
+
+    ${d.youtube_channel_id ? `
+    <div class="detail-section">
+      <div class="detail-section-label">YouTube Channel</div>
+      <div class="detail-notes" style="font-family: monospace; font-size: 11px;">${escapeHtml(d.youtube_channel_id)}</div>
+    </div>` : ''}
+  `;
+
+  document.getElementById('flagIssueButton').addEventListener('click', () => flagIssue(d));
+
+  panel.classList.add('open');
+}
+
+async function flagIssue(d) {
+  const button = document.getElementById('flagIssueButton');
+  const status = document.getElementById('flagStatus');
+  button.disabled = true;
+  status.className = 'flag-status';
+  status.textContent = 'Sending report...';
+
+  try {
+    const response = await fetch('/api/flag', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        districtId: d.district_id,
+        districtName: d.district_name,
+        issueType: 'Visitor flagged this district after checking the links',
+        videoUrl: d.video_url || '',
+        websiteUrl: d.website_url || '',
+        platform: d.video_platform || '',
+        status: d.video_status || '',
+        notes: d.notes || '',
+        pageUrl: window.location.href,
+        website: ''
+      })
+    });
+    if (!response.ok) throw new Error('flag_failed');
+    status.className = 'flag-status success';
+    status.textContent = 'Report sent.';
+  } catch (error) {
+    console.error('Could not send flag report:', error);
+    status.className = 'flag-status error';
+    status.textContent = 'Could not send report.';
+    button.disabled = false;
+  }
+}
+
+function closeDetail() {
+  document.getElementById('detail-panel').classList.remove('open');
+  selectedDistrict = null;
+  document.querySelectorAll('.district-card').forEach(el => el.classList.remove('active'));
+  markers.forEach(m => m.closeTooltip());
+}
+
+// ── Events ──
+function bindEvents() {
+  let debounceTimer;
+  document.getElementById('searchInput').addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(applyFilters, 150);
+  });
+
+  document.getElementById('filterStatus').addEventListener('change', applyFilters);
+  document.getElementById('filterLocation').addEventListener('change', applyFilters);
+  document.getElementById('filterPlatform').addEventListener('change', applyFilters);
+  document.getElementById('filterConfidence').addEventListener('change', applyFilters);
+
+  document.getElementById('resultsList').addEventListener('click', (e) => {
+    const card = e.target.closest('.district-card');
+    if (!card) return;
+    const id = card.dataset.id;
+    const district = allDistricts.find(d => d.district_id === id);
+    if (district) selectDistrict(district);
+  });
+
+  document.getElementById('detailClose').addEventListener('click', closeDetail);
+
+  window.addEventListener('resize', () => map.invalidateSize());
+
+  // Sidebar collapse/expand
+  document.getElementById('sidebar-toggle').addEventListener('click', () => {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.add('collapsed');
+    document.getElementById('sidebar-open').classList.add('visible');
+    setTimeout(() => map.invalidateSize(), 260);
+  });
+
+  document.getElementById('sidebar-open').addEventListener('click', () => {
+    document.getElementById('sidebar').classList.remove('collapsed');
+    document.getElementById('sidebar-open').classList.remove('visible');
+    setTimeout(() => map.invalidateSize(), 260);
+  });
+
+  // Close detail on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeDetail();
+  });
+}
+
+// ── Helpers ──
+function escapeHtml(str) {
+  if (!str) return '';
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+</script>
+
+<style>
+/* Leaflet tooltip override */
+.district-tooltip {
+  background: #1a1a1a !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 4px 9px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+}
+
+.district-tooltip::before {
+  border-top-color: #1a1a1a !important;
+}
+</style>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "total_districts": 1060,
+  "processed": {
+    "swagit_matcher": 0,
+    "youtube_finder": 0,
+    "granicus_matcher": 0,
+    "regional_processor": 0,
+    "agent_manual": 124,
+    "total": 778,
+    "verified": 155,
+    "auto_discovered": 623
+  },
+  "remaining": 282,
+  "estimated_hours": 5.9,
+  "last_updated": "2026-04-26T13:41:47.012873"
+}

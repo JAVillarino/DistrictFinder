@@ -1,0 +1,1359 @@
+district_id,district_name,url,status
+001909,SLOCUM ISD,https://www.slocumisd.org,found
+001903,ELKHART ISD,https://www.elkhartisd.org,found
+003903,LUFKIN ISD,https://www.lufkinisd.org,found
+001907,PALESTINE ISD,https://www.pisd.org,found
+002901,ANDREWS ISD,https://www.andrewsisd.net,found
+001908,WESTWOOD ISD,https://www.westwoodisd.net,found
+003902,HUDSON ISD,https://www.hudsonisd.org,found
+003906,ZAVALLA ISD,https://www.zavallaisd.org,found
+005902,HOLLIDAY ISD,https://www.hollidayisd.net,found
+005904,WINDTHORST ISD,https://www.windthorstisd.org,found
+006902,CLAUDE ISD,https://www.claudeisd.net,found
+003904,HUNTINGTON ISD,https://www.huntingtonisd.com,found
+003907,CENTRAL ISD,https://www.centralisd.com,found
+001902,CAYUGA ISD,https://www.cayugaisd.org,found
+005901,ARCHER CITY ISD,https://www.archercityisd.net,found
+007904,LYTLE ISD,https://www.lytleisd.org,found
+003905,DIBOLL ISD,https://www.dibollisd.org,found
+007905,PLEASANTON ISD,https://www.pisd.org,found
+007902,JOURDANTON ISD,https://www.jourdantonisd.net,found
+010902,BANDERA ISD,https://www.banderaisd.net,found
+004901,ROCKPORT-FULTON ISD,https://rfisd.org,found
+007906,POTEET ISD,https://www.poteetisd.org,found
+008901,BELLVILLE ISD,https://www.bellvilleisd.org,found
+001906,NECHES ISD,https://nechesisd.net,found
+010901,MEDINA ISD,https://www.medinaisd.org,found
+011902,ELGIN ISD,https://www.elginisd.net,found
+008903,BRAZOS ISD,https://www.brazosisd.net,found
+009901,MULESHOE ISD,https://www.muleshoeisd.net,found
+011904,SMITHVILLE ISD,https://www.smithvilleisd.org,found
+013901,BEEVILLE ISD,https://www.beevilleisd.org,found
+008902,SEALY ISD,https://www.sealyisd.com,found
+013902,PAWNEE ISD,https://www.pawneeisd.net,found
+013903,PETTUS ISD,https://www.pettusisd.org,found
+013905,SKIDMORE-TYNAN ISD,https://www.stisd.net,found
+013801,ST MARY'S ACADEMY CHARTER SCHOOL,https://www.stisd.net,found
+014905,HOLLAND ISD,https://www.hollandisd.org,found
+014907,ROGERS ISD,https://www.rogersisd.org,found
+014910,TROY ISD,https://www.troyisd.org,found
+014804,ORENDA CHARTER SCHOOL,,not_found
+014803,PRIORITY CHARTER SCHOOLS,https://www.prioritycharterschools.org,found
+015906,RANDOLPH FIELD ISD,https://rfisd.org,found
+015814,POSITIVE SOLUTIONS CHARTER SCHOOL,,not_found
+015839,PROMESA ACADEMY CHARTER SCHOOL,,not_found
+015843,PRELUDE PREPARATORY CHARTER SCHOOL,,not_found
+015901,ALAMO HEIGHTS ISD,https://www.ahisd.net,found
+012901,SEYMOUR ISD,https://www.sisd.org,found
+015844,ESSENCE PREPARATORY CHARTER SCHOOL,,not_found
+015909,SOMERSET ISD,https://www.sisd.org,found
+016901,JOHNSON CITY ISD,https://www.jcisd.org,found
+015913,LACKLAND ISD,https://www.lacklandisd.org,found
+018901,CLIFTON ISD,https://www.cliftonisd.org,found
+018902,MERIDIAN ISD,https://www.meridianisd.org,found
+016902,BLANCO ISD,https://www.blancoisd.org,found
+017901,BORDEN COUNTY ISD,https://www.bcisd.net,found
+018907,KOPPERL ISD,https://www.kopperlisd.org,found
+015914,FT SAM HOUSTON ISD,https://www.ftisd.com,found
+018903,MORGAN ISD,https://www.morganisd.org,found
+018906,IREDELL ISD,https://www.iisd.org,found
+018908,CRANFILLS GAP ISD,https://www.cranfillsgapisd.net,found
+018905,WALNUT SPRINGS ISD,https://www.walnutspringsisd.net,found
+019901,DEKALB ISD,https://www.dekalbisd.net,found
+019906,REDWATER ISD,https://www.redwaterisd.org,found
+019907,TEXARKANA ISD,https://www.tisd.org,found
+019908,LIBERTY-EYLAU ISD,https://www.libertyisd.net,found
+019910,MALTA ISD,https://www.maltaisd.net,found
+019909,SIMMS ISD,https://www.simmsisd.net,found
+019911,RED LICK ISD,https://www.redlickisd.com,found
+019912,PLEASANT GROVE ISD,https://www.pgisd.net,found
+019914,LEARY ISD,https://www.learyisd.net,found
+020910,DAMON ISD,https://www.damonisd.net,found
+021902,BRYAN ISD,https://www.bryanisd.org,found
+019903,MAUD ISD,https://www.maudisd.net,found
+022004,TERLINGUA CSD,https://www.tcisd.org,found
+021901,COLLEGE STATION ISD,https://www.csisd.org,found
+022902,MARATHON ISD,https://www.marathonisd.net,found
+001904,FRANKSTON ISD,https://www.frankstonisd.net,found
+023902,SILVERTON ISD,https://www.silvertonisd.net,found
+022903,SAN VICENTE ISD,https://www.svisd.com,found
+007901,CHARLOTTE ISD,https://www.charlotteisd.net,found
+025901,BANGS ISD,https://www.bangsisd.net,found
+024901,BROOKS COUNTY ISD,https://www.bcisd.net,found
+025902,BROWNWOOD ISD,https://www.brownwoodisd.org,found
+025904,BLANKET ISD,https://www.blanketisd.org,found
+025905,MAY ISD,https://www.mayisd.org,found
+025909,EARLY ISD,https://www.earlyisd.net,found
+026902,SOMERVILLE ISD,https://www.somervilleisd.org,found
+019913,HUBBARD ISD,https://www.hubbardisd.net,found
+025908,BROOKESMITH ISD,https://www.brookesmithisd.net,found
+026901,CALDWELL ISD,https://www.caldwellisd.net,found
+028902,LOCKHART ISD,https://www.lockhartisd.org,found
+026903,SNOOK ISD,https://www.snookisd.org,found
+025906,ZEPHYR ISD,https://www.zephyrisd.net,found
+027904,MARBLE FALLS ISD,https://www.marblefallsisd.org,found
+028906,PRAIRIE LEA ISD,https://www.plisd.net,found
+022901,ALPINE ISD,https://www.aisd.net,found
+028903,LULING ISD,https://www.lisd.org,found
+029901,CALHOUN COUNTY ISD,https://www.calhounisd.org,found
+030901,CROSS PLAINS ISD,https://www.crossplainsisd.net,found
+030902,CLYDE CISD,https://www.clydeisd.org,found
+032902,PITTSBURG ISD,https://www.pittsburgisd.net,found
+030903,BAIRD ISD,https://www.bairdisd.org,found
+033901,GROOM ISD,https://www.groomisd.net,found
+033902,PANHANDLE ISD,https://www.panhandleisd.net,found
+033904,WHITE DEER ISD,https://www.whitedeerisd.net,found
+018904,VALLEY MILLS ISD,https://www.vmisd.net,found
+031913,SANTA MARIA ISD,https://www.smisd.net,found
+034902,AVINGER ISD,https://www.avingerisd.net,found
+019905,NEW BOSTON ISD,https://www.nbisd.org,found
+034907,QUEEN CITY ISD,https://www.qcisd.net,found
+031916,SOUTH TEXAS ISD,https://www.stisd.net,found
+034905,LINDEN-KILDARE CISD,,not_found
+034909,BLOOMBURG ISD,https://www.bloomburgisd.net,found
+035901,DIMMITT ISD,https://www.dimmittisd.net,found
+035902,HART ISD,https://www.hartisd.net,found
+034903,HUGHES SPRINGS ISD,https://www.hsisd.org,found
+036903,EAST CHAMBERS ISD,https://www.ecisd.org,found
+035903,NAZARETH ISD,https://www.nazarethisd.org,found
+030906,EULA ISD,https://www.eulaisd.us,found
+037908,NEW SUMMERFIELD ISD,https://www.newsummerfieldisd.org,found
+037907,RUSK ISD,https://ruskisd.org,found
+037909,WELLS ISD,https://www.wisd.org,found
+011905,MCDADE ISD,https://www.mcdadeisd.net,found
+038901,CHILDRESS ISD,https://www.childressisd.net,found
+037904,JACKSONVILLE ISD,https://www.jisd.org,found
+039904,BELLEVUE ISD,https://www.bellevueisd.org,found
+039905,MIDWAY ISD,https://www.midwayisd.org,found
+039902,HENRIETTA ISD,https://www.hisd.us,found
+040902,WHITEFACE CISD,https://www.wisd.org,found
+040901,MORTON ISD,https://www.mortonisd.org,found
+041901,BRONTE ISD,https://www.bronteisd.net,found
+042901,COLEMAN ISD,https://www.colemanisd.net,found
+041902,ROBERT LEE ISD,https://www.rlisd.org,found
+042903,SANTA ANNA ISD,https://www.santaannaisd.net,found
+037901,ALTO ISD,https://www.aisd.net,found
+044902,WELLINGTON ISD,https://www.wellingtonisd.net,found
+045902,COLUMBUS ISD,https://www.columbusisd.org,found
+045905,WEIMAR ISD,https://www.weimarisd.org,found
+045903,RICE CISD,https://www.risd.org,found
+019902,HOOKS ISD,https://www.hooksisd.net,found
+046902,COMAL ISD,https://www.comalisd.org,found
+046802,TRINITY CHARTER SCHOOL,https://www.trinityisd.net,found
+043917,BLUE RIDGE ISD,https://www.brisd.org,found
+011901,BASTROP ISD,https://www.bisd.net,found
+014902,BARTLETT ISD,https://www.bisd.net,found
+047901,COMANCHE ISD,https://www.comancheisd.net,found
+047903,GUSTINE ISD,https://www.gisd.org,found
+047905,SIDNEY ISD,https://www.sisd.org,found
+047902,DE LEON ISD,https://www.deleonisd.net,found
+049901,GAINESVILLE ISD,https://www.gainesvilleisd.org,found
+036901,ANAHUAC ISD,https://www.aisd.net,found
+048903,PAINT ROCK ISD,https://www.paintrockisd.net,found
+048901,EDEN CISD,https://www.eisd.org,found
+049905,CALLISBURG ISD,https://www.cisd.org,found
+049907,LINDSAY ISD,https://www.lindsayisd.org,found
+049902,MUENSTER ISD,https://www.muensterisd.net,found
+049908,WALNUT BEND ISD,https://www.walnutbendisd.net,found
+049906,ERA ISD,https://www.eraisd.net,found
+049903,VALLEY VIEW ISD,https://www.vvisd.org,found
+034906,MCLEOD ISD,https://www.mcleodisd.net,found
+050904,OGLESBY ISD,https://www.oglesbyisd.net,found
+049909,SIVELLS BEND ISD,https://www.sivellsbendisd.net,found
+050901,EVANT ISD,https://www.evantisd.org,found
+050909,JONESBORO ISD,https://www.jonesboroisd.net,found
+050902,GATESVILLE ISD,https://www.gatesvilleisd.org,found
+051901,PADUCAH ISD,https://www.paducahisd.org,found
+054901,CROSBYTON CISD,https://www.cisd.org,found
+054902,LORENZO ISD,https://www.lorenzoisd.net,found
+054903,RALLS ISD,https://www.rallsisd.org,found
+053001,CROCKETT COUNTY CONSOLIDATED CSD,https://www.crockettisd.net,found
+042905,PANTHER CREEK CISD,,not_found
+055901,CULBERSON COUNTY-ALLAMOORE ISD,https://www.ccaisd.net,found
+056901,DALHART ISD,https://www.dalhartisd.org,found
+052901,CRANE ISD,https://www.craneisd.com,found
+057916,RICHARDSON ISD,https://www.richardsonisd.org,found
+056902,TEXLINE ISD,https://www.texlineisd.net,found
+058906,LAMESA ISD,https://www.lamesaisd.net,found
+058909,SANDS CISD,https://www.sisd.org,found
+057828,WINFREE ACADEMY CHARTER SCHOOLS,,not_found
+034901,ATLANTA ISD,https://www.aisd.net,found
+059901,HEREFORD ISD,https://www.herefordisd.net,found
+057835,GOLDEN RULE CHARTER SCHOOL,,not_found
+059902,WALCOTT ISD,https://www.walcottisd.com,found
+060902,COOPER ISD,https://www.cooperisd.net,found
+062901,CUERO ISD,https://www.cueroisd.org,found
+050910,COPPERAS COVE ISD,https://www.ccisd.org,found
+057834,EVOLUTION ACADEMY CHARTER SCHOOL,,not_found
+060914,FANNINDEL ISD,https://www.fannindelisd.net,found
+062903,YOAKUM ISD,https://www.yoakumisd.net,found
+057831,GATEWAY CHARTER ACADEMY,https://www.gatewaycharteracademy.org,found
+039903,PETROLIA CISD,https://www.pisd.org,found
+062902,NORDHEIM ISD,https://www.nordheimisd.org,found
+062906,MEYERSVILLE ISD,https://www.meyersvilleisd.org,found
+064903,CARRIZO SPRINGS CISD,https://www.csisd.org,found
+065901,CLARENDON ISD,https://www.clarendonisd.net,found
+063906,PATTON SPRINGS ISD,https://www.psisd.com,found
+061911,NORTHWEST ISD,https://www.northwestisd.com,found
+062904,YORKTOWN ISD,https://www.yisd.org,found
+063903,SPUR ISD,https://www.spurisd.net,found
+065902,HEDLEY ISD,https://www.hedleyisd.net,found
+066005,RAMIREZ CSD,https://www.rcisd.org,found
+062905,WESTHOFF ISD,https://www.westhoffisd.org,found
+067904,GORMAN ISD,https://www.gormanisd.net,found
+066902,SAN DIEGO ISD,https://www.sdisd.net,found
+067903,EASTLAND ISD,https://www.eastlandisd.net,found
+067902,CISCO ISD,https://www.ciscoisd.net,found
+067908,RISING STAR ISD,https://www.risingstarisd.org,found
+066903,FREER ISD,https://www.freerisd.org,found
+067907,RANGER ISD,https://www.risd.org,found
+069901,ROCKSPRINGS ISD,https://www.rockspringsisd.net,found
+070901,AVALON ISD,https://www.avalonisd.net,found
+070905,FERRIS ISD,https://www.ferrisisd.org,found
+066901,BENAVIDES ISD,https://www.benavidesisd.net,found
+070908,MIDLOTHIAN ISD,https://www.midlothianisd.org,found
+070907,ITALY ISD,https://www.italyisd.org,found
+070909,MILFORD ISD,https://www.milfordisd.org,found
+070911,RED OAK ISD,https://www.redoakisd.org,found
+070915,MAYPEARL ISD,https://www.maypearlisd.org,found
+070903,ENNIS ISD,https://www.eisd.org,found
+068802,COMPASS ACADEMY CHARTER SCHOOL,,not_found
+071909,SOCORRO ISD,https://www.sisd.org,found
+070912,WAXAHACHIE ISD,https://www.wisd.org,found
+072903,STEPHENVILLE ISD,https://www.sisd.org,found
+046901,NEW BRAUNFELS ISD,https://www.nbisd.org,found
+071801,BURNHAM WOOD CHARTER SCHOOL DISTRICT,,not_found
+072901,THREE WAY ISD,https://www.twisd.us,found
+070910,PALMER ISD,https://www.pisd.org,found
+071908,TORNILLO ISD,https://www.tornilloisd.org,found
+072909,LINGLEVILLE ISD,https://www.lisd.org,found
+071809,VISTA DEL FUTURO CHARTER SCHOOL,,not_found
+073901,CHILTON ISD,https://www.chiltonisd.org,found
+072908,HUCKABAY ISD,https://www.hisd.us,found
+072910,MORGAN MILL ISD,https://www.morganisd.org,found
+073905,ROSEBUD-LOTT ISD,https://www.rlisd.org,found
+073904,WESTPHALIA ISD,https://www.westphaliaisd.org,found
+072904,BLUFF DALE ISD,https://www.bdisd.net,found
+027903,BURNET CISD,https://www.bisd.net,found
+074903,BONHAM ISD,https://www.bonhamisd.org,found
+069902,NUECES CANYON CISD,,not_found
+074904,DODD CITY ISD,https://www.doddcityisd.org,found
+074907,HONEY GROVE ISD,https://www.honeygroveisd.net,found
+073903,MARLIN ISD,https://www.marlinisd.org,found
+074912,TRENTON ISD,https://www.trentonisd.org,found
+074909,LEONARD ISD,https://www.leonardisd.net,found
+072902,DUBLIN ISD,https://www.dublinisd.us,found
+075901,FLATONIA ISD,https://www.flatoniaisd.net,found
+075902,LA GRANGE ISD,https://www.laisd.com,found
+074905,ECTOR ISD,https://www.ectorisd.net,found
+075903,SCHULENBURG ISD,https://www.schulenburgisd.net,found
+075906,FAYETTEVILLE ISD,https://www.fayettevilleisd.net,found
+077902,LOCKNEY ISD,https://www.lockneyisd.net,found
+074911,SAVOY ISD,https://www.savoyisd.org,found
+075908,ROUND TOP-CARMINE ISD,https://www.rtcisd.net,found
+074917,SAM RAYBURN ISD,https://www.srisd.org,found
+077901,FLOYDADA COLLEGIATE ISD,https://www.fcisd.net,found
+076903,ROBY CISD,https://www.risd.org,found
+076904,ROTAN ISD,https://www.risd.org,found
+078901,CROWELL ISD,https://www.crowellisd.net,found
+081906,DEW ISD,https://www.dewisd.org,found
+081905,WORTHAM ISD,https://www.worthamisd.org,found
+081904,TEAGUE ISD,https://www.teagueisd.org,found
+082903,PEARSALL ISD,https://www.pearsallisd.org,found
+079910,STAFFORD MSD,https://www.staffordisd.com,found
+081902,FAIRFIELD ISD,https://www.fairfieldisd.net,found
+083902,LOOP ISD,https://www.loopisd.net,found
+083903,SEMINOLE ISD,https://www.seminoleisd.net,found
+084902,GALVESTON ISD,https://www.galvestonisd.org,found
+085902,POST ISD,https://www.postisd.net,found
+086902,HARPER ISD,https://www.harperisd.org,found
+083901,SEAGRAVES ISD,https://www.seagravesisd.org,found
+085903,SOUTHLAND ISD,https://www.southlandisd.net,found
+086901,FREDERICKSBURG ISD,https://fredericksburgisd.com,found
+084903,HIGH ISLAND ISD,https://www.highislandisd.com,found
+088902,GOLIAD ISD,https://www.goliadisd.org,found
+087901,GLASSCOCK COUNTY ISD,https://www.gcisd.org,found
+089901,GONZALES ISD,https://www.gonzalesisd.net,found
+089905,WAELDER ISD,https://www.waelderisd.org,found
+080901,MOUNT VERNON ISD,https://www.mvisd.com,found
+090902,LEFORS ISD,https://www.leforsisd.net,found
+089903,NIXON-SMILEY CISD,https://www.nsisd.net,found
+091902,COLLINSVILLE ISD,https://www.collinsvilleisd.org,found
+091906,SHERMAN ISD,https://www.shermanisd.net,found
+090903,MCLEAN ISD,https://www.mcleanisd.net,found
+086024,DOSS CONSOLIDATED CSD,,not_found
+091903,DENISON ISD,https://denisonisd.org,found
+091908,VAN ALSTYNE ISD,https://www.vanalstyneisd.org,found
+091907,TIOGA ISD,https://www.tiogaisd.net,found
+091909,WHITESBORO ISD,https://www.whitesboroisd.org,found
+090905,GRANDVIEW-HOPKINS ISD,https://www.ghisd.com,found
+091917,GUNTER ISD,https://www.gunterisd.org,found
+091914,S AND S CISD,https://www.sisd.org,found
+091910,WHITEWRIGHT ISD,https://www.whitewrightisd.com,found
+091901,BELLS ISD,https://www.bellsisd.net,found
+092901,GLADEWATER ISD,https://www.gladewaterisd.com,found
+092906,SABINE ISD,https://www.sabineisd.org,found
+091913,POTTSBORO ISD,https://www.pottsboroisd.org,found
+091918,TOM BEAN ISD,https://www.tbisd.org,found
+092904,PINE TREE ISD,https://www.pinetreeisd.org,found
+092907,SPRING HILL ISD,https://www.springhillisd.org,found
+093904,NAVASOTA ISD,https://www.navasotaisd.org,found
+093903,IOLA ISD,https://www.iolaisd.net,found
+092902,KILGORE ISD,https://www.kilgoreisd.com,found
+093905,RICHARDS ISD,https://www.richardsisd.net,found
+092801,EAST TEXAS CHARTER SCHOOLS,,not_found
+093901,ANDERSON-SHIRO CISD,https://www.asisd.com,found
+094901,SEGUIN ISD,https://seguinisd.com,found
+095902,COTTON CENTER ISD,https://www.cottoncenterisd.org,found
+094904,MARION ISD,https://www.marionisd.net,found
+095903,HALE CENTER ISD,https://www.hcisd.org,found
+095905,PLAINVIEW ISD,https://www.plainviewisd.org,found
+095904,PETERSBURG ISD,https://www.petersburgisd.net,found
+095901,ABERNATHY ISD,https://www.abernathyisd.com,found
+097902,HAMILTON ISD,https://www.hamiltonisd.org,found
+096904,MEMPHIS ISD,https://www.memphisisd.net,found
+097903,HICO ISD,https://www.hisd.us,found
+099902,CHILLICOTHE ISD,https://www.cisd.org,found
+098904,SPEARMAN ISD,https://www.spearmanisd.net,found
+098901,GRUVER ISD,https://www.gruverisd.net,found
+096905,TURKEY-QUITAQUE ISD,,not_found
+098903,PRINGLE-MORSE CISD,https://www.pmisd.org,found
+100903,KOUNTZE ISD,https://www.kountzeisd.org,found
+099903,QUANAH ISD,https://www.qisd.net,found
+090904,PAMPA ISD,https://www.pampaisd.net,found
+100904,SILSBEE ISD,https://www.silsbeeisd.org,found
+100907,LUMBERTON ISD,https://www.lumbertonisd.org,found
+100905,HARDIN-JEFFERSON ISD,https://www.hardinisd.net,found
+091905,HOWE ISD,https://www.howeisd.net,found
+100908,WEST HARDIN COUNTY CISD,https://www.westisd.net,found
+101804,GEORGE I SANCHEZ CHARTER,,not_found
+101802,SER-NINOS CHARTER SCHOOL,,not_found
+101837,CALVIN NELMS CHARTER SCHOOLS,,not_found
+101847,BEATRICE MAYES INSTITUTE CHARTER SCHOOL,,not_found
+101878,HOUSTON CLASSICAL CHARTER SCHOOL,https://www.houstonisd.org,found
+101859,STEP CHARTER SCHOOL,,not_found
+101911,GOOSE CREEK CISD,https://www.goosecreekisd.com,found
+058905,KLONDIKE ISD,https://www.kisd.org,found
+101872,ETOILE ACADEMY CHARTER SCHOOL,,not_found
+101913,HUMBLE ISD,https://www.humbleisd.net,found
+102902,MARSHALL ISD,https://www.marshallisd.com,found
+101924,SHELDON ISD,https://www.sheldonisd.org,found
+102901,KARNACK ISD,https://www.karnackisd.org,found
+101875,BLOOM ACADEMY CHARTER SCHOOL,,not_found
+101916,LA PORTE ISD,https://www.laisd.com,found
+101877,ELEVATE COLLEGIATE CHARTER SCHOOL,,not_found
+102905,HARLETON ISD,https://www.harletonisd.net,found
+103902,HARTLEY ISD,https://www.hartleyisd.net,found
+058902,DAWSON ISD,https://www.dawsonisd.net,found
+104901,HASKELL CISD,https://www.hisd.us,found
+103901,CHANNING ISD,https://www.channingisd.net,found
+102903,WASKOM ISD,https://www.waskomisd.net,found
+105905,WIMBERLEY ISD,https://www.wimberleyisd.net,found
+105803,KI CHARTER,https://www.kiisd.com,found
+104903,RULE ISD,https://www.risd.org,found
+107901,ATHENS ISD,https://www.athensisd.net,found
+102906,ELYSIAN FIELDS ISD,https://www.efisd.org,found
+106901,CANADIAN ISD,https://www.canadianisd.net,found
+107904,CROSS ROADS ISD,https://www.crossroadsisd.org,found
+102904,HALLSVILLE ISD,https://www.hisd.us,found
+107906,MALAKOFF ISD,https://www.malakoffisd.org,found
+105904,DRIPPING SPRINGS ISD,https://www.dsisd.net,found
+107908,MURCHISON ISD,https://www.murchisonisd.com,found
+107907,TRINIDAD ISD,https://www.trinidadisd.com,found
+107905,EUSTACE ISD,https://www.eustaceisd.net,found
+104907,PAINT CREEK ISD,https://www.paintcreek.com,found
+108906,MCALLEN ISD,https://www.mcallenisd.org,found
+108905,HIDALGO ISD,https://www.hisd.us,found
+094903,NAVARRO ISD,https://www.navarroisd.us,found
+101855,MEYERPARK CHARTER,https://www.mcisd.net,found
+107910,LAPOYNOR ISD,https://www.lapoynorisd.net,found
+108904,EDINBURG CISD,https://www.eisd.org,found
+108903,EDCOUCH-ELSA ISD,https://www.eeisd.org,found
+108911,SHARYLAND ISD,https://www.sharylandisd.org,found
+108909,PHARR-SAN JUAN-ALAMO ISD,https://www.psjaisd.us,found
+108910,PROGRESO ISD,https://www.pisd.org,found
+108908,MISSION CISD,https://www.misd.org,found
+108907,MERCEDES ISD,https://www.misd.org,found
+108914,LA VILLA ISD,https://www.lavillaisd.org,found
+108915,MONTE ALTO ISD,https://www.montealtoisd.org,found
+108916,VALLEY VIEW ISD,https://www.vvisd.org,found
+109901,ABBOTT ISD,https://www.abbottisd.org,found
+109904,HILLSBORO ISD,https://www.hillsboroisd.org,found
+108913,WESLACO ISD,https://www.weslacoisd.us,found
+109907,ITASCA ISD,https://www.itascaisd.org,found
+109911,WHITNEY ISD,https://www.whitneyisd.org,found
+109902,BYNUM ISD,https://www.bynumisd.net,found
+109903,COVINGTON ISD,https://www.covingtonisd.org,found
+109912,AQUILLA ISD,https://www.aquillaisd.net,found
+109908,MALONE ISD,https://www.maloneisd.org,found
+108912,LA JOYA ISD,https://www.lajoyaisd.com,found
+109914,PENELOPE ISD,https://www.penelopeisd.org,found
+109913,BLUM ISD,https://www.blumisd.net,found
+110901,ANTON ISD,https://www.antonisd.org,found
+110906,SMYER ISD,https://www.sisd.org,found
+110902,LEVELLAND ISD,https://www.levellandisd.net,found
+110907,SUNDOWN ISD,https://www.sundownisd.com,found
+110908,WHITHARRAL ISD,https://www.whitharralisd.org,found
+111902,LIPAN ISD,https://www.lisd.org,found
+111903,TOLAR ISD,https://www.tolarisd.org,found
+112906,NORTH HOPKINS ISD,https://www.northisd.org,found
+112905,CUMBY COLLEGIATE ISD,https://www.cumbyisd.net,found
+111801,LAKE GRANBURY ACADEMY CHARTER SCHOOL,,not_found
+112907,MILLER GROVE ISD,https://www.mgisd.net,found
+112909,SALTILLO ISD,https://www.saltilloisd.net,found
+113901,CROCKETT ISD,https://www.crockettisd.net,found
+110905,ROPES ISD,https://www.ropesisd.us,found
+113902,GRAPELAND ISD,https://www.grapelandisd.net,found
+112910,SULPHUR BLUFF ISD,https://www.sulphurbluffisd.net,found
+113903,LOVELADY ISD,https://www.loveladyisd.net,found
+113905,LATEXO ISD,https://www.latexoisd.net,found
+113906,KENNARD ISD,https://www.kennardisd.net,found
+114902,COAHOMA ISD,https://www.coahomaisd.com,found
+114904,FORSAN ISD,https://www.fisd.org,found
+115901,FT HANCOCK ISD,https://www.ftisd.com,found
+112901,SULPHUR SPRINGS ISD,https://www.ssisd.net,found
+115902,SIERRA BLANCA ISD,https://www.sierrablancaisd.net,found
+109905,HUBBARD ISD,https://www.hubbardisd.net,found
+116901,CADDO MILLS ISD,https://www.caddomillsisd.org,found
+116903,COMMERCE ISD,https://www.commerceisd.org,found
+115903,DELL CITY ISD,https://www.dellcityisd.net,found
+116902,CELESTE ISD,https://www.celesteisd.org,found
+114901,BIG SPRING ISD,https://www.bigspringisd.net,found
+108902,DONNA ISD,https://www.donnaisd.net,found
+109910,MOUNT CALM ISD,https://www.mcisd.net,found
+112908,COMO-PICKTON CISD,https://www.cpisd.org,found
+116906,LONE OAK ISD,https://www.loneoakisd.net,found
+116908,QUINLAN ISD,https://www.quinlanisd.net,found
+116905,GREENVILLE ISD,https://www.greenvilleisd.com,found
+116916,BOLES ISD,https://www.bolesisd.com,found
+116909,WOLFE CITY ISD,https://www.wcisd.org,found
+117903,SANFORD-FRITCH ISD,https://www.sfisd.org,found
+118902,IRION COUNTY ISD,https://www.icisd.org,found
+082902,DILLEY ISD,https://www.dilleyisd.net,found
+116910,CAMPBELL ISD,https://www.campbellisd.org,found
+119901,BRYSON ISD,https://www.brysonisd.net,found
+117901,BORGER ISD,https://www.borgerisd.net,found
+120902,GANADO ISD,https://www.ganadoisd.org,found
+119902,JACKSBORO ISD,https://www.jacksboroisd.net,found
+120901,EDNA ISD,https://www.ednaisd.org,found
+119903,PERRIN-WHITT CISD,https://www.pwisd.org,found
+121902,BROOKELAND ISD,https://www.brookelandisd.net,found
+121906,EVADALE ISD,https://www.eisd.org,found
+121905,KIRBYVILLE CISD,https://www.kisd.org,found
+122901,FT DAVIS ISD,https://www.ftisd.com,found
+117904,PLEMONS-STINNETT-PHILLIPS CISD,,not_found
+120905,INDUSTRIAL ISD,https://www.industrialisd.org,found
+123905,NEDERLAND ISD,https://www.nederlandisd.org,found
+121903,BUNA ISD,https://www.bunaisd.net,found
+121904,JASPER ISD,https://www.jasperisd.net,found
+123913,SABINE PASS ISD,https://www.sabineisd.org,found
+123910,BEAUMONT ISD,https://www.beaumontisd.com,found
+122902,VALENTINE ISD,https://www.valentineisd.com,found
+123908,PORT NECHES-GROVES ISD,https://www.pngisd.org,found
+126904,GRANDVIEW ISD,https://www.gisd.org,found
+123914,HAMSHIRE-FANNETT ISD,https://www.hfisd.net,found
+125906,LA GLORIA ISD,https://www.lagloriaisd.net,found
+125903,ORANGE GROVE ISD,https://www.ogisd.org,found
+125905,PREMONT ISD,https://www.premontisd.net,found
+126907,RIO VISTA ISD,https://www.rvisd.net,found
+126901,ALVARADO ISD,https://www.alvaradoisd.net,found
+125902,BEN BOLT-PALITO BLANCO ISD,,not_found
+127904,HAWLEY ISD,https://www.hisd.us,found
+127903,HAMLIN COLLEGIATE ISD,https://www.hcisd.org,found
+125901,ALICE ISD,https://www.aliceisd.net,found
+127905,LUEDERS-AVOCA ISD,https://www.laisd.com,found
+128901,KARNES CITY ISD,https://www.karnescityisd.org,found
+128903,RUNGE ISD,https://www.rungeisd.org,found
+129902,FORNEY ISD,https://www.forneyisd.net,found
+129903,KAUFMAN ISD,https://www.kaufmanisd.net,found
+128902,KENEDY ISD,https://www.kenedyisd.com,found
+129904,KEMP ISD,https://www.kempisd.org,found
+126906,KEENE ISD,https://www.keeneisd.org,found
+124901,JIM HOGG COUNTY ISD,https://www.jhcisd.net,found
+129905,MABANK ISD,https://www.mabankisd.net,found
+129901,CRANDALL ISD,https://www.crandallisd.com,found
+129906,TERRELL ISD,https://www.terrellisd.org,found
+130901,BOERNE ISD,https://www.boerneisd.net,found
+129910,SCURRY-ROSSER ISD,https://www.srisd.org,found
+128904,FALLS CITY ISD,https://www.fcisd.net,found
+133901,CENTER POINT ISD,https://www.centerisd.org,found
+133902,HUNT ISD,https://www.huntisd.org,found
+130902,COMFORT ISD,https://www.comfortisd.org,found
+131001,KENEDY COUNTY WIDE CSD,https://www.kenedyisd.com,found
+133903,KERRVILLE ISD,https://www.kerrvilleisd.net,found
+133905,DIVIDE ISD,https://www.divideisd.org,found
+136901,BRACKETT ISD,https://www.brackettisd.net,found
+132902,JAYTON-GIRARD ISD,https://www.jgisd.net,found
+135001,GUTHRIE CSD,https://www.gcisd.org,found
+130801,MEADOWLAND CHARTER DISTRICT,,not_found
+137902,RICARDO ISD,https://www.ricardoisd.us,found
+133904,INGRAM ISD,https://www.ingramisd.net,found
+137904,SANTA GERTRUDIS ISD,https://www.sgisd.net,found
+137901,KINGSVILLE ISD,https://www.kingsvilleisd.com,found
+127901,ANSON ISD,https://www.aisd.net,found
+134901,JUNCTION ISD,https://www.junctionisd.net,found
+138904,BENJAMIN ISD,https://www.benjaminisd.net,found
+139905,CHISUM ISD,https://www.chisumisd.org,found
+138902,KNOX CITY-O'BRIEN CISD,,not_found
+139912,PRAIRILAND ISD,https://www.pisd.org,found
+138903,MUNDAY CISD,https://www.misd.org,found
+139909,PARIS ISD,https://www.parisisd.net,found
+140901,AMHERST ISD,https://www.amherstisd.com,found
+140904,LITTLEFIELD ISD,https://www.lisd.org,found
+140905,OLTON ISD,https://www.oltonisd.org,found
+141902,LOMETA ISD,https://www.lometaisd.org,found
+141901,LAMPASAS ISD,https://www.lisd.org,found
+143901,HALLETTSVILLE ISD,https://www.hisd.us,found
+143903,SHINER ISD,https://www.shinerisd.net,found
+142901,COTULLA ISD,https://www.cotullaisd.net,found
+140907,SPRINGLAKE-EARTH ISD,https://www.seisd.net,found
+143905,SWEET HOME ISD,https://www.sweethomeisd.org,found
+143902,MOULTON ISD,https://www.moultonisd.org,found
+116915,BLAND ISD,https://www.blandisd.us,found
+143904,VYSEHRAD ISD,https://www.visd.org,found
+143906,EZZELL ISD,https://www.ezzellisd.org,found
+144902,LEXINGTON ISD,https://www.lexingtonisd.net,found
+144901,GIDDINGS ISD,https://www.giddingsisd.net,found
+144903,DIME BOX ISD,https://www.dimeboxisd.net,found
+146901,CLEVELAND ISD,https://www.clevelandisd.org,found
+145906,NORMANGEE ISD,https://www.normangeeisd.org,found
+145907,OAKWOOD ISD,https://www.oakwoodisd.net,found
+145902,CENTERVILLE ISD,https://www.centervilleisd.net,found
+145901,BUFFALO ISD,https://www.buffaloisd.net,found
+145911,LEON ISD,https://www.leonisd.net,found
+146903,DEVERS ISD,https://www.deversisd.net,found
+146906,LIBERTY ISD,https://www.libertyisd.net,found
+146904,HARDIN ISD,https://www.hardinisd.net,found
+146902,DAYTON ISD,https://www.daytonisd.net,found
+147903,MEXIA ISD,https://www.mexiaisd.net,found
+146905,HULL-DAISETTA ISD,https://www.hdisd.net,found
+147902,GROESBECK ISD,https://www.groesbeckisd.net,found
+147901,COOLIDGE ISD,https://www.coolidgeisd.org,found
+146907,TARKINGTON ISD,https://www.tarkingtonisd.net,found
+148905,DARROUZETT ISD,https://www.darrouzettisd.net,found
+149901,GEORGE WEST ISD,https://www.gwisd.us,found
+150901,LLANO ISD,https://www.llanoisd.org,found
+152902,NEW DEAL ISD,https://www.newdealisd.com,found
+152906,LUBBOCK-COOPER ISD,https://www.lubbockisd.org,found
+149902,THREE RIVERS ISD,https://www.trisd.org,found
+148902,FOLLETT ISD,https://www.follettisd.org,found
+137903,RIVIERA ISD,https://www.rivieraisd.us,found
+152909,SHALLOWATER ISD,https://www.shallowaterisd.net,found
+152903,SLATON ISD,https://www.slatonisd.net,found
+152910,IDALOU ISD,https://www.idalouisd.net,found
+153904,TAHOKA ISD,https://www.tahokaisd.org,found
+152908,ROOSEVELT ISD,https://www.risd.org,found
+153905,NEW HOME ISD,https://www.newhomeisd.org,found
+153903,O'DONNELL ISD,https://www.oisd.org,found
+154903,NORTH ZULCH ISD,https://www.northisd.org,found
+155901,JEFFERSON ISD,https://www.jeffersonisd.org,found
+153907,WILSON ISD,https://www.wisd.org,found
+156902,STANTON ISD,https://www.sisd.org,found
+156905,GRADY ISD,https://www.gradyisd.org,found
+157901,MASON ISD,https://www.masonisd.net,found
+154901,MADISONVILLE CISD,https://www.misd.org,found
+107902,BROWNSBORO ISD,https://www.bisd.net,found
+158905,PALACIOS ISD,https://www.palaciosisd.org,found
+158902,TIDEHAVEN ISD,https://www.tidehavenisd.com,found
+159901,EAGLE PASS ISD,https://www.eaglepassisd.net,found
+158906,VAN VLECK ISD,https://www.vanisd.org,found
+148901,BOOKER ISD,https://www.bookerisd.net,found
+160904,ROCHELLE ISD,https://www.rochelleisd.net,found
+161903,MIDWAY ISD,https://www.midwayisd.org,found
+160901,BRADY ISD,https://www.bradyisd.org,found
+161906,LA VEGA ISD,https://www.lavegaisd.org,found
+158904,MATAGORDA ISD,https://www.matagordaisd.org,found
+161907,LORENA ISD,https://www.lorenaisd.net,found
+161908,MART ISD,https://www.martisd.org,found
+160905,LOHN ISD,https://www.lohnisd.net,found
+161914,WACO ISD,https://www.wacoisd.org,found
+158901,BAY CITY ISD,https://www.bayisd.com,found
+161910,MOODY ISD,https://www.moodyisd.org,found
+161909,MCGREGOR ISD,https://www.misd.org,found
+161916,WEST ISD,https://www.westisd.net,found
+161921,CONNALLY ISD,https://www.cisd.org,found
+161922,ROBINSON ISD,https://www.robinsonisd.org,found
+161920,CHINA SPRING ISD,https://www.chinaspringisd.net,found
+161901,CRAWFORD ISD,https://www.cisd.org,found
+161923,BOSQUEVILLE ISD,https://www.bosquevilleisd.org,found
+161925,GHOLSON ISD,https://www.gholsonisd.org,found
+161924,HALLSBURG ISD,https://www.hallsburgisd.org,found
+163901,DEVINE ISD,https://www.devineisd.org,found
+161912,RIESEL ISD,https://www.rieselisd.org,found
+163902,D'HANIS ISD,https://www.dhanisisd.net,found
+161919,BRUCEVILLE-EDDY ISD,https://www.beisd.net,found
+163904,HONDO ISD,https://www.hondoisd.org,found
+163908,MEDINA VALLEY ISD,https://www.medinaisd.org,found
+165902,GREENWOOD ISD,https://www.gisd.org,found
+161918,AXTELL ISD,https://www.axtellisd.net,found
+164901,MENARD ISD,https://www.menardisd.net,found
+163903,NATALIA ISD,https://www.nataliaisd.org,found
+166901,CAMERON ISD,https://www.cameronisd.net,found
+166902,GAUSE ISD,https://www.gauseisd.net,found
+166904,ROCKDALE ISD,https://www.rockdaleisd.net,found
+166903,MILANO ISD,https://www.milanoisd.net,found
+167901,GOLDTHWAITE ISD,https://www.gisd.org,found
+167902,MULLIN ISD,https://www.mullinisd.net,found
+167904,PRIDDY ISD,https://www.priddyisd.net,found
+168901,COLORADO ISD,https://www.cisd.org,found
+166907,BUCKHOLTS ISD,https://www.buckholtsisd.net,found
+166905,THORNDALE ISD,https://www.thorndaleisd.net,found
+168902,LORAINE ISD,https://www.lisd.org,found
+168903,WESTBROOK ISD,https://www.westbrookisd.com,found
+169901,BOWIE ISD,https://www.bowieisd.net,found
+169902,NOCONA ISD,https://www.noconaisd.net,found
+169908,MONTAGUE ISD,https://www.montagueisd.org,found
+169909,PRAIRIE VALLEY ISD,https://www.prairievalleyisd.net,found
+169906,GOLD BURG ISD,https://www.goldburgisd.net,found
+169911,SAINT JO ISD,https://www.saintjoisd.net,found
+171901,DUMAS ISD,https://www.dumasisd.org,found
+127906,STAMFORD ISD,https://www.stamfordisd.net,found
+169910,FORESTBURG ISD,https://www.forestburgisd.net,found
+172905,PEWITT CISD,https://www.pisd.org,found
+171902,SUNRAY COLLEGIATE ISD,https://www.sunrayisd.org,found
+172902,DAINGERFIELD-LONE STAR ISD,https://www.dlsisd.org,found
+174901,CHIRENO ISD,https://www.chirenoisd.org,found
+174902,CUSHING ISD,https://www.cushingisd.org,found
+174906,WODEN ISD,https://www.wodenisd.org,found
+174903,GARRISON ISD,https://www.garrisonisd.com,found
+162904,MCMULLEN COUNTY ISD,https://www.mcisd.net,found
+174908,CENTRAL HEIGHTS ISD,https://www.centralisd.com,found
+174801,STEPHEN F AUSTIN STATE UNIVERSITY CHARTER SCHOOL,,not_found
+174909,MARTINSVILLE ISD,https://www.martinsvilleisd.com,found
+174911,DOUGLASS ISD,https://www.douglassisd.net,found
+175903,CORSICANA ISD,https://www.corsicanaisd.org,found
+175905,FROST ISD,https://www.frostisd.org,found
+174904,NACOGDOCHES ISD,https://www.nisd.org,found
+175902,BLOOMING GROVE ISD,https://www.bgisd.org,found
+175910,MILDRED ISD,https://www.mildredisd.org,found
+165802,MIDLAND ACADEMY CHARTER SCHOOL,https://www.midlandisd.net,found
+176901,BURKEVILLE ISD,https://www.burkevilleisd.org,found
+175907,KERENS ISD,https://www.kerensisd.org,found
+177901,ROSCOE COLLEGIATE ISD,https://www.rcisd.org,found
+176903,DEWEYVILLE ISD,https://www.deweyvilleisd.com,found
+175911,RICE ISD,https://www.risd.org,found
+177905,HIGHLAND ISD,https://www.hisd.us,found
+176902,NEWTON ISD,https://www.newtonisd.net,found
+092908,WHITE OAK ISD,https://www.woisd.net,found
+178901,AGUA DULCE ISD,https://www.adisd.net,found
+178903,CALALLEN ISD,https://www.cisd.org,found
+178801,DR M L GARZA-GONZALEZ CHARTER SCHOOL,,not_found
+140908,SUDAN ISD,https://www.sisd.org,found
+178904,CORPUS CHRISTI ISD,https://www.ccisd.org,found
+178808,SEASHORE CHARTER SCHOOLS,https://www.seashorecharterschools.com,found
+173901,MOTLEY COUNTY ISD,https://www.mcisd.net,found
+178906,LONDON ISD,https://www.londonisd.net,found
+178909,ROBSTOWN ISD,https://www.robstownisd.org,found
+178908,PORT ARANSAS ISD,https://www.paisd.org,found
+178914,FLOUR BLUFF ISD,https://www.flourbluffisd.com,found
+178915,WEST OSO ISD,https://www.westosoisd.org,found
+178913,BANQUETE ISD,https://banqueteisd.org,found
+178912,TULOSO-MIDWAY ISD,https://www.tmisd.us,found
+180902,VEGA ISD,https://www.vegaisd.net,found
+180901,BOYS RANCH ISD,https://www.boysranchisd.org,found
+179901,PERRYTON ISD,https://www.perrytonisd.org,found
+180903,ADRIAN ISD,https://www.adrianisd.net,found
+180904,WILDORADO ISD,https://www.wildoradoisd.org,found
+178905,DRISCOLL ISD,https://www.driscollisd.us,found
+181906,WEST ORANGE-COVE CISD,https://www.westisd.net,found
+181905,ORANGEFIELD ISD,https://www.orangefieldisd.net,found
+181901,BRIDGE CITY ISD,https://www.bridgecityisd.net,found
+181907,VIDOR ISD,https://www.vidorisd.org,found
+182905,STRAWN ISD,https://www.sisd.org,found
+182902,GRAFORD ISD,https://www.grafordisd.net,found
+182906,PALO PINTO ISD,https://www.palopintoisd.net,found
+182901,GORDON ISD,https://www.gordonisd.net,found
+183901,BECKVILLE ISD,https://www.beckvilleisd.net,found
+183902,CARTHAGE ISD,https://www.carthageisd.org,found
+183904,GARY ISD,https://www.garyisd.org,found
+182904,SANTO ISD,https://www.santoisd.net,found
+184901,POOLVILLE ISD,https://www.pisd.org,found
+184908,PEASTER ISD,https://www.pisd.org,found
+181908,LITTLE CYPRESS-MAURICEVILLE CISD,,not_found
+185902,FARWELL ISD,https://www.fisd.org,found
+185901,BOVINA ISD,https://www.bovinaisd.org,found
+184911,GARNER ISD,https://www.garnerisd.net,found
+184909,BROCK ISD,https://www.brockisd.org,found
+183801,PANOLA CHARTER SCHOOL,https://www.panolacharterschool.net,found
+185903,FRIONA ISD,https://www.frionaisd.com,found
+185904,LAZBUDDIE ISD,https://www.lazbuddieisd.org,found
+187901,BIG SANDY ISD,https://www.bigsandyisd.org,found
+186902,FORT STOCKTON ISD,https://www.fortisd.com,found
+186901,BUENA VISTA ISD,https://www.bvisd.org,found
+184904,MILLSAP ISD,https://www.millsapisd.net,found
+187903,GOODRICH ISD,https://www.goodrichisd.net,found
+188901,AMARILLO ISD,https://www.amarilloisd.org,found
+187904,CORRIGAN-CAMDEN ISD,https://www.ccisd.org,found
+187906,LEGGETT ISD,https://www.leggettisd.net,found
+187907,LIVINGSTON ISD,https://www.livingstonisd.com,found
+187910,ONALASKA ISD,https://www.onalaskaisd.net,found
+189902,PRESIDIO ISD,https://www.pisd.org,found
+189901,MARFA ISD,https://www.marfaisd.com,found
+186903,IRAAN-SHEFFIELD COLLEGIATE ISD,,not_found
+190903,RAINS ISD,https://www.rainsisd.org,found
+188902,RIVER ROAD ISD,https://www.rrisd.net,found
+191901,CANYON ISD,https://www.canyonisd.net,found
+177902,SWEETWATER ISD,https://www.sweetwaterisd.net,found
+192901,REAGAN COUNTY ISD,https://www.reagancountyisd.net,found
+188903,HIGHLAND PARK ISD,https://www.highlandparkisd.com,found
+193902,LEAKEY ISD,https://www.leakeyisd.org,found
+194903,RIVERCREST ISD,https://www.rivercrestisd.net,found
+194902,AVERY ISD,https://www.averyisd.net,found
+194904,CLARKSVILLE ISD,https://www.clarksvilleisd.net,found
+195901,PECOS-BARSTOW-TOYAH ISD,https://www.pbtisd.net,found
+194905,DETROIT ISD,https://www.disd.org,found
+196902,WOODSBORO ISD,https://www.wisd.org,found
+193801,BIG SPRINGS CHARTER SCHOOL,https://www.bigspringscharterschool.com,found
+197902,MIAMI ISD,https://www.miamiisd.net,found
+196903,REFUGIO ISD,https://www.refugioisd.net,found
+196901,AUSTWELL-TIVOLI ISD,https://www.atisd.net,found
+198903,FRANKLIN ISD,https://www.franklinisd.net,found
+198902,CALVERT ISD,https://www.calvertisd.com,found
+200901,BALLINGER ISD,https://www.ballingerisd.net,found
+139911,NORTH LAMAR ISD,https://www.northisd.org,found
+200902,MILES ISD,https://www.milesisd.net,found
+200906,OLFEN ISD,https://www.olfenisd.net,found
+201902,HENDERSON ISD,https://www.hendersonisd.org,found
+200904,WINTERS ISD,https://www.wintersisd.org,found
+201903,LANEVILLE ISD,https://www.lanevilleisd.org,found
+201904,LEVERETTS CHAPEL ISD,https://www.leverettschapelisd.net,found
+201908,OVERTON ISD,https://www.overtonisd.org,found
+201913,CARLISLE ISD,https://www.carlisleisd.org,found
+201910,TATUM ISD,https://www.tatumisd.org,found
+201914,WEST RUSK COUNTY CONSOLIDATED ISD,https://www.westisd.net,found
+202903,HEMPHILL ISD,https://www.hemphillisd.net,found
+202905,WEST SABINE ISD,https://www.westsabineisd.net,found
+203901,SAN AUGUSTINE ISD,https://www.saisd.org,found
+198901,BREMOND ISD,https://www.bremondisd.net,found
+204904,SHEPHERD ISD,https://www.shepherdisd.net,found
+203902,BROADDUS ISD,https://www.broaddusisd.net,found
+205901,ARANSAS PASS ISD,https://www.apisd.org,found
+205902,GREGORY-PORTLAND ISD,https://www.gpisd.org,found
+205903,INGLESIDE ISD,https://www.inglesideisd.org,found
+175904,DAWSON ISD,https://www.dawsonisd.net,found
+205906,SINTON ISD,https://www.sintonisd.net,found
+205905,ODEM-EDROY ISD,https://www.oeisd.org,found
+205904,MATHIS ISD,https://www.mathisisd.org,found
+205907,TAFT ISD,https://www.taftisd.net,found
+206901,SAN SABA ISD,https://www.ssisd.net,found
+207901,SCHLEICHER ISD,https://www.sisd.org,found
+206903,CHEROKEE ISD,https://www.cherokeeisd.net,found
+206902,RICHLAND SPRINGS ISD,https://www.rsisd.org,found
+208901,HERMLEIGH ISD,https://www.hisd.us,found
+209901,ALBANY ISD,https://www.albanyisd.net,found
+208903,IRA ISD,https://www.iisd.org,found
+210901,CENTER ISD,https://www.centerisd.org,found
+209902,MORAN ISD,https://www.misd.org,found
+210902,JOAQUIN ISD,https://www.joaquinisd.net,found
+210903,SHELBYVILLE ISD,https://www.shelbyvilleisd.org,found
+210904,TENAHA ISD,https://www.tenahaisd.com,found
+177903,BLACKWELL CISD,https://www.bisd.net,found
+210906,EXCELSIOR ISD,https://www.excelsiorisd.com,found
+210905,TIMPSON ISD,https://www.timpsonisd.com,found
+211901,TEXHOMA ISD,https://www.texhomaisd.net,found
+212902,BULLARD ISD,https://www.bullardisd.net,found
+212901,ARP ISD,https://www.arpisd.org,found
+211902,STRATFORD ISD,https://www.stratfordisd.net,found
+178902,BISHOP CISD,https://www.bisd.net,found
+212904,TROUP ISD,https://www.troupisd.org,found
+212905,TYLER ISD,https://www.tylerisd.org,found
+212903,LINDALE ISD,https://www.lisd.org,found
+212906,WHITEHOUSE ISD,https://www.whitehouseisd.org,found
+212910,WINONA ISD,https://www.winonaisd.org,found
+212909,CHAPEL HILL ISD,https://www.chapelhillisd.org,found
+213801,BRAZOS RIVER CHARTER SCHOOL,https://www.brazosisd.net,found
+214902,SAN ISIDRO ISD,https://www.sanisidroisd.org,found
+215901,BRECKENRIDGE ISD,https://www.breckenridgeisd.org,found
+213901,GLEN ROSE ISD,https://www.grisd.net,found
+214901,RIO GRANDE CITY GRULLA ISD,https://www.rgcgisd.us,found
+216901,STERLING CITY ISD,https://www.sterlingcityisd.net,found
+217901,ASPERMONT ISD,https://www.aspermontisd.com,found
+219901,HAPPY ISD,https://www.happyisd.net,found
+219905,KRESS ISD,https://www.kisd.org,found
+218901,SONORA ISD,https://www.sonoraisd.net,found
+220915,AZLE ISD,https://www.azleisd.net,found
+219903,TULIA ISD,https://www.tuliaisd.org,found
+221901,ABILENE ISD,https://www.abileneisd.org,found
+220919,CARROLL ISD,https://www.carrollisd.com,found
+188904,BUSHLAND ISD,https://www.bushlandisd.net,found
+220810,WESTLAKE ACADEMY CHARTER SCHOOL,,not_found
+221905,TRENT ISD,https://www.trentisd.org,found
+221904,MERKEL ISD,https://www.merkelisd.net,found
+222901,TERRELL COUNTY ISD,https://www.terrellisd.org,found
+220916,HURST-EULESS-BEDFORD ISD,https://www.hebisd.edu,found
+152907,FRENSHIP ISD,https://www.fisd.org,found
+223901,BROWNFIELD ISD,https://www.brownfieldisd.net,found
+223902,MEADOW ISD,https://www.meadowisd.net,found
+224901,THROCKMORTON COLLEGIATE ISD,https://www.tcisd.org,found
+224902,WOODSON ISD,https://www.woodsonisd.net,found
+221911,JIM NED CISD,https://www.jimned.com,found
+225906,CHAPEL HILL ISD,https://www.chapelhillisd.org,found
+221912,WYLIE ISD,https://www.wylieisd.net,found
+226903,SAN ANGELO ISD,https://www.saisd.org,found
+226901,CHRISTOVAL ISD,https://www.christovalisd.org,found
+225902,MOUNT PLEASANT ISD,https://www.mpisd.net,found
+208902,SNYDER ISD,https://www.snyderisd.net,found
+223904,WELLMAN-UNION CISD,,not_found
+226906,WALL ISD,https://www.wallisd.net,found
+226907,GRAPE CREEK ISD,https://www.grapecreekisd.net,found
+226908,VERIBEST ISD,https://www.veribestisd.net,found
+198906,MUMFORD ISD,https://www.misd.org,found
+227909,EANES ISD,https://www.eanesisd.net,found
+228903,TRINITY ISD,https://www.trinityisd.net,found
+228901,GROVETON ISD,https://www.grovetonisd.net,found
+227904,PFLUGERVILLE ISD,https://www.pisd.org,found
+227804,NYOS CHARTER SCHOOL,,not_found
+228905,APPLE SPRINGS ISD,https://www.asisd.com,found
+227806,UNIVERSITY OF TEXAS UNIVERSITY CHARTER SCHOOL,,not_found
+227819,UNIVERSITY OF TEXAS ELEMENTARY CHARTER SCHOOL,,not_found
+228904,CENTERVILLE ISD,https://www.centervilleisd.net,found
+226905,WATER VALLEY ISD,https://www.wvisd.net,found
+230901,BIG SANDY ISD,https://www.bigsandyisd.org,found
+229901,COLMESNEIL ISD,https://www.colmesneilisd.net,found
+229905,SPURGER ISD,https://www.spurgerisd.org,found
+198905,HEARNE ISD,https://www.hearneisd.com,found
+229903,WOODVILLE ISD,https://www.woodvilleisd.com,found
+230902,GILMER ISD,https://www.gilmerisd.org,found
+229904,WARREN ISD,https://www.warrenisd.net,found
+229906,CHESTER ISD,https://www.chesterisd.com,found
+230906,NEW DIANA ISD,https://www.newdianaisd.com,found
+230905,HARMONY ISD,https://www.harmonyisd.net,found
+232901,KNIPPA ISD,https://www.knippaisd.net,found
+230908,UNION GROVE ISD,https://www.ugisd.org,found
+230903,ORE CITY ISD,https://www.ocisd.net,found
+225907,HARTS BLUFF ISD,https://www.hbisd.net,found
+230904,UNION HILL ISD,https://www.uhisd.com,found
+231902,RANKIN ISD,https://www.rankinisd.net,found
+231901,MCCAMEY ISD,https://www.misd.org,found
+234903,EDGEWOOD ISD,https://www.eisd.org,found
+234902,CANTON ISD,https://www.cantonisd.net,found
+232904,UTOPIA ISD,https://www.utopiaisd.net,found
+234906,VAN ISD,https://www.vanisd.org,found
+195902,BALMORHEA ISD,https://www.bisd.net,found
+233903,COMSTOCK ISD,https://www.comstockisd.net,found
+234904,GRAND SALINE ISD,https://www.grandsalineisd.net,found
+235902,VICTORIA ISD,https://www.visd.org,found
+232903,UVALDE CISD,https://www.uisd.org,found
+232902,SABINAL ISD,https://www.sabinalisd.net,found
+235904,NURSERY ISD,https://www.nurseryisd.org,found
+237904,WALLER ISD,https://www.wallerisd.net,found
+233901,SAN FELIPE-DEL RIO CISD,,not_found
+237902,HEMPSTEAD ISD,https://www.hempsteadisd.org,found
+234905,MARTINS MILL ISD,https://www.martinsmillisd.net,found
+234909,FRUITVALE ISD,https://www.fruitvaleisd.com,found
+239901,BRENHAM ISD,https://www.brenhamisd.net,found
+238904,GRANDFALLS-ROYALTY ISD,https://www.grisd.net,found
+240904,WEBB CISD,https://www.wisd.org,found
+239903,BURTON ISD,https://www.burtonisd.net,found
+237905,ROYAL ISD,https://www.royalisd.net,found
+240503,TEXAS A&M INTERNATIONAL UNIVERSITY ISD,https://www.texasisd.org,found
+236802,SAM HOUSTON STATE UNIVERSITY CHARTER SCHOOL,,not_found
+241902,EAST BERNARD ISD,https://www.ebisd.org,found
+241904,WHARTON ISD,https://www.whartonisd.org,found
+241901,BOLING ISD,https://www.bolingisd.net,found
+238902,MONAHANS-WICKETT-PYOTE ISD,,not_found
+242903,WHEELER ISD,https://www.wisd.org,found
+234907,WILLS POINT ISD,https://www.wpisd.com,found
+241903,EL CAMPO ISD,https://www.ecisd.org,found
+242906,FORT ELLIOTT CISD,https://www.fortisd.com,found
+243901,BURKBURNETT ISD,https://www.burkburnettisd.org,found
+242902,SHAMROCK ISD,https://www.shamrockisd.net,found
+241906,LOUISE ISD,https://www.louiseisd.org,found
+242905,KELTON ISD,https://www.keltonisd.net,found
+244901,HARROLD ISD,https://www.harroldisd.org,found
+244903,VERNON ISD,https://www.vernonisd.org,found
+243906,CITY VIEW ISD,https://www.cvisd.org,found
+245903,RAYMONDVILLE ISD,https://www.raymondvilleisd.org,found
+245902,LYFORD CISD,https://www.lisd.org,found
+243905,WICHITA FALLS ISD,https://www.wfisd.net,found
+243902,ELECTRA ISD,https://www.electraisd.net,found
+245901,LASARA ISD,https://www.lasaraisd.net,found
+244905,NORTHSIDE ISD,https://www.northsideisd.us,found
+246902,FLORENCE ISD,https://www.florenceisd.net,found
+246909,ROUND ROCK ISD,https://www.roundrockisd.org,found
+236902,HUNTSVILLE ISD,https://www.hisd.us,found
+245904,SAN PERLITA ISD,https://www.spisd.org,found
+246905,GRANGER ISD,https://www.grangerisd.net,found
+247901,FLORESVILLE ISD,https://www.fisd.org,found
+246914,COUPLAND ISD,https://www.couplandisd.org,found
+247903,LA VERNIA ISD,https://www.laisd.com,found
+246908,LIBERTY HILL ISD,https://www.libertyisd.net,found
+246912,THRALL ISD,https://www.thrallisd.org,found
+246911,TAYLOR ISD,https://www.taylorisd.org,found
+247904,POTH ISD,https://www.pothisd.us,found
+248901,KERMIT ISD,https://www.kermitisd.org,found
+247906,STOCKDALE ISD,https://www.stockdaleisd.org,found
+249902,BOYD ISD,https://www.boydisd.net,found
+249905,DECATUR ISD,https://www.decaturisd.us,found
+248902,WINK-LOVING ISD,https://www.wlisd.net,found
+249906,PARADISE ISD,https://www.pisd.org,found
+250902,HAWKINS ISD,https://www.hawkinsisd.org,found
+249908,SLIDELL ISD,https://www.slidellisd.net,found
+250903,MINEOLA ISD,https://www.mineolaisd.net,found
+249901,ALVORD ISD,https://www.alvordisd.net,found
+250904,QUITMAN ISD,https://www.quitmanisd.net,found
+250907,WINNSBORO ISD,https://www.winnsboroisd.org,found
+250905,YANTIS ISD,https://www.yantisisd.net,found
+249903,BRIDGEPORT ISD,https://www.bridgeportisd.net,found
+250906,ALBA-GOLDEN ISD,https://www.agisd.org,found
+251902,PLAINS ISD,https://www.plainsisd.net,found
+243903,IOWA PARK CISD,https://www.iowapark.com,found
+252902,NEWCASTLE ISD,https://www.newcastleisd.net,found
+254901,CRYSTAL CITY ISD,https://www.crystalcityisd.org,found
+252903,OLNEY ISD,https://www.olneyisd.net,found
+253901,ZAPATA COUNTY ISD,https://www.zcisd.org,found
+252901,GRAHAM ISD,https://www.grahamisd.com,found
+251901,DENVER CITY ISD,https://www.dcisd.org,found
+254902,LA PRYOR ISD,https://www.lapryorisd.net,found
+201907,MOUNT ENTERPRISE ISD,,not_found
+236901,NEW WAVERLY ISD,https://www.nwisd.net,found
+204901,COLDSPRING-OAKHURST CISD,,not_found
+235901,BLOOMINGTON ISD,https://www.bisd.net,found
+246906,HUTTO ISD,https://www.hisd.us,found
+249904,CHICO ISD,https://www.cisd.org,found
+012901,SEYMOUR ISD,https://www.seymour-isd.org,found
+014902,BARTLETT ISD,https://www.bartlettschools.org,found
+001907,PALESTINE ISD,https://www.palestineschools.org,found
+015906,RANDOLPH FIELD ISD,https://rfisd.org,found
+015814,POSITIVE SOLUTIONS CHARTER SCHOOL,,not_found
+015844,ESSENCE PREPARATORY CHARTER SCHOOL,,not_found
+011901,BASTROP ISD,https://www.bastrop.net,found
+015839,PROMESA ACADEMY CHARTER SCHOOL,,not_found
+015843,PRELUDE PREPARATORY CHARTER SCHOOL,,not_found
+014804,ORENDA CHARTER SCHOOL,,not_found
+017901,BORDEN COUNTY ISD,https://www.bcisd.net,found
+022004,TERLINGUA CSD,https://www.tcisd.org,found
+013801,ST MARY'S ACADEMY CHARTER SCHOOL,https://www.stisd.net,found
+013905,SKIDMORE-TYNAN ISD,https://www.stisd.net,found
+019908,LIBERTY-EYLAU ISD,https://www.libertyisd.net,found
+015914,FT SAM HOUSTON ISD,https://www.ftisd.com,found
+018906,IREDELL ISD,https://www.iredell-isd.com,found
+019907,TEXARKANA ISD,https://www.texarkana.org,found
+022901,ALPINE ISD,https://www.alpineschools.org,found
+036903,EAST CHAMBERS ISD,https://www.ecisd.org,found
+037909,WELLS ISD,https://www.wells.org,found
+037901,ALTO ISD,https://www.altoschools.org,found
+039905,MIDWAY ISD,https://www.midwayisd.org,found
+034905,LINDEN-KILDARE CISD,,not_found
+028903,LULING ISD,https://www.luling.org,found
+027903,BURNET CISD,https://burnet.org,found
+039902,HENRIETTA ISD,https://www.henrietta-isd.net,found
+041902,ROBERT LEE ISD,https://www.rlisd.org,found
+040902,WHITEFACE CISD,https://www.whiteface.org,found
+046802,TRINITY CHARTER SCHOOL,https://www.trinityisd.net,found
+047905,SIDNEY ISD,https://www.sidneyschools.org,found
+047903,GUSTINE ISD,https://www.gustine.net,found
+049903,VALLEY VIEW ISD,https://www.vvisd.org,found
+048901,EDEN CISD,https://www.edenschools.org,found
+053001,CROCKETT COUNTY CONSOLIDATED CSD,https://www.crockettisd.net,found
+049905,CALLISBURG ISD,https://www.callisburg.com,found
+042905,PANTHER CREEK CISD,,not_found
+050910,COPPERAS COVE ISD,https://www.ccisd.org,found
+054901,CROSBYTON CISD,https://www.crosbyton.com,found
+019913,HUBBARD ISD,https://www.hubbardisd.net,found
+057828,WINFREE ACADEMY CHARTER SCHOOLS,,not_found
+057834,EVOLUTION ACADEMY CHARTER SCHOOL,,not_found
+066005,RAMIREZ CSD,https://www.rcisd.org,found
+057835,GOLDEN RULE CHARTER SCHOOL,,not_found
+067907,RANGER ISD,https://www.ranger.org,found
+064903,CARRIZO SPRINGS CISD,https://www.csisd.org,found
+068802,COMPASS ACADEMY CHARTER SCHOOL,,not_found
+070903,ENNIS ISD,https://www.ennisschools.org,found
+069902,NUECES CANYON CISD,,not_found
+071801,BURNHAM WOOD CHARTER SCHOOL DISTRICT,,not_found
+072903,STEPHENVILLE ISD,https://www.stephenville.org,found
+070910,PALMER ISD,https://www.palmer-isd.org,found
+071809,VISTA DEL FUTURO CHARTER SCHOOL,,not_found
+072910,MORGAN MILL ISD,https://www.morganisd.org,found
+019905,NEW BOSTON ISD,https://www.nbisd.org,found
+075902,LA GRANGE ISD,https://www.laisd.com,found
+034901,ATLANTA ISD,https://www.atlantaschools.org,found
+074917,SAM RAYBURN ISD,https://www.srisd.org,found
+072908,HUCKABAY ISD,,not_found
+091914,S AND S CISD,https://www.sisd.org,found
+072909,LINGLEVILLE ISD,https://www.lingleville.us,found
+076904,ROTAN ISD,https://www.rotan.org,found
+095903,HALE CENTER ISD,https://www.hcisd.org,found
+086024,DOSS CONSOLIDATED CSD,,not_found
+092801,EAST TEXAS CHARTER SCHOOLS,,not_found
+097903,HICO ISD,https://www.hico-isd.net,found
+099902,CHILLICOTHE ISD,https://www.chillicotheschools.org,found
+100905,HARDIN-JEFFERSON ISD,https://www.hardinisd.net,found
+096905,TURKEY-QUITAQUE ISD,,not_found
+100908,WEST HARDIN COUNTY CISD,https://www.westisd.net,found
+039903,PETROLIA CISD,https://www.petrolia.org,found
+101804,GEORGE I SANCHEZ CHARTER,,not_found
+101802,SER-NINOS CHARTER SCHOOL,,not_found
+101837,CALVIN NELMS CHARTER SCHOOLS,,not_found
+101878,HOUSTON CLASSICAL CHARTER SCHOOL,https://www.houstonisd.org,found
+101859,STEP CHARTER SCHOOL,,not_found
+101872,ETOILE ACADEMY CHARTER SCHOOL,,not_found
+101847,BEATRICE MAYES INSTITUTE CHARTER SCHOOL,,not_found
+105803,KI CHARTER,https://www.kiisd.com,found
+101916,LA PORTE ISD,https://www.laisd.com,found
+104901,HASKELL CISD,https://www.haskell.org,found
+101875,BLOOM ACADEMY CHARTER SCHOOL,,not_found
+101877,ELEVATE COLLEGIATE CHARTER SCHOOL,,not_found
+108905,HIDALGO ISD,https://www.hidalgo-isd.org,found
+110906,SMYER ISD,https://www.smyer-isd.org,found
+107902,BROWNSBORO ISD,https://www.brownsboro.us,found
+058909,SANDS CISD,https://www.sands.us,found
+076903,ROBY CISD,https://roby.us,found
+112906,NORTH HOPKINS ISD,https://www.northisd.org,found
+115901,FT HANCOCK ISD,https://www.ftisd.com,found
+104903,RULE ISD,https://www.rule.net,found
+117903,SANFORD-FRITCH ISD,https://www.sfisd.org,found
+111902,LIPAN ISD,https://www.lipan.net,found
+114904,FORSAN ISD,https://www.forsan.org,found
+122901,FT DAVIS ISD,https://www.ftisd.com,found
+123913,SABINE PASS ISD,https://www.sabineisd.org,found
+111801,LAKE GRANBURY ACADEMY CHARTER SCHOOL,,not_found
+117904,PLEMONS-STINNETT-PHILLIPS CISD,,not_found
+121906,EVADALE ISD,https://www.evadale.org,found
+127903,HAMLIN COLLEGIATE ISD,https://www.hcisd.org,found
+125902,BEN BOLT-PALITO BLANCO ISD,,not_found
+127901,ANSON ISD,https://www.ansonschools.org,found
+127904,HAWLEY ISD,https://www.hawley.org,found
+129906,TERRELL ISD,https://www.terrellisd.org,found
+128904,FALLS CITY ISD,https://www.fcisd.net,found
+133901,CENTER POINT ISD,https://www.centerisd.org,found
+108907,MERCEDES ISD,,not_found
+135001,GUTHRIE CSD,https://www.gcisd.org,found
+131001,KENEDY COUNTY WIDE CSD,https://www.kenedyisd.com,found
+109910,MOUNT CALM ISD,https://www.mcisd.net,found
+130801,MEADOWLAND CHARTER DISTRICT,,not_found
+138902,KNOX CITY-O'BRIEN CISD,,not_found
+140904,LITTLEFIELD ISD,https://www.littlefield.org,found
+139912,PRAIRILAND ISD,https://www.prairiland.net,found
+138903,MUNDAY CISD,https://www.munday.org,found
+140907,SPRINGLAKE-EARTH ISD,https://www.seisd.net,found
+152906,LUBBOCK-COOPER ISD,https://www.lubbockisd.org,found
+058905,KLONDIKE ISD,https://www.klondike.net,found
+108910,PROGRESO ISD,https://www.progreso.us,found
+153903,O'DONNELL ISD,https://www.oisd.org,found
+154903,NORTH ZULCH ISD,https://www.northisd.org,found
+143904,VYSEHRAD ISD,https://www.vysehrad.org,found
+141901,LAMPASAS ISD,https://www.lampasas.org,found
+158906,VAN VLECK ISD,https://www.vanisd.org,found
+161909,MCGREGOR ISD,https://www.mcgregor-isd.org,found
+161901,CRAWFORD ISD,https://www.crawford-isd.net,found
+153907,WILSON ISD,https://www.wilson.us,found
+161921,CONNALLY ISD,https://www.connally.org,found
+163908,MEDINA VALLEY ISD,https://www.medinaisd.org,found
+015909,SOMERSET ISD,https://www.somersetschools.org,found
+143901,HALLETTSVILLE ISD,https://www.hallettsville.com,found
+036901,ANAHUAC ISD,https://www.anahuac.us,found
+168901,COLORADO ISD,https://www.coloradoschools.org,found
+170903,MONTGOMERY ISD,https://www.montgomeryisd.org,found
+167901,GOLDTHWAITE ISD,,not_found
+172905,PEWITT CISD,https://www.pewitt.com,found
+174801,STEPHEN F AUSTIN STATE UNIVERSITY CHARTER SCHOOL,,not_found
+154901,MADISONVILLE CISD,https://madisonville.org,found
+156902,STANTON ISD,https://www.stantonschools.com,found
+175911,RICE ISD,https://www.rice-isd.org,found
+174908,CENTRAL HEIGHTS ISD,https://www.centralisd.com,found
+126904,GRANDVIEW ISD,https://www.grandview.net,found
+162904,MCMULLEN COUNTY ISD,https://www.mcisd.net,found
+165802,MIDLAND ACADEMY CHARTER SCHOOL,https://www.midlandisd.net,found
+177905,HIGHLAND ISD,https://www.highlandschools.org,found
+178908,PORT ARANSAS ISD,https://www.paisd.org,found
+178902,BISHOP CISD,https://www.bishopschools.org,found
+181906,WEST ORANGE-COVE CISD,https://www.westisd.net,found
+178801,DR M L GARZA-GONZALEZ CHARTER SCHOOL,,not_found
+185902,FARWELL ISD,https://www.farwellschools.org,found
+181908,LITTLE CYPRESS-MAURICEVILLE CISD,,not_found
+184901,POOLVILLE ISD,https://www.poolville.net,found
+187901,BIG SANDY ISD,https://www.bigsandyisd.org,found
+173901,MOTLEY COUNTY ISD,https://www.mcisd.net,found
+182905,STRAWN ISD,https://www.strawn.net,found
+187904,CORRIGAN-CAMDEN ISD,https://www.ccisd.org,found
+007905,PLEASANTON ISD,https://www.pleasanton.org,found
+189902,PRESIDIO ISD,https://www.presidio-isd.net,found
+177903,BLACKWELL CISD,,not_found
+199902,ROYSE CITY ISD,https://www.rcisd.org,found
+186903,IRAAN-SHEFFIELD COLLEGIATE ISD,,not_found
+196902,WOODSBORO ISD,https://www.woodsboro.org,found
+203901,SAN AUGUSTINE ISD,https://www.saisd.org,found
+201914,WEST RUSK COUNTY CONSOLIDATED ISD,https://www.westisd.net,found
+195902,BALMORHEA ISD,,not_found
+205902,GREGORY-PORTLAND ISD,https://www.gpisd.org,found
+184908,PEASTER ISD,https://www.peaster.net,found
+207901,SCHLEICHER ISD,https://www.schleicher.org,found
+213801,BRAZOS RIVER CHARTER SCHOOL,https://www.brazosisd.net,found
+208901,HERMLEIGH ISD,,not_found
+219905,KRESS ISD,https://www.kress.org,found
+209902,MORAN ISD,https://www.moran.net,found
+220810,WESTLAKE ACADEMY CHARTER SCHOOL,,not_found
+206901,SAN SABA ISD,https://www.ssisd.net,found
+221912,WYLIE ISD,https://www.wylieisd.net,found
+225906,CHAPEL HILL ISD,https://www.chapelhillisd.org,found
+224901,THROCKMORTON COLLEGIATE ISD,https://www.tcisd.org,found
+220904,EVERMAN ISD,https://www.everman.org,found
+201907,MOUNT ENTERPRISE ISD,,not_found
+228904,CENTERVILLE ISD,https://www.centervilleisd.net,found
+223904,WELLMAN-UNION CISD,,not_found
+228905,APPLE SPRINGS ISD,https://www.asisd.com,found
+227804,NYOS CHARTER SCHOOL,,not_found
+227806,UNIVERSITY OF TEXAS UNIVERSITY CHARTER SCHOOL,,not_found
+227819,UNIVERSITY OF TEXAS ELEMENTARY CHARTER SCHOOL,,not_found
+234903,EDGEWOOD ISD,https://www.edgewood-isd.net,found
+233901,SAN FELIPE-DEL RIO CISD,,not_found
+238904,GRANDFALLS-ROYALTY ISD,https://www.grisd.net,found
+236802,SAM HOUSTON STATE UNIVERSITY CHARTER SCHOOL,,not_found
+231901,MCCAMEY ISD,https://www.mccamey.org,found
+238902,MONAHANS-WICKETT-PYOTE ISD,,not_found
+236902,HUNTSVILLE ISD,https://www.huntsville-isd.org,found
+242906,FORT ELLIOTT CISD,https://www.fortisd.com,found
+243906,CITY VIEW ISD,https://www.cvisd.org,found
+240904,WEBB CISD,https://www.webbschools.org,found
+242903,WHEELER ISD,https://www.wheelerschools.net,found
+245902,LYFORD CISD,https://www.lyfordschools.org,found
+247903,LA VERNIA ISD,https://www.laisd.com,found
+246908,LIBERTY HILL ISD,https://www.libertyisd.net,found
+249906,PARADISE ISD,https://www.paradiseschools.org,found
+247901,FLORESVILLE ISD,https://www.floresville.org,found
+140908,SUDAN ISD,https://sudanschools.net,found
+175904,DAWSON ISD,https://www.dawsonisd.net,found
+235901,BLOOMINGTON ISD,https://www.bloomington.org,found
+198906,MUMFORD ISD,https://www.mumford.org,found
+246906,HUTTO ISD,https://www.huttoschools.org,found
+249904,CHICO ISD,https://www.chico.org,found
+168902,LORAINE ISD,https://www.loraine.us,found
+204901,COLDSPRING-OAKHURST CISD,,not_found
+152908,ROOSEVELT ISD,https://www.roosevelt.com,found
+019908,LIBERTY-EYLAU ISD,https://www.libertyisd.net,found
+015914,FT SAM HOUSTON ISD,https://www.ftisd.com,found
+017901,BORDEN COUNTY ISD,https://www.bcisd.net,found
+022004,TERLINGUA CSD,https://www.tcisd.org,found
+036903,EAST CHAMBERS ISD,https://www.ecisd.org,found
+015906,RANDOLPH FIELD ISD,https://www.rfisd.net,found
+015839,PROMESA ACADEMY CHARTER SCHOOL,,not_found
+015844,ESSENCE PREPARATORY CHARTER SCHOOL,,not_found
+014804,ORENDA CHARTER SCHOOL,,not_found
+015814,POSITIVE SOLUTIONS CHARTER SCHOOL,,not_found
+041902,ROBERT LEE ISD,https://www.rlisd.org,found
+015843,PRELUDE PREPARATORY CHARTER SCHOOL,,not_found
+046802,TRINITY CHARTER SCHOOL,https://www.trinityisd.net,found
+019913,HUBBARD ISD,https://www.hubbardisd.net,found
+053001,CROCKETT COUNTY CONSOLIDATED CSD,https://www.crockettisd.net,found
+049903,VALLEY VIEW ISD,https://www.vvisd.org,found
+064903,CARRIZO SPRINGS CISD,https://www.csisd.org,found
+013905,SKIDMORE-TYNAN ISD,https://www.stisd.net,found
+013801,ST MARY'S ACADEMY CHARTER SCHOOL,https://www.stisd.net,found
+034905,LINDEN-KILDARE CISD,,not_found
+050910,COPPERAS COVE ISD,https://www.ccisd.org,found
+066005,RAMIREZ CSD,https://www.rcisd.org,found
+072910,MORGAN MILL ISD,https://www.morganisd.org,found
+074917,SAM RAYBURN ISD,https://www.srisd.org,found
+075902,LA GRANGE ISD,https://www.laisd.com,found
+057834,EVOLUTION ACADEMY CHARTER SCHOOL,,not_found
+042905,PANTHER CREEK CISD,,not_found
+057828,WINFREE ACADEMY CHARTER SCHOOLS,,not_found
+019905,NEW BOSTON ISD,https://www.nbisd.org,found
+057835,GOLDEN RULE CHARTER SCHOOL,,not_found
+091914,S AND S CISD,https://www.sisd.org,found
+072908,HUCKABAY ISD,,not_found
+071801,BURNHAM WOOD CHARTER SCHOOL DISTRICT,,not_found
+071809,VISTA DEL FUTURO CHARTER SCHOOL,,not_found
+095903,HALE CENTER ISD,https://www.hcisd.org,found
+100905,HARDIN-JEFFERSON ISD,https://www.hardinisd.net,found
+068802,COMPASS ACADEMY CHARTER SCHOOL,,not_found
+100908,WEST HARDIN COUNTY CISD,https://www.westisd.net,found
+069902,NUECES CANYON CISD,,not_found
+101878,HOUSTON CLASSICAL CHARTER SCHOOL,https://www.houstonisd.org,found
+086024,DOSS CONSOLIDATED CSD,,not_found
+092801,EAST TEXAS CHARTER SCHOOLS,,not_found
+096905,TURKEY-QUITAQUE ISD,,not_found
+105803,KI CHARTER,https://www.kiisd.com,found
+101804,GEORGE I SANCHEZ CHARTER,,not_found
+101802,SER-NINOS CHARTER SCHOOL,,not_found
+101847,BEATRICE MAYES INSTITUTE CHARTER SCHOOL,,not_found
+101859,STEP CHARTER SCHOOL,,not_found
+101837,CALVIN NELMS CHARTER SCHOOLS,,not_found
+101875,BLOOM ACADEMY CHARTER SCHOOL,,not_found
+101877,ELEVATE COLLEGIATE CHARTER SCHOOL,,not_found
+112906,NORTH HOPKINS ISD,https://www.northisd.org,found
+122901,FT DAVIS ISD,https://www.ftisd.com,found
+115901,FT HANCOCK ISD,https://www.ftisd.com,found
+101872,ETOILE ACADEMY CHARTER SCHOOL,,not_found
+129906,TERRELL ISD,https://www.terrellisd.org,found
+117903,SANFORD-FRITCH ISD,https://www.sfisd.org,found
+123913,SABINE PASS ISD,https://www.sabineisd.org,found
+127903,HAMLIN COLLEGIATE ISD,https://www.hcisd.org,found
+128904,FALLS CITY ISD,https://www.fcisd.net,found
+133901,CENTER POINT ISD,https://www.centerisd.org,found
+131001,KENEDY COUNTY WIDE CSD,https://www.kenedyisd.com,found
+108907,MERCEDES ISD,https://www.mercedes.com,found
+152906,LUBBOCK-COOPER ISD,https://www.lubbockisd.org,found
+135001,GUTHRIE CSD,https://www.gcisd.org,found
+154903,NORTH ZULCH ISD,https://www.northisd.org,found
+153903,O'DONNELL ISD,https://www.oisd.org,found
+158906,VAN VLECK ISD,https://www.vanisd.org,found
+111801,LAKE GRANBURY ACADEMY CHARTER SCHOOL,,not_found
+109910,MOUNT CALM ISD,https://www.mcisd.net,found
+163908,MEDINA VALLEY ISD,https://www.medinaisd.org,found
+140907,SPRINGLAKE-EARTH ISD,https://www.seisd.net,found
+117904,PLEMONS-STINNETT-PHILLIPS CISD,,not_found
+125902,BEN BOLT-PALITO BLANCO ISD,,not_found
+130801,MEADOWLAND CHARTER DISTRICT,,not_found
+174908,CENTRAL HEIGHTS ISD,https://www.centralisd.com,found
+178908,PORT ARANSAS ISD,https://www.paisd.org,found
+181906,WEST ORANGE-COVE CISD,https://www.westisd.net,found
+138902,KNOX CITY-O'BRIEN CISD,,not_found
+162904,MCMULLEN COUNTY ISD,https://www.mcisd.net,found
+174801,STEPHEN F AUSTIN STATE UNIVERSITY CHARTER SCHOOL,,not_found
+177903,BLACKWELL CISD,,not_found
+173901,MOTLEY COUNTY ISD,https://www.mcisd.net,found
+187904,CORRIGAN-CAMDEN ISD,https://www.ccisd.org,found
+199902,ROYSE CITY ISD,https://www.rcisd.org,found
+178801,DR M L GARZA-GONZALEZ CHARTER SCHOOL,,not_found
+203901,SAN AUGUSTINE ISD,https://www.saisd.org,found
+201914,WEST RUSK COUNTY CONSOLIDATED ISD,https://www.westisd.net,found
+195902,BALMORHEA ISD,,not_found
+205902,GREGORY-PORTLAND ISD,https://www.gpisd.org,found
+186903,IRAAN-SHEFFIELD COLLEGIATE ISD,,not_found
+206901,SAN SABA ISD,https://www.ssisd.net,found
+213801,BRAZOS RIVER CHARTER SCHOOL,https://www.brazosisd.net,found
+101916,LA PORTE ISD,https://www.laisd.com,found
+221912,WYLIE ISD,https://www.wylieisd.net,found
+225906,CHAPEL HILL ISD,https://www.chapelhillisd.org,found
+224901,THROCKMORTON COLLEGIATE ISD,https://www.tcisd.org,found
+208901,HERMLEIGH ISD,,not_found
+228904,CENTERVILLE ISD,https://www.centervilleisd.net,found
+181908,LITTLE CYPRESS-MAURICEVILLE CISD,,not_found
+165802,MIDLAND ACADEMY CHARTER SCHOOL,https://www.midlandisd.net,found
+228905,APPLE SPRINGS ISD,https://www.asisd.com,found
+223904,WELLMAN-UNION CISD,,not_found
+220810,WESTLAKE ACADEMY CHARTER SCHOOL,,not_found
+227806,UNIVERSITY OF TEXAS UNIVERSITY CHARTER SCHOOL,,not_found
+227819,UNIVERSITY OF TEXAS ELEMENTARY CHARTER SCHOOL,,not_found
+238904,GRANDFALLS-ROYALTY ISD,https://www.grisd.net,found
+242906,FORT ELLIOTT CISD,https://www.fortisd.com,found
+227804,NYOS CHARTER SCHOOL,,not_found
+243906,CITY VIEW ISD,https://www.cvisd.org,found
+247903,LA VERNIA ISD,https://www.laisd.com,found
+175904,DAWSON ISD,https://www.dawsonisd.net,found
+246908,LIBERTY HILL ISD,https://www.libertyisd.net,found
+236802,SAM HOUSTON STATE UNIVERSITY CHARTER SCHOOL,,not_found
+233901,SAN FELIPE-DEL RIO CISD,,not_found
+238902,MONAHANS-WICKETT-PYOTE ISD,,not_found
+167901,GOLDTHWAITE ISD,,not_found
+201907,MOUNT ENTERPRISE ISD,,not_found
+204901,COLDSPRING-OAKHURST CISD,,not_found
+015914,FT SAM HOUSTON ISD,https://www.ftisd.com,found
+019908,LIBERTY-EYLAU ISD,https://www.libertyisd.net,found
+017901,BORDEN COUNTY ISD,https://www.bcisd.net,found
+022004,TERLINGUA CSD,https://www.tcisd.org,found
+013801,ST MARY'S ACADEMY CHARTER SCHOOL,https://www.stisd.net,found
+036903,EAST CHAMBERS ISD,https://www.ecisd.org,found
+041902,ROBERT LEE ISD,https://www.rlisd.org,found
+015839,PROMESA ACADEMY CHARTER SCHOOL,,not_found
+046802,TRINITY CHARTER SCHOOL,https://www.trinityisd.net,found
+015844,ESSENCE PREPARATORY CHARTER SCHOOL,,not_found
+015843,PRELUDE PREPARATORY CHARTER SCHOOL,,not_found
+049903,VALLEY VIEW ISD,https://www.vvisd.org,found
+014804,ORENDA CHARTER SCHOOL,,not_found
+015814,POSITIVE SOLUTIONS CHARTER SCHOOL,,not_found
+034905,LINDEN-KILDARE CISD,,not_found
+019913,HUBBARD ISD,https://www.hubbardisd.net,found
+064903,CARRIZO SPRINGS CISD,https://www.csisd.org,found
+053001,CROCKETT COUNTY CONSOLIDATED CSD,https://www.crockettisd.net,found
+066005,RAMIREZ CSD,https://www.rcisd.org,found
+013905,SKIDMORE-TYNAN ISD,https://www.stisd.net,found
+050910,COPPERAS COVE ISD,https://www.ccisd.org,found
+072910,MORGAN MILL ISD,https://www.morganisd.org,found
+074917,SAM RAYBURN ISD,https://www.srisd.org,found
+042905,PANTHER CREEK CISD,,not_found
+075902,LA GRANGE ISD,https://www.laisd.com,found
+057828,WINFREE ACADEMY CHARTER SCHOOLS,,not_found
+057834,EVOLUTION ACADEMY CHARTER SCHOOL,,not_found
+072908,HUCKABAY ISD,,not_found
+057835,GOLDEN RULE CHARTER SCHOOL,,not_found
+068802,COMPASS ACADEMY CHARTER SCHOOL,,not_found
+100905,HARDIN-JEFFERSON ISD,https://www.hardinisd.net,found
+071801,BURNHAM WOOD CHARTER SCHOOL DISTRICT,,not_found
+071809,VISTA DEL FUTURO CHARTER SCHOOL,,not_found
+095903,HALE CENTER ISD,https://www.hcisd.org,found
+100908,WEST HARDIN COUNTY CISD,https://www.westisd.net,found
+069902,NUECES CANYON CISD,,not_found
+019905,NEW BOSTON ISD,https://www.nbisd.org,found
+091914,S AND S CISD,https://sisd.org,found
+101878,HOUSTON CLASSICAL CHARTER SCHOOL,https://www.houstonisd.org,found
+086024,DOSS CONSOLIDATED CSD,,not_found
+096905,TURKEY-QUITAQUE ISD,,not_found
+092801,EAST TEXAS CHARTER SCHOOLS,,not_found
+101802,SER-NINOS CHARTER SCHOOL,,not_found
+101804,GEORGE I SANCHEZ CHARTER,,not_found
+112906,NORTH HOPKINS ISD,https://www.northisd.org,found
+101837,CALVIN NELMS CHARTER SCHOOLS,,not_found
+101859,STEP CHARTER SCHOOL,,not_found
+115901,FT HANCOCK ISD,https://www.ftisd.com,found
+101847,BEATRICE MAYES INSTITUTE CHARTER SCHOOL,,not_found
+101875,BLOOM ACADEMY CHARTER SCHOOL,,not_found
+122901,FT DAVIS ISD,https://www.ftisd.com,found
+101872,ETOILE ACADEMY CHARTER SCHOOL,,not_found
+123913,SABINE PASS ISD,https://www.sabineisd.org,found
+129906,TERRELL ISD,https://www.terrellisd.org,found
+101877,ELEVATE COLLEGIATE CHARTER SCHOOL,,not_found
+117903,SANFORD-FRITCH ISD,https://www.sfisd.org,found
+127903,HAMLIN COLLEGIATE ISD,https://www.hcisd.org,found
+133901,CENTER POINT ISD,https://www.centerisd.org,found
+128904,FALLS CITY ISD,https://www.fcisd.net,found
+111801,LAKE GRANBURY ACADEMY CHARTER SCHOOL,,not_found
+152906,LUBBOCK-COOPER ISD,https://www.lubbockisd.org,found
+135001,GUTHRIE CSD,https://www.gcisd.org,found
+131001,KENEDY COUNTY WIDE CSD,https://www.kenedyisd.com,found
+154903,NORTH ZULCH ISD,https://www.northisd.org,found
+153903,O'DONNELL ISD,https://www.oisd.org,found
+158906,VAN VLECK ISD,https://www.vanisd.org,found
+109910,MOUNT CALM ISD,https://www.mcisd.net,found
+163908,MEDINA VALLEY ISD,https://www.medinaisd.org,found
+140907,SPRINGLAKE-EARTH ISD,https://www.seisd.net,found
+117904,PLEMONS-STINNETT-PHILLIPS CISD,,not_found
+125902,BEN BOLT-PALITO BLANCO ISD,,not_found
+174908,CENTRAL HEIGHTS ISD,https://www.centralisd.com,found
+130801,MEADOWLAND CHARTER DISTRICT,,not_found
+138902,KNOX CITY-O'BRIEN CISD,,not_found
+178908,PORT ARANSAS ISD,https://www.paisd.org,found
+181906,WEST ORANGE-COVE CISD,https://www.westisd.net,found
+174801,STEPHEN F AUSTIN STATE UNIVERSITY CHARTER SCHOOL,,not_found
+177903,BLACKWELL CISD,,not_found
+162904,MCMULLEN COUNTY ISD,https://www.mcisd.net,found
+187904,CORRIGAN-CAMDEN ISD,https://www.ccisd.org,found
+173901,MOTLEY COUNTY ISD,https://www.mcisd.net,found
+178801,DR M L GARZA-GONZALEZ CHARTER SCHOOL,,not_found
+199902,ROYSE CITY ISD,https://www.rcisd.org,found
+203901,SAN AUGUSTINE ISD,https://www.saisd.org,found
+201914,WEST RUSK COUNTY CONSOLIDATED ISD,https://www.westisd.net,found
+186903,IRAAN-SHEFFIELD COLLEGIATE ISD,,not_found
+195902,BALMORHEA ISD,,not_found
+205902,GREGORY-PORTLAND ISD,https://www.gpisd.org,found
+206901,SAN SABA ISD,https://www.ssisd.net,found
+213801,BRAZOS RIVER CHARTER SCHOOL,https://www.brazosisd.net,found
+105803,KI CHARTER,https://www.kcisd.net,found
+221912,WYLIE ISD,https://www.wylieisd.net,found
+225906,CHAPEL HILL ISD,https://www.chapelhillisd.org,found
+224901,THROCKMORTON COLLEGIATE ISD,https://www.tcisd.org,found
+208901,HERMLEIGH ISD,,not_found
+101916,LA PORTE ISD,https://www.laisd.com,found
+181908,LITTLE CYPRESS-MAURICEVILLE CISD,,not_found
+228904,CENTERVILLE ISD,https://www.centervilleisd.net,found
+220810,WESTLAKE ACADEMY CHARTER SCHOOL,,not_found
+165802,MIDLAND ACADEMY CHARTER SCHOOL,https://www.midlandisd.net,found
+223904,WELLMAN-UNION CISD,,not_found
+227804,NYOS CHARTER SCHOOL,,not_found
+228905,APPLE SPRINGS ISD,https://www.asisd.com,found
+242906,FORT ELLIOTT CISD,https://www.fortisd.com,found
+243906,CITY VIEW ISD,https://www.cvisd.org,found
+238904,GRANDFALLS-ROYALTY ISD,https://www.grisd.net,found
+227819,UNIVERSITY OF TEXAS ELEMENTARY CHARTER SCHOOL,,not_found
+227806,UNIVERSITY OF TEXAS UNIVERSITY CHARTER SCHOOL,,not_found
+247903,LA VERNIA ISD,https://www.laisd.com,found
+233901,SAN FELIPE-DEL RIO CISD,,not_found
+238902,MONAHANS-WICKETT-PYOTE ISD,,not_found
+236802,SAM HOUSTON STATE UNIVERSITY CHARTER SCHOOL,,not_found
+175904,DAWSON ISD,https://www.dawsonisd.net,found
+246908,LIBERTY HILL ISD,https://www.libertyisd.net,found
+167901,GOLDTHWAITE ISD,,not_found
+201907,MOUNT ENTERPRISE ISD,,not_found
+204901,COLDSPRING-OAKHURST CISD,,not_found

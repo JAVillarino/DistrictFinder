@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/flag.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/data.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "data/districts_complete.csv",
+          "data/district_coordinates.csv",
+          "data/nces_district_coordinates.csv"
+        ]
+      }
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "robots.txt",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/flag",
+      "dest": "/api/flag.js"
+    },
+    {
+      "src": "/data/(.*)",
+      "dest": "/api/data.js"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

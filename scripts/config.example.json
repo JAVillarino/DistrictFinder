@@ -1,0 +1,12 @@
+{
+  "youtube_api_key": "",
+  "thresholds": {
+    "high": 85,
+    "medium": 60
+  },
+  "request_timeout": 10,
+  "max_workers": 5,
+  "delay_between_requests": 0.5,
+  "daily_quota_limit": 10000,
+  "max_daily_searches": 95
+}

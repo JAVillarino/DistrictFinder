@@ -1,0 +1,26 @@
+district_id,district_name,county,channel_url,channel_handle,channel_type,verified
+015904,Southside ISD,Bexar,https://www.youtube.com/playlist?list=PLmF4iR4gkH0NZd3BZRpL17v8QWJUJVtsn,,playlist,true
+015908,South San Antonio ISD,Bexar,https://www.youtube.com/@SouthSanAntonio,@SouthSanAntonio,handle,true
+015912,Harlandale ISD,Bexar,https://www.youtube.com/@harlandaleisdsatx,@harlandaleisdsatx,handle,true
+015913,Edgewood ISD,Bexar,https://www.youtube.com/@edgewoodisd-sanantoniotx9052,@edgewoodisd-sanantoniotx9052,handle,true
+015914,Schertz-Cibolo-Universal City ISD,Guadalupe,https://www.youtube.com/@schertz-cibolo-universalci9534,@schertz-cibolo-universalci9534,handle,true
+015917,Southwest ISD,Bexar,https://www.youtube.com/@southwestisdschoolboard2648,@southwestisdschoolboard2648,handle,true
+031901,Conroe ISD,Montgomery,https://www.youtube.com/@conroeisd,@conroeisd,handle,true
+057917,Wylie ISD,Collin,https://www.youtube.com/user/TheWylieISD,@TheWylieISD,user,true
+071908,Canutillo ISD,El Paso,https://www.youtube.com/@canutilloisdpremier,@canutilloisdpremier,handle,true
+079908,Pearland ISD,Brazoria,https://www.youtube.com/@ThePearlandISD,@ThePearlandISD,handle,true
+101902,Aldine ISD,Harris,https://www.youtube.com/channel/UCcc_lr7Xzmq48dYB17CM48g,,channel_id,true
+101904,La Porte ISD,Harris,https://www.youtube.com/@laporteisd,@laporteisd,handle,true
+101908,Clear Creek ISD,Galveston,https://www.youtube.com/@ccisdtv,@ccisdtv,handle,true
+101911,Galena Park ISD,Harris,https://www.youtube.com/channel/UCIE5RuIrMgd0-ikIzz689EQ,@GalenaParkISD,channel_id,true
+101917,Cypress-Fairbanks ISD,Harris,https://www.youtube.com/channel/UCEoRQL4CCofXkIh3UgD_qIg,,channel_id,true
+108909,Argyle ISD,Denton,https://www.youtube.com/@ArgyleISD,@ArgyleISD,handle,true
+161904,Princeton ISD,Collin,https://www.youtube.com/@princetonisd,@princetonisd,handle,true
+170902,Midland ISD,Midland,https://www.youtube.com/@misdmedia8725,@misdmedia8725,handle,true
+178906,Belton ISD,Bell,https://www.youtube.com/channel/UC_aM8OsTI3PMDsgszlHA2og,,channel_id,true
+212902,United ISD,Webb,https://www.youtube.com/channel/UCDwNg23atQP7q8z0Xx0WEFw,,channel_id,true
+220905,Austin ISD,Travis,https://www.youtube.com/austinisd,@austinisd,custom_url,true
+220908,Godley ISD,Johnson,https://www.youtube.com/@godleyisd,,handle,true
+220916,Keller ISD,Tarrant,https://www.youtube.com/kellerisd,@kellerisd,custom_url,true
+220917,Kennedale ISD,Tarrant,https://www.youtube.com/kennedaleisd,@kennedaleisd,custom_url,true
+246905,Manor ISD,Travis,https://www.youtube.com/@manorisdtv,@manorisdtv,handle,true

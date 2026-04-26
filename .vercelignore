@@ -1,0 +1,13 @@
+.claude
+.DS_Store
+archive
+docs
+scripts
+venv
+requirements.txt
+AGENT_INSTRUCTIONS.md
+CONTRIBUTING.md
+DOWNLOAD_TEA_MASTER.md
+STATE.md
+data/EDGE_GEOCODE_PUBLICLEA_*.zip
+data/districts_complete_backup_*.csv
