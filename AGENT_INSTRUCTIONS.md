@@ -187,7 +187,7 @@ district_id,district_name,county,enrollment,website_url,video_platform,video_url
 ## Checkpointing
 
 ### Every 10-15 districts:
-1. Save results to `data/districts_output.csv`
+1. Save results to `data/districts_complete.csv`
 2. Update `STATE.md` with current progress
 3. Note any issues or patterns discovered
 
@@ -283,7 +283,7 @@ Update STATE.md when done.
 ```
 Find missing YouTube channel URLs for 10 districts in STATE.md.
 Use iframe extraction method.
-Update data/districts_output.csv with channel handles.
+Update data/districts_complete.csv with channel handles.
 Upgrade confidence from MEDIUM to HIGH when found.
 ```
 

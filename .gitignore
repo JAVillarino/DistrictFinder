@@ -37,6 +37,9 @@ credentials.json
 # Claude Code internal
 .claude/
 
+# Local working documents (course paper, drafts)
+District Finder/
+
 # Large data files - raw TEA download (can be re-downloaded)
 data/tea_master_districts_raw.csv
 data/EDGE_GEOCODE_PUBLICLEA_*.zip
