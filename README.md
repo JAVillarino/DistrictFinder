@@ -1,4 +1,6 @@
-# Texas School Board Video Archive Discovery
+# DistrictFinder — Texas School Board Streams
+
+**Live at [districtfinder.org](https://districtfinder.org)**
 
 A comprehensive dataset and toolkit for locating board meeting video archives across Texas's ~1,060 independent school districts.
 

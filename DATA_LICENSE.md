@@ -16,7 +16,7 @@ Villarino.
 Attribution should include:
 
 ```text
-Texas School Board Video Archive Discovery dataset by Joel Villarino,
+DistrictFinder (districtfinder.org) dataset by Joel Villarino,
 licensed CC BY-NC 4.0.
 ```
 

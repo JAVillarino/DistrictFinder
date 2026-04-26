@@ -157,7 +157,7 @@ Before marking HIGH confidence, ALL three gates must pass:
 
 ## Output Schema
 
-CSV columns for `data/districts_output.csv`:
+CSV columns for `data/districts_complete.csv`:
 
 ```csv
 district_id,district_name,county,enrollment,website_url,video_platform,video_url,archive_start_year,youtube_channel_id,notes,confidence,last_checked
@@ -272,10 +272,10 @@ Scripts handle ~70% of districts automatically. Use agent for:
 ### Option A: Continue Processing (Recommended)
 ```
 Continue Texas school districts video discovery.
-Current: 124 districts complete.
-Next: Process districts 131-150 from data/districts_input.csv.
+Check STATE.md for current progress.
+Next: Process next batch of districts from data/districts_complete.csv where video_status is pending.
 Apply enhanced protocol with verification gates.
-Add results to data/districts_output.csv.
+Update data/districts_complete.csv with results.
 Update STATE.md when done.
 ```
 
@@ -302,7 +302,7 @@ Update STATE.md with findings.
 
 | Metric | Target |
 |--------|--------|
-| Districts processed | 1,024 |
+| Districts processed | 1,060 |
 | Video URL found | 70-75% |
 | HIGH confidence | 80%+ of found URLs |
 | False positive rate | <5% |

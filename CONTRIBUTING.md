@@ -8,15 +8,15 @@ This project is designed to be extended by AI coding agents (like Claude Code). 
 
 1. **Read STATE.md first** - Contains current progress, known issues, and next actions
 2. **Load AGENT_INSTRUCTIONS.md** - Contains the full protocol and rules
-3. **Check data/districts_output.csv** - See what's already processed
+3. **Check data/districts_complete.csv** - See what's already processed (filter `video_status: pending`)
 
 ### Standard Workflow
 
 ```
 1. Read STATE.md for current status
-2. Identify next batch of districts from data/districts_input.csv
+2. Identify next batch of districts from data/districts_complete.csv (video_status: pending)
 3. Process 10-15 districts per session
-4. Update data/districts_output.csv with results
+4. Update data/districts_complete.csv with results
 5. Update STATE.md with new progress
 6. Commit changes with descriptive message
 ```
