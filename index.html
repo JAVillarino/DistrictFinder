@@ -1005,6 +1005,8 @@ const PLATFORM_LABELS = {
   none_found: "None Found"
 };
 
+const DATA_VERSION = "2026-04-27";
+
 // ── State ──
 let allDistricts = [];
 let filteredDistricts = [];
@@ -1012,6 +1014,9 @@ let markers = [];
 let markerMap = new Map();
 let selectedDistrict = null;
 let map;
+let resizeFrame = null;
+let resizeTimer = null;
+let mapResizeObserver = null;
 
 // ── Init ──
 document.addEventListener('DOMContentLoaded', init);
@@ -1025,7 +1030,8 @@ async function init() {
     zoomSnap: 0.25,
     zoomDelta: 0.5,
     wheelPxPerZoomLevel: 150,
-    preferCanvas: true
+    preferCanvas: true,
+    trackResize: false
   });
 
   L.control.zoom({ position: 'bottomright' }).addTo(map);
@@ -1050,7 +1056,7 @@ async function init() {
 
   // Load CSV
   try {
-    const csvRes = await fetch('data/districts_complete.csv');
+    const csvRes = await fetch(`data/districts_complete.csv?v=${DATA_VERSION}`);
     const csvText = await csvRes.text();
     const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
     allDistricts = parsed.data.map(d => ({
@@ -1070,10 +1076,10 @@ async function init() {
     bindEvents();
 
     document.getElementById('loading').classList.add('hidden');
-    map.invalidateSize();
+    scheduleMapResize(0);
     setTimeout(() => {
       document.getElementById('loading').style.display = 'none';
-      map.invalidateSize();
+      scheduleMapResize(0);
     }, 400);
   } catch (e) {
     document.querySelector('.loading-text').textContent = 'Error loading data. Make sure districts_complete.csv exists.';
@@ -1169,6 +1175,18 @@ function markerStatusClass(status) {
   if (status === 'verified') return 'marker-verified';
   if (status === 'auto_discovered') return 'marker-auto_discovered';
   return 'marker-pending';
+}
+
+function scheduleMapResize(delay = 120) {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    if (resizeFrame) cancelAnimationFrame(resizeFrame);
+    resizeFrame = requestAnimationFrame(() => {
+      if (!map) return;
+      map.invalidateSize({ pan: false, debounceMoveend: true });
+      resizeFrame = null;
+    });
+  }, delay);
 }
 
 function statusLabel(status) {
@@ -1489,20 +1507,24 @@ function bindEvents() {
 
   document.getElementById('detailClose').addEventListener('click', closeDetail);
 
-  window.addEventListener('resize', () => map.invalidateSize());
+  window.addEventListener('resize', () => scheduleMapResize(), { passive: true });
+  if ('ResizeObserver' in window) {
+    mapResizeObserver = new ResizeObserver(() => scheduleMapResize());
+    mapResizeObserver.observe(document.getElementById('map-container'));
+  }
 
   // Sidebar collapse/expand
   document.getElementById('sidebar-toggle').addEventListener('click', () => {
     const sidebar = document.getElementById('sidebar');
     sidebar.classList.add('collapsed');
     document.getElementById('sidebar-open').classList.add('visible');
-    setTimeout(() => map.invalidateSize(), 260);
+    scheduleMapResize(280);
   });
 
   document.getElementById('sidebar-open').addEventListener('click', () => {
     document.getElementById('sidebar').classList.remove('collapsed');
     document.getElementById('sidebar-open').classList.remove('visible');
-    setTimeout(() => map.invalidateSize(), 260);
+    scheduleMapResize(280);
   });
 
   // Close detail on Escape

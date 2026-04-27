@@ -175,6 +175,33 @@ def detect_platform_from_url(url):
     return None
 
 
+def is_youtube_channel_url(url):
+    """Return True for YouTube URLs that identify a channel/archive owner."""
+    parsed = urlparse(url)
+    if "youtube.com" not in parsed.netloc.lower():
+        return False
+    path = parsed.path.lower()
+    return any(path.startswith(prefix) for prefix in ("/@", "/channel/", "/c/", "/user/"))
+
+
+def is_youtube_watch_result(url, title, snippet):
+    """Single YouTube videos are noisy; accept only explicit meeting recordings."""
+    parsed = urlparse(url)
+    domain = parsed.netloc.lower()
+    path = parsed.path.lower()
+    if "youtube.com" not in domain and "youtu.be" not in domain:
+        return False
+    if is_youtube_channel_url(url):
+        return False
+    if path not in ("/watch", "/live") and "youtu.be" not in domain:
+        return False
+
+    text = (title + " " + snippet).lower()
+    meeting_terms = ["board meeting", "school board meeting", "trustees meeting",
+                     "board of trustees meeting", "regular meeting", "special meeting"]
+    return any(term in text for term in meeting_terms)
+
+
 def is_relevant_result(url, title, snippet, district_name):
     """Filter out irrelevant search results."""
     domain = urlparse(url).netloc.lower()
@@ -190,6 +217,12 @@ def is_relevant_result(url, title, snippet, district_name):
     # At least one significant word from district name should appear
     if not any(part in text for part in name_parts if len(part) > 3):
         return False
+
+    # Generic YouTube watch pages often surface local news clips or athletic
+    # videos. Keep channel/archive URLs, but require explicit meeting language
+    # before accepting a single video URL as a district source.
+    if detect_platform_from_url(url) == "youtube" and not is_youtube_channel_url(url):
+        return is_youtube_watch_result(url, title, snippet)
 
     # Check for video/meeting relevance
     video_terms = ["video", "meeting", "board", "recording", "livestream",

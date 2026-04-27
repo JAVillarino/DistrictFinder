@@ -78,7 +78,7 @@ COMPOUND_SPLITS = {
     "eastcentral": ["east", "central"],
     "birdville": ["bird", "ville"],
     "friendswood": ["friends", "wood"],
-    "pflugerville": ["pfluger", "ville"],
+    "pflugerville": ["pf"],
     "sweeny": ["sweeny"],
     "brownwood": ["brown", "wood"],
     "jacksonville": ["jackson", "ville"],
